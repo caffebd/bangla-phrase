@@ -1,0 +1,75 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://assets/menu/panda_avatar.png" type="Texture" id=2]
+[ext_resource path="res://UserAccount.gd" type="Script" id=3]
+[ext_resource path="res://assets/ui/back_btn.png" type="Texture" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=2]
+default_font = SubResource( 1 )
+
+[node name="UserAccount" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = SubResource( 2 )
+script = ExtResource( 3 )
+
+[node name="BackBtn" type="TextureButton" parent="."]
+margin_left = 1.0
+margin_top = 39.0
+margin_right = 75.0
+margin_bottom = 109.0
+texture_normal = ExtResource( 4 )
+
+[node name="ProfilePic" type="TextureRect" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -47.0
+margin_top = 200.0
+margin_right = 53.0
+margin_bottom = 290.0
+texture = ExtResource( 2 )
+
+[node name="UserEmail" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -121.0
+margin_top = 313.0
+margin_right = 135.0
+margin_bottom = 357.0
+text = "luke@mail.com"
+
+[node name="Username" type="LineEdit" parent="."]
+margin_left = 239.0
+margin_top = 408.0
+margin_right = 507.0
+margin_bottom = 462.0
+
+[node name="ResetPass" type="Button" parent="."]
+margin_left = 218.0
+margin_top = 522.0
+margin_right = 542.0
+margin_bottom = 572.0
+text = "Reset Password"
+
+[node name="PassCheckEmail" type="Label" parent="."]
+visible = false
+margin_left = 82.0
+margin_top = 646.0
+margin_right = 685.0
+margin_bottom = 737.0
+text = "Please check your email
+to complete password reset"
+align = 1
+
+[node name="SaveTimer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+
+[connection signal="pressed" from="BackBtn" to="." method="_on_BackBtn_pressed"]
+[connection signal="pressed" from="ResetPass" to="." method="_on_ResetPass_pressed"]
+[connection signal="timeout" from="SaveTimer" to="." method="_on_SaveTimer_timeout"]
