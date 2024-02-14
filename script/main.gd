@@ -54,7 +54,7 @@ func _ready():
 func pick_word():
 	current_word = SharedVariables.get_random_easy_level()
 	main_image.texture = SharedVariables.word_images[current_word]
-	SharedVariables.target_spelling = SharedVariables.easy_levels[current_word]["spelling"]
+	SharedVariables.target_spelling = SharedVariables.test_levels[current_word]["spelling"]
 	print(SharedVariables.target_spelling)
 	keyboard_grid.place_all_keys(current_word)
 	spelling_grid.get_word_length(current_word)

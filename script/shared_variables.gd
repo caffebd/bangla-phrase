@@ -45,6 +45,8 @@ var word_images = {
 	"komola": preload("res://assets/puzzle_images/orange.png"),
 	"kolomo": preload("res://assets/puzzle_images/pen.png"),
 	"kolo": preload("res://assets/puzzle_images/tube_well.png"),
+	"bolo": preload("res://assets/puzzle_images/Bol.png"),
+	"biralo":preload("res://assets/puzzle_images/Cat.png"),
 }
 #
 #var letter_images = {
@@ -125,6 +127,29 @@ var keyboard_letters = {
 #pee if ok but pe missing
 # noo is missing (different to no?) 
 
+var test_levels = {
+	"bolo":{
+		"spelling":["bo","lo"],
+		"keyboard":["go","no", "cha", "lo","cho","ba", "bo", "ga","mo","na"]
+	},
+	"biralo":{
+		"spelling":["ba", "ra", "lo"],
+		"keyboard":["go","ra", "cha", "lo","cho","ba", "ba", "ga","mo","na"]
+	}
+	
+	
+#
+#		"kachamorich":{
+#		"spelling":["kaa","cha","*","mo","ri","cho"],
+#		"keyboard":["mo","la","na","ri","kaa","lo","go","no", "cha", "cho"]
+#		},
+#
+#	"kola":{
+#		"spelling":["ko","la"],
+#		"keyboard":["bo","la","mo","na","ko","lo","go","no", "ba", "ga"]
+#		},
+}
+
 var easy_levels =  {
 	"kachamorich":{
 		"spelling":["kaa","cha","*","mo","ri","cho"],
@@ -138,7 +163,7 @@ var easy_levels =  {
   
 	"goru":{
 		"spelling":["go","ru"],
-		"keyboard":["i","la","go","mo","na","me","go","tou", "ru", "ga"]
+		"keyboard":["go","ru","i","la","go","mo","na","me","tou",  "ga"]
 		},
   
 	"tometou":{
@@ -217,7 +242,8 @@ var easy_levels =  {
 
 
 	
-var all_levels = [easy_levels]
+#var all_levels = [easy_levels]
+var all_levels = [test_levels]
 var playing_levels = []
 
 func reset_levels():
