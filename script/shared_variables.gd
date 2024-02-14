@@ -135,6 +135,11 @@ var test_levels = {
 	"biralo":{
 		"spelling":["ba", "ra", "lo"],
 		"keyboard":["go","ra", "cha", "lo","cho","ba", "ba", "ga","mo","na"]
+	},
+	
+	"goru":{
+		"spelling":["go", "ra",],
+		"keyboard":["go","ra", "cha", "lo","cho","ba", "ba", "ga","mo","na"]
 	}
 	
 	
