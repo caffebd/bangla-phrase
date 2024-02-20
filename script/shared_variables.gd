@@ -28,25 +28,27 @@ func _ready():
 
 	
 var word_images = {
-	"kola": preload("res://assets/puzzle_images/bananas.png"),
-	"tometou": preload("res://assets/puzzle_images/tomato.png"),
-	"goru": preload("res://assets/puzzle_images/cow.png"),
-#	"baag": preload("res://assets/puzzle_images/bag.png"),
-	"kachamorich": preload("res://assets/puzzle_images/green chillies.png"),
-#	"peepe": preload("res://assets/puzzle_images/papaya.png"),
-	"aguunoo": preload("res://assets/puzzle_images/fire.png"),
-	"bagarro": preload("res://assets/puzzle_images/burger.png"),
-	"balb": preload("res://assets/puzzle_images/bulb.png"),
-	"ddoroja": preload("res://assets/puzzle_images/door.png"),
-#	"licu": preload(),
-	"tiya": preload("res://assets/puzzle_images/tia_bird.png"),
-#	"coroui": preload(),
-	"gajoro": preload("res://assets/puzzle_images/carrot.png"),
-	"komola": preload("res://assets/puzzle_images/orange.png"),
-	"kolomo": preload("res://assets/puzzle_images/pen.png"),
-	"kolo": preload("res://assets/puzzle_images/tube_well.png"),
-	"bolo": preload("res://assets/puzzle_images/Bol.png"),
-	"biralo":preload("res://assets/puzzle_images/Cat.png"),
+#	"kola": preload("res://assets/puzzle_images/bananas.png"),
+#	"tometou": preload("res://assets/puzzle_images/tomato.png"),
+#	"goru": preload("res://assets/puzzle_images/cow.png"),
+	"beg": preload("res://assets/puzzle_images/bag.png"),
+#	"kachamorich": preload("res://assets/puzzle_images/green chillies.png"),
+##	"peepe": preload("res://assets/puzzle_images/papaya.png"),
+#	"aguunoo": preload("res://assets/puzzle_images/fire.png"),
+#	"bagarro": preload("res://assets/puzzle_images/burger.png"),
+#	"balb": preload("res://assets/puzzle_images/bulb.png"),
+#	"ddoroja": preload("res://assets/puzzle_images/door.png"),
+##	"licu": preload(),
+#	"tiya": preload("res://assets/puzzle_images/tia_bird.png"),
+##	"coroui": preload(),
+#	"gajoro": preload("res://assets/puzzle_images/carrot.png"),
+#	"komola": preload("res://assets/puzzle_images/orange.png"),
+#	"kolomo": preload("res://assets/puzzle_images/pen.png"),
+#	"kolo": preload("res://assets/puzzle_images/tube_well.png"),
+#	"bolo": preload("res://assets/puzzle_images/Bol.png"),
+#	"biralo":preload("res://assets/puzzle_images/Cat.png"),
+#
+#
 }
 #
 #var letter_images = {
@@ -55,67 +57,75 @@ var word_images = {
 #}
 
 var keyboard_letters = {
-	"ko": preload("res://assets/keyboard_letters/ko.png"),
-	"la": preload("res://assets/keyboard_letters/la.png"),
-	"lo": preload("res://assets/keyboard_letters/lo.png"),
-	"mo": preload("res://assets/keyboard_letters/mo.png"),
-	"na": preload("res://assets/keyboard_letters/na.png"),
-	"go": preload("res://assets/keyboard_letters/go.png"),
-	"no": preload("res://assets/keyboard_letters/no.png"),
+	"a": preload("res://assets/keyboard_letters/a.png"),
+	"b": preload("res://assets/keyboard_letters/b.png"),
 	"ba": preload("res://assets/keyboard_letters/ba.png"),
-	"bo": preload("res://assets/keyboard_letters/bo.png"),
+	"be": preload("res://assets/keyboard_letters/be.png"),
+	"bi": preload("res://assets/keyboard_letters/bi.png"),
+	"c": preload("res://assets/keyboard_letters/c.png"),
+	"ca": preload("res://assets/keyboard_letters/ca.png"),
+	"cha": preload("res://assets/keyboard_letters/cha.png"),
+	"cu": preload("res://assets/keyboard_letters/cu.png"),
+	"d": preload("res://assets/keyboard_letters/d.png"),
+	"dh": preload("res://assets/keyboard_letters/dh.png"),
+	"dhi": preload("res://assets/keyboard_letters/dhi.png"),
+	"e": preload("res://assets/keyboard_letters/e.png"),
+	"g": preload("res://assets/keyboard_letters/g.png"),
 	"ga": preload("res://assets/keyboard_letters/ga.png"),
-	"to": preload("res://assets/keyboard_letters/to.png"),
-	"me": preload("res://assets/keyboard_letters/me.png"),
-	"tou": preload("res://assets/keyboard_letters/tou.png"),
-	"i": preload("res://assets/keyboard_letters/i.png"),
-	"ru": preload("res://assets/keyboard_letters/ru.png"),
-	"kaa":preload("res://assets/keyboard_letters/kaa.png"),
-	"cha":preload("res://assets/keyboard_letters/ca.png"),
-	"ri": preload ("res://assets/keyboard_letters/ri.png"),
-	"cho": preload("res://assets/keyboard_letters/cho.png"),
-	"sho": preload("res://assets/keyboard_letters/sho.png"),
-	"te": preload("res://assets/keyboard_letters/te.png"),
-	"rri": preload("res://assets/keyboard_letters/rri.png"),
-	"o": preload("res://assets/keyboard_letters/o.png"),
-	"pee": preload("res://assets/keyboard_letters/pe.png"),
-	"oo": preload("res://assets/keyboard_letters/oo.png"),
-	"gho": preload("res://assets/keyboard_letters/gho.png"),
-	"guu": preload("res://assets/keyboard_letters/guu.png"),
-	"ddo": preload("res://assets/keyboard_letters/do.png"),
-	"ddho": preload("res://assets/keyboard_letters/dho.png"),
-	"ddhi": preload("res://assets/keyboard_letters/ddhi.png"),
-	"nne": preload("res://assets/keyboard_letters/nne.png"),
-	"sha": preload("res://assets/keyboard_letters/sha.png"),
+	"gh": preload("res://assets/keyboard_letters/gh.png"),
+	"kaa":preload("res://assets/keyboard_letters/gu.png"),
+	"ha":preload("res://assets/keyboard_letters/ha.png"),
+	"i": preload ("res://assets/keyboard_letters/i.png"),
+	"j": preload("res://assets/keyboard_letters/j.png"),
 	"ja": preload("res://assets/keyboard_letters/ja.png"),
-	"jo": preload("res://assets/keyboard_letters/jo.png"),
+	"k": preload("res://assets/keyboard_letters/k.png"),
+	"ka": preload("res://assets/keyboard_letters/ka.png"),
+	"ka6": preload("res://assets/keyboard_letters/ka6.png"),
 	"ke": preload("res://assets/keyboard_letters/ke.png"),
-	"kho": preload("res://assets/keyboard_letters/kho.png"),
+	"kh": preload("res://assets/keyboard_letters/kh.png"),
 	"kka": preload("res://assets/keyboard_letters/kka.png"),
+	"ks": preload("res://assets/keyboard_letters/ks.png"),
+	"l": preload("res://assets/keyboard_letters/l.png"),
+	"la": preload("res://assets/keyboard_letters/la.png"),
 	"lb": preload("res://assets/keyboard_letters/lb.png"),
-	"pa": preload("res://assets/keyboard_letters/pa.png"),
+	"li": preload("res://assets/keyboard_letters/li.png"),
+	"lp": preload("res://assets/keyboard_letters/lp.png"),
+	"m": preload("res://assets/keyboard_letters/m.png"),
+	"ma": preload("res://assets/keyboard_letters/ma.png"),
+	"me": preload("res://assets/keyboard_letters/me.png"),
+	"n": preload("res://assets/keyboard_letters/n.png"),
+	"na": preload("res://assets/keyboard_letters/na.png"),
+	"ne": preload("res://assets/keyboard_letters/ne.png"),
+	"ng": preload("res://assets/keyboard_letters/ng.png"),
 #	"pe": preload("res://assets/keyboard_letters/pe.png"),
-	"po": preload("res://assets/keyboard_letters/po.png"),
+	"O": preload("res://assets/keyboard_letters/O.png"),
+	"OU": preload("res://assets/keyboard_letters/OU.png"),
+	"p": preload("res://assets/keyboard_letters/p.png"),
+	"pa": preload("res://assets/keyboard_letters/pa.png"),
+	"pe": preload("res://assets/keyboard_letters/pe.png"),
+	"pe6": preload("res://assets/keyboard_letters/pe6.png"),
+	"r": preload("res://assets/keyboard_letters/r.png"),
 	"ra": preload("res://assets/keyboard_letters/ra.png"),
 	"re": preload("res://assets/keyboard_letters/re.png"),
-	"ya": preload("res://assets/keyboard_letters/ya.png"),
-	"yo": preload("res://assets/keyboard_letters/yo.png"),
-	"soou": preload("res://assets/keyboard_letters/su.png"),
-	"co": preload("res://assets/keyboard_letters/co.png"),
-	"ng": preload("res://assets/keyboard_letters/ng.png"),
-	"rou": preload("res://assets/keyboard_letters/ru.png"),
-	"a": preload("res://assets/keyboard_letters/a.png"),
-	"ca": preload("res://assets/keyboard_letters/ca.png"),
+	"ri": preload("res://assets/keyboard_letters/ri.png"),
+	"Rra": preload("res://assets/keyboard_letters/Rra.png"),
+	"rrga": preload("res://assets/keyboard_letters/rrga.png"),
+	"Rri": preload("res://assets/keyboard_letters/Rri.png"),
+	"ru": preload("res://assets/keyboard_letters/ru.png"),
+	"s": preload("res://assets/keyboard_letters/s.png"),
+	"sa": preload("res://assets/keyboard_letters/sa.png"),
+	"shi": preload("res://assets/keyboard_letters/shi.png"),
+	"si": preload("res://assets/keyboard_letters/si.png"),
+	"su": preload("res://assets/keyboard_letters/su.png"),
+	"T": preload("res://assets/keyboard_letters/T.png"),
+	"te": preload("res://assets/keyboard_letters/te.png"),
 	"ti": preload("res://assets/keyboard_letters/ti.png"),
-	"nni": preload("res://assets/keyboard_letters/ni.png"),
-	"cu": preload("res://assets/keyboard_letters/chu.png"),
-	"tte": preload("res://assets/keyboard_letters/te.png"),
-	"ka": preload("res://assets/keyboard_letters/ka.png"),
-	"li": preload("res://assets/keyboard_letters/li.png"),
-	"so": preload("res://assets/keyboard_letters/so.png"),
-	"ha": preload("res://assets/keyboard_letters/ha.png"),
-	"ro": preload("res://assets/keyboard_letters/ro.png"),
-	"ma": preload("res://assets/keyboard_letters/ma.png"),
+	"to": preload("res://assets/keyboard_letters/To.png"),
+	"Tte": preload("res://assets/keyboard_letters/Tte.png"),
+	"u": preload("res://assets/keyboard_letters/u.png"),
+	"y": preload("res://assets/keyboard_letters/y.png"),
+	"ya": preload("res://assets/keyboard_letters/ya.png"),
+	
 #	"yo": preload(),
 #	"yo": preload(),
 #	60 letters "":preload()
@@ -128,19 +138,32 @@ var keyboard_letters = {
 # noo is missing (different to no?) 
 
 var test_levels = {
-	"bolo":{
-		"spelling":["bo","lo"],
-		"keyboard":["go","no", "cha", "lo","cho","ba", "bo", "ga","mo","na"]
-	},
-	"biralo":{
-		"spelling":["ba", "ra", "lo"],
-		"keyboard":["go","ra", "cha", "lo","cho","ba", "ba", "ga","mo","na"]
+#	"bolo":{
+#		"spelling":["bo","lo"],
+#		"keyboard":["go","no", "cha", "lo","cho","ba", "bo", "ga","mo","na"]
+#	},
+#	"biralo":{
+#		"spelling":["ba", "ra", "lo"],
+#		"keyboard":["go","ra", "cha", "lo","cho","ddhi", "ba", "ga","mo","na"]
+#	},
+#
+#	"goru":{
+#		"spelling":["go", "ru",],
+#		"keyboard":["go", "cha", "lo","cho","ba", "ru", "ba", "ga","mo","na"]
+#	},
+#
+#	"tometou":{
+#		"spelling":["to", "me", "tou"],
+#		"keyboard":["go", "to", "lo","cho","me", "ra", "ba", "tou","mo","na"]
+#	},
+	
+	"beg":{
+		"spelling":["be", "g"],
+		"keyboard":["Rri", "g","e","me", "pa", "be", "b","m","na", "re"]
 	},
 	
-	"goru":{
-		"spelling":["go", "ra",],
-		"keyboard":["go","ra", "cha", "lo","cho","ba", "ba", "ga","mo","na"]
-	}
+	
+	
 	
 	
 #
