@@ -28,10 +28,20 @@ func _ready():
 
 	
 var word_images = {
-#	"kola": preload("res://assets/puzzle_images/bananas.png"),
-#	"tometou": preload("res://assets/puzzle_images/tomato.png"),
-#	"goru": preload("res://assets/puzzle_images/cow.png"),
+	# easy levels-----------
+	"bl": preload("res://assets/puzzle_images/Bol.png"),
+	"apel": preload("res://assets/puzzle_images/apple.png"),
 	"beg": preload("res://assets/puzzle_images/bag.png"),
+	"shim": preload("res://assets/puzzle_images/bean.png"),
+	"kla": preload("res://assets/puzzle_images/bananas.png"),
+	"bichana": preload("res://assets/puzzle_images/bed.png"),
+	"baks": preload("res://assets/puzzle_images/box.png"),
+	"balti": preload("res://assets/puzzle_images/bucket_2.png"),
+	"ghRri": preload("res://assets/puzzle_images/Clock.png"),
+	"Dab": preload("res://assets/puzzle_images/Coconut.png"),
+	"gru": preload("res://assets/puzzle_images/cow.png"),
+	"hriNn": preload("res://assets/puzzle_images/Deer.png"),
+	
 #	"kachamorich": preload("res://assets/puzzle_images/green chillies.png"),
 ##	"peepe": preload("res://assets/puzzle_images/papaya.png"),
 #	"aguunoo": preload("res://assets/puzzle_images/fire.png"),
@@ -45,7 +55,7 @@ var word_images = {
 #	"komola": preload("res://assets/puzzle_images/orange.png"),
 #	"kolomo": preload("res://assets/puzzle_images/pen.png"),
 #	"kolo": preload("res://assets/puzzle_images/tube_well.png"),
-#	"bolo": preload("res://assets/puzzle_images/Bol.png"),
+	
 #	"biralo":preload("res://assets/puzzle_images/Cat.png"),
 #
 #
@@ -67,13 +77,15 @@ var keyboard_letters = {
 	"cha": preload("res://assets/keyboard_letters/cha.png"),
 	"cu": preload("res://assets/keyboard_letters/cu.png"),
 	"d": preload("res://assets/keyboard_letters/d.png"),
+	"Da": preload("res://assets/keyboard_letters/Da.png"),
 	"dh": preload("res://assets/keyboard_letters/dh.png"),
 	"dhi": preload("res://assets/keyboard_letters/dhi.png"),
 	"e": preload("res://assets/keyboard_letters/e.png"),
 	"g": preload("res://assets/keyboard_letters/g.png"),
 	"ga": preload("res://assets/keyboard_letters/ga.png"),
 	"gh": preload("res://assets/keyboard_letters/gh.png"),
-	"kaa":preload("res://assets/keyboard_letters/gu.png"),
+	"gu":preload("res://assets/keyboard_letters/gu.png"),
+	"h":preload("res://assets/keyboard_letters/h.png"),
 	"ha":preload("res://assets/keyboard_letters/ha.png"),
 	"i": preload ("res://assets/keyboard_letters/i.png"),
 	"j": preload("res://assets/keyboard_letters/j.png"),
@@ -97,7 +109,8 @@ var keyboard_letters = {
 	"na": preload("res://assets/keyboard_letters/na.png"),
 	"ne": preload("res://assets/keyboard_letters/ne.png"),
 	"ng": preload("res://assets/keyboard_letters/ng.png"),
-#	"pe": preload("res://assets/keyboard_letters/pe.png"),
+	"ni":preload("res://assets/keyboard_letters/ni.png"),
+	"Nn":preload("res://assets/keyboard_letters/Nn.png"),
 	"O": preload("res://assets/keyboard_letters/O.png"),
 	"OU": preload("res://assets/keyboard_letters/OU.png"),
 	"p": preload("res://assets/keyboard_letters/p.png"),
@@ -138,44 +151,70 @@ var keyboard_letters = {
 # noo is missing (different to no?) 
 
 var test_levels = {
-#	"bolo":{
-#		"spelling":["bo","lo"],
-#		"keyboard":["go","no", "cha", "lo","cho","ba", "bo", "ga","mo","na"]
-#	},
-#	"biralo":{
-#		"spelling":["ba", "ra", "lo"],
-#		"keyboard":["go","ra", "cha", "lo","cho","ddhi", "ba", "ga","mo","na"]
-#	},
-#
-#	"goru":{
-#		"spelling":["go", "ru",],
-#		"keyboard":["go", "cha", "lo","cho","ba", "ru", "ba", "ga","mo","na"]
-#	},
-#
+	
+
+	"bl":{
+		"spelling":["b","l"],
+		"keyboard":["g","n", "ca", "l","cha","ba", "b", "m","n","s"]
+	},
+
+	"apel":{
+		"spelling":["a", "pe", "l"],
+		"keyboard":["be", "a", "kh", "i", "pe", "n", "g", "l", "cha", "c"]
+	},
+
+	"beg":{
+		"spelling":["be", "g"],
+		"keyboard":["Rri", "g","e","me", "pa", "be", "b","m","na", "re"]
+	},
+
+	"shim":{
+		"spelling":["shi", "m"],
+		"keyboard":["g","ra", "cha", "l","shi","rrga", "ba", "ga","m","na"]
+	},
+
+	"kla":{
+		"spelling":["k","la"],
+		"keyboard":["b","la","m","na","k","l","ga","n", "cha", "gh"]
+		},
+
+	"bichana":{
+		"spelling":["bi", "cha", "na"],
+		"keyboard":["ga","n", "bi", "gh","b","cha","m","kh","k","na"]
+	},
+
+	"baks":{
+		"spelling":["ba", "ks"],
+		"keyboard":["shi","rrga", "ba", "ga","m","ks","g","ra", "cha", "l",]
+	},
+
+	"balti":{
+		"spelling":["ba", "l", "ti"],
+		"keyboard":[ "bi", "ba","b","g","n","ti","m","kh","l","na"]
+	},
+
+	"ghrri":{
+		"spelling":["shi", "m"],
+		"keyboard":["g","ra", "cha", "l","shi","rrga", "ba", "ga","m","na"]
+	},
+
+	"Dab":{
+		"spelling":["Da", "b"],
+		"keyboard":["g","ra", "b", "l","shi","rrga", "Da", "ga","m","na"]
+	},
+
+	"gru":{
+		"spelling":["g","ru"],
+		"keyboard":["ma","ra", "cha", "l","ru","p", "ba", "g","m","na"]
+		},
+	
 #	"tometou":{
 #		"spelling":["to", "me", "tou"],
 #		"keyboard":["go", "to", "lo","cho","me", "ra", "ba", "tou","mo","na"]
 #	},
 	
-	"beg":{
-		"spelling":["be", "g"],
-		"keyboard":["Rri", "g","e","me", "pa", "be", "b","m","na", "re"]
-	},
 	
-	
-	
-	
-	
-#
-#		"kachamorich":{
-#		"spelling":["kaa","cha","*","mo","ri","cho"],
-#		"keyboard":["mo","la","na","ri","kaa","lo","go","no", "cha", "cho"]
-#		},
-#
-#	"kola":{
-#		"spelling":["ko","la"],
-#		"keyboard":["bo","la","mo","na","ko","lo","go","no", "ba", "ga"]
-#		},
+
 }
 
 var easy_levels =  {
