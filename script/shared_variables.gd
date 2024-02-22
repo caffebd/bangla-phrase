@@ -42,6 +42,17 @@ var word_images = {
 	"gru": preload("res://assets/puzzle_images/cow.png"),
 	"hriNn": preload("res://assets/puzzle_images/Deer.png"),
 	
+	"Desk": preload("res://assets/puzzle_images/desk.png"),
+	"Dim": preload("res://assets/puzzle_images/Egg.png"),
+	"ghr": preload("res://assets/puzzle_images/Home.png"),
+	"jg": preload("res://assets/puzzle_images/jug.png"),
+	"am": preload("res://assets/puzzle_images/mango.png"),
+	"pleT": preload("res://assets/puzzle_images/plate.png"),
+	"gach": preload("res://assets/puzzle_images/Tree.png"),
+	"ckoleT": preload("res://assets/puzzle_images/chocolate_2.png"),
+	
+	
+	
 #	"kachamorich": preload("res://assets/puzzle_images/green chillies.png"),
 ##	"peepe": preload("res://assets/puzzle_images/papaya.png"),
 #	"aguunoo": preload("res://assets/puzzle_images/fire.png"),
@@ -99,10 +110,12 @@ var keyboard_letters = {
 	"ke": preload("res://assets/keyboard_letters/ke.png"),
 	"kh": preload("res://assets/keyboard_letters/kh.png"),
 	"kka": preload("res://assets/keyboard_letters/kka.png"),
+	"ko": preload("res://assets/keyboard_letters/ko.png"),
 	"ks": preload("res://assets/keyboard_letters/ks.png"),
 	"l": preload("res://assets/keyboard_letters/l.png"),
 	"la": preload("res://assets/keyboard_letters/la.png"),
 	"lb": preload("res://assets/keyboard_letters/lb.png"),
+	"le": preload("res://assets/keyboard_letters/le.png"),
 	"li": preload("res://assets/keyboard_letters/li.png"),
 	"lp": preload("res://assets/keyboard_letters/lp.png"),
 	"m": preload("res://assets/keyboard_letters/m.png"),
@@ -198,9 +211,9 @@ var test_levels = {
 		"keyboard":[ "bi", "ba","b","g","n","ti","m","kh","l","na"]
 	},
 
-	"ghrri":{
-		"spelling":["gh", "rri"],
-		"keyboard":["g","ra", "cha", "l","shi","rri", "ba", "gh","m","na"]
+	"ghRri":{
+		"spelling":["gh", "Rri"],
+		"keyboard":["g","ra", "cha", "l","shi","Rri", "ba", "gh","m","na"]
 	},
 
 	"Dab":{
@@ -211,12 +224,58 @@ var test_levels = {
 	"gru":{
 		"spelling":["g","ru"],
 		"keyboard":["ma","ra", "cha", "l","ru","p", "ba", "g","m","na"]
-		},
-		
+	},
+
 	"hriNn":{
 		"spelling":["h", "ri", "Nn"],
 		"keyboard":["ga","ri","m","na", "bi","h", "gh","b","k","Nn"]
 	},
+
+	"Desk":{
+		"spelling":["De", "sk"],
+		"keyboard":[ "l","shi", "sk", "Da", "ga","De","g","ra","m","na"]
+	},
+
+	"Dim":{
+		"spelling":["Di", "m"],
+		"keyboard":["na","h","g","m", "be", "Di","c","ks", "cha", "l",]
+	},
+
+	"ghr":{
+		"spelling":["gh", "r"],
+		"keyboard":[ "ga","cha","shi","r", "l","ba","gh", "ra","ks","g",]
+	},
+
+	"jg":{
+		"spelling":["j","g"],
+		"keyboard":[ "l","ma","ru","j","ra", "ba", "g", "cha","m","na"]
+	},
+
+	"am":{
+		"spelling":["a","m"],
+		"keyboard":["g", "l", "ca","a","cha","n", "b", "m","n","s"]
+	},
+
+	"pleT":{
+		"spelling":["ple", "T"],
+		"keyboard":[ "b", "l","T","g","ra","ple", "Da", "ga","m","na"]
+	},
+
+	"gach":{
+		"spelling":["ga","ch"],
+		"keyboard":["p", "ba", "g","ma","ra", "ch", "l","ru","ga","na"]
+	},
+
+	"ckoleT":{
+		"spelling":["c", "ko", "le", "T"],
+		"keyboard":["ga", "ko","m","c","b","k","T", "gh","le","Nn"]
+	},
+	
+#	"ghRri":{
+#		"spelling":["gh", "Rri"],
+#		"keyboard":["g","ra", "cha", "l","shi","Rri", "ba", "gh","m","na"]
+#	},
+	
 	
 #	"tometou":{
 #		"spelling":["to", "me", "tou"],
@@ -256,7 +315,7 @@ var easy_levels =  {
 
    "ddoroja":{
 		"spelling":["ddo","ro", "ja"], 
-		"keyboard":["ro","rri","mo","yo","ddo","ma","lo","ja", "ga", "la"]
+		"keyboard":["ro","Rri","mo","yo","ddo","ma","lo","ja", "ga", "la"]
 		},	
 
 	
@@ -267,7 +326,7 @@ var easy_levels =  {
 
    "gajoro":{
 		"spelling":["ga","jo", "ro"], 
-		"keyboard":["cho","ng","ga","a","ca","rri","ro","go", "ka", "jo"]
+		"keyboard":["cho","ng","ga","a","ca","Rri","ro","go", "ka", "jo"]
 		},	
 # Luke did
 "komola":{
