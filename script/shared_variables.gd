@@ -74,12 +74,15 @@ var keyboard_letters = {
 	"bi": preload("res://assets/keyboard_letters/bi.png"),
 	"c": preload("res://assets/keyboard_letters/c.png"),
 	"ca": preload("res://assets/keyboard_letters/ca.png"),
+	"ch": preload("res://assets/keyboard_letters/ch.png"),
 	"cha": preload("res://assets/keyboard_letters/cha.png"),
 	"cu": preload("res://assets/keyboard_letters/cu.png"),
 	"d": preload("res://assets/keyboard_letters/d.png"),
 	"Da": preload("res://assets/keyboard_letters/Da.png"),
+	"De": preload("res://assets/keyboard_letters/De.png"),
 	"dh": preload("res://assets/keyboard_letters/dh.png"),
 	"dhi": preload("res://assets/keyboard_letters/dhi.png"),
+	"Di": preload("res://assets/keyboard_letters/Di.png"),
 	"e": preload("res://assets/keyboard_letters/e.png"),
 	"g": preload("res://assets/keyboard_letters/g.png"),
 	"ga": preload("res://assets/keyboard_letters/ga.png"),
@@ -115,8 +118,9 @@ var keyboard_letters = {
 	"OU": preload("res://assets/keyboard_letters/OU.png"),
 	"p": preload("res://assets/keyboard_letters/p.png"),
 	"pa": preload("res://assets/keyboard_letters/pa.png"),
-	"pe": preload("res://assets/keyboard_letters/pe.png"),
 	"pe6": preload("res://assets/keyboard_letters/pe6.png"),
+	"pe": preload("res://assets/keyboard_letters/pe.png"),
+	"ple": preload("res://assets/keyboard_letters/ple.png"),
 	"r": preload("res://assets/keyboard_letters/r.png"),
 	"ra": preload("res://assets/keyboard_letters/ra.png"),
 	"re": preload("res://assets/keyboard_letters/re.png"),
@@ -129,6 +133,7 @@ var keyboard_letters = {
 	"sa": preload("res://assets/keyboard_letters/sa.png"),
 	"shi": preload("res://assets/keyboard_letters/shi.png"),
 	"si": preload("res://assets/keyboard_letters/si.png"),
+	"sk": preload("res://assets/keyboard_letters/sk.png"),
 	"su": preload("res://assets/keyboard_letters/su.png"),
 	"T": preload("res://assets/keyboard_letters/T.png"),
 	"te": preload("res://assets/keyboard_letters/te.png"),
@@ -194,8 +199,8 @@ var test_levels = {
 	},
 
 	"ghrri":{
-		"spelling":["shi", "m"],
-		"keyboard":["g","ra", "cha", "l","shi","rrga", "ba", "ga","m","na"]
+		"spelling":["gh", "rri"],
+		"keyboard":["g","ra", "cha", "l","shi","rri", "ba", "gh","m","na"]
 	},
 
 	"Dab":{
@@ -207,6 +212,11 @@ var test_levels = {
 		"spelling":["g","ru"],
 		"keyboard":["ma","ra", "cha", "l","ru","p", "ba", "g","m","na"]
 		},
+		
+	"hriNn":{
+		"spelling":["h", "ri", "Nn"],
+		"keyboard":["ga","ri","m","na", "bi","h", "gh","b","k","Nn"]
+	},
 	
 #	"tometou":{
 #		"spelling":["to", "me", "tou"],
