@@ -47,9 +47,9 @@ var word_images = {
 	"ghr": preload("res://assets/puzzle_images/Home.png"),
 	"jg": preload("res://assets/puzzle_images/jug.png"),
 	"am": preload("res://assets/puzzle_images/mango.png"),
-	"pleT": preload("res://assets/puzzle_images/plate.png"),
+	"pleTt": preload("res://assets/puzzle_images/plate.png"),
 	"gach": preload("res://assets/puzzle_images/Tree.png"),
-	"ckoleT": preload("res://assets/puzzle_images/chocolate_2.png"),
+	"ckoleTt": preload("res://assets/puzzle_images/chocolate_2.png"),
 	
 	
 	
@@ -148,11 +148,11 @@ var keyboard_letters = {
 	"si": preload("res://assets/keyboard_letters/si.png"),
 	"sk": preload("res://assets/keyboard_letters/sk.png"),
 	"su": preload("res://assets/keyboard_letters/su.png"),
-	"T": preload("res://assets/keyboard_letters/T.png"),
+	"Tt": preload("res://assets/keyboard_letters/Tt.png"),
 	"te": preload("res://assets/keyboard_letters/te.png"),
 	"ti": preload("res://assets/keyboard_letters/ti.png"),
-	"to": preload("res://assets/keyboard_letters/To.png"),
 	"Tte": preload("res://assets/keyboard_letters/Tte.png"),
+	"Tto": preload("res://assets/keyboard_letters/Tto.png"),
 	"u": preload("res://assets/keyboard_letters/u.png"),
 	"y": preload("res://assets/keyboard_letters/y.png"),
 	"ya": preload("res://assets/keyboard_letters/ya.png"),
@@ -256,9 +256,9 @@ var test_levels = {
 		"keyboard":["g", "l", "ca","a","cha","n", "b", "m","n","s"]
 	},
 
-	"pleT":{
-		"spelling":["ple", "T"],
-		"keyboard":[ "b", "l","T","g","ra","ple", "Da", "ga","m","na"]
+	"pleTt":{
+		"spelling":["ple", "Tt"],
+		"keyboard":[ "b", "l","Tt","g","ra","ple", "Da", "ga","m","na"]
 	},
 
 	"gach":{
@@ -266,9 +266,9 @@ var test_levels = {
 		"keyboard":["p", "ba", "g","ma","ra", "ch", "l","ru","ga","na"]
 	},
 
-	"ckoleT":{
-		"spelling":["c", "ko", "le", "T"],
-		"keyboard":["ga", "ko","m","c","b","k","T", "gh","le","Nn"]
+	"ckoleTt":{
+		"spelling":["c", "ko", "le", "Tt"],
+		"keyboard":["ga", "ko","m","c","b","k","Tt", "gh","le","Nn"]
 	},
 	
 #	"ghRri":{
