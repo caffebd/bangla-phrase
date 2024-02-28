@@ -41,7 +41,6 @@ var word_images = {
 	"Dab": preload("res://assets/puzzle_images/Coconut.png"),
 	"gru": preload("res://assets/puzzle_images/cow.png"),
 	"hriNn": preload("res://assets/puzzle_images/Deer.png"),
-	
 	"Desk": preload("res://assets/puzzle_images/desk.png"),
 	"Dim": preload("res://assets/puzzle_images/Egg.png"),
 	"ghr": preload("res://assets/puzzle_images/Home.png"),
@@ -50,6 +49,9 @@ var word_images = {
 	"pleTt": preload("res://assets/puzzle_images/plate.png"),
 	"gach": preload("res://assets/puzzle_images/Tree.png"),
 	"ckoleTt": preload("res://assets/puzzle_images/chocolate_2.png"),
+	
+	"blekboRD": preload("res://assets/puzzle_images/Blackboard.png"),
+	"bi": preload("res://assets/puzzle_images/Book.png"),
 	
 	
 	
@@ -156,6 +158,36 @@ var keyboard_letters = {
 	"u": preload("res://assets/keyboard_letters/u.png"),
 	"y": preload("res://assets/keyboard_letters/y.png"),
 	"ya": preload("res://assets/keyboard_letters/ya.png"),
+	"ble": preload("res://assets/keyboard_letters/ble.png"),
+	"bo": preload("res://assets/keyboard_letters/bo.png"),
+	"ci": preload("res://assets/keyboard_letters/ci.png"),
+	"DhO": preload("res://assets/keyboard_letters/DhO.png"),
+	"f": preload("res://assets/keyboard_letters/f.png"),
+	"fri": preload("res://assets/keyboard_letters/fri.png"),
+	"fu": preload("res://assets/keyboard_letters/fu.png"),
+	"gi": preload("res://assets/keyboard_letters/gi.png"),
+	"ha6": preload("res://assets/keyboard_letters/ha6.png"),
+	"Ii": preload("res://assets/keyboard_letters/Ii.png"),
+	"ju": preload("res://assets/keyboard_letters/ju.png"),
+	"kha": preload("res://assets/keyboard_letters/kha.png"),
+	"llu": preload("res://assets/keyboard_letters/llu.png"),
+	"mu": preload("res://assets/keyboard_letters/mu.png"),
+	"pi": preload("res://assets/keyboard_letters/pi.png"),
+	"pr": preload("res://assets/keyboard_letters/pr.png"),
+	"RD": preload("res://assets/keyboard_letters/RD.png"),
+	"rt": preload("res://assets/keyboard_letters/rt.png"),
+	"rz": preload("res://assets/keyboard_letters/rz.png"),
+	"sh": preload("res://assets/keyboard_letters/sh.png"),
+	"sha": preload("res://assets/keyboard_letters/sha.png"),
+	"so": preload("res://assets/keyboard_letters/so.png"),
+	"Ssh": preload("res://assets/keyboard_letters/Ssh.png"),
+	"sUu": preload("res://assets/keyboard_letters/sUu.png"),
+	"t": preload("res://assets/keyboard_letters/t.png"),
+	"ta": preload("res://assets/keyboard_letters/ta.png"),
+	"ttt": preload("res://assets/keyboard_letters/ttt.png"),
+	"va": preload("res://assets/keyboard_letters/va.png"),
+	
+	
 	
 #	"yo": preload(),
 #	"yo": preload(),
@@ -170,118 +202,120 @@ var keyboard_letters = {
 
 var test_levels = {
 	
-
-	"bl":{
-		"spelling":["b","l"],
-		"keyboard":["g","n", "ca", "l","cha","ba", "b", "m","n","s"]
-	},
-
-	"apel":{
-		"spelling":["a", "pe", "l"],
-		"keyboard":["be", "a", "kh", "i", "pe", "n", "g", "l", "cha", "c"]
-	},
-
-	"beg":{
-		"spelling":["be", "g"],
-		"keyboard":["Rri", "g","e","me", "pa", "be", "b","m","na", "re"]
-	},
-
-	"shim":{
-		"spelling":["shi", "m"],
-		"keyboard":["g","ra", "cha", "l","shi","rrga", "ba", "ga","m","na"]
-	},
-
-	"kla":{
-		"spelling":["k","la"],
-		"keyboard":["b","la","m","na","k","l","ga","n", "cha", "gh"]
-		},
-
-	"bichana":{
-		"spelling":["bi", "cha", "na"],
-		"keyboard":["ga","n", "bi", "gh","b","cha","m","kh","k","na"]
-	},
-
-	"baks":{
-		"spelling":["ba", "ks"],
-		"keyboard":["shi","rrga", "ba", "ga","m","ks","g","ra", "cha", "l",]
-	},
-
-	"balti":{
-		"spelling":["ba", "l", "ti"],
-		"keyboard":[ "bi", "ba","b","g","n","ti","m","kh","l","na"]
-	},
-
-	"ghRri":{
-		"spelling":["gh", "Rri"],
-		"keyboard":["g","ra", "cha", "l","shi","Rri", "ba", "gh","m","na"]
-	},
-
-	"Dab":{
-		"spelling":["Da", "b"],
-		"keyboard":["g","ra", "b", "l","shi","rrga", "Da", "ga","m","na"]
-	},
-
-	"gru":{
-		"spelling":["g","ru"],
-		"keyboard":["ma","ra", "cha", "l","ru","p", "ba", "g","m","na"]
-	},
-
-	"hriNn":{
-		"spelling":["h", "ri", "Nn"],
-		"keyboard":["ga","ri","m","na", "bi","h", "gh","b","k","Nn"]
-	},
-
-	"Desk":{
-		"spelling":["De", "sk"],
-		"keyboard":[ "l","shi", "sk", "Da", "ga","De","g","ra","m","na"]
-	},
-
-	"Dim":{
-		"spelling":["Di", "m"],
-		"keyboard":["na","h","g","m", "be", "Di","c","ks", "cha", "l",]
-	},
-
-	"ghr":{
-		"spelling":["gh", "r"],
-		"keyboard":[ "ga","cha","shi","r", "l","ba","gh", "ra","ks","g",]
-	},
-
-	"jg":{
-		"spelling":["j","g"],
-		"keyboard":[ "l","ma","ru","j","ra", "ba", "g", "cha","m","na"]
-	},
-
-	"am":{
-		"spelling":["a","m"],
-		"keyboard":["g", "l", "ca","a","cha","n", "b", "m","n","s"]
-	},
-
-	"pleTt":{
-		"spelling":["ple", "Tt"],
-		"keyboard":[ "b", "l","Tt","g","ra","ple", "Da", "ga","m","na"]
-	},
-
-	"gach":{
-		"spelling":["ga","ch"],
-		"keyboard":["p", "ba", "g","ma","ra", "ch", "l","ru","ga","na"]
-	},
-
-	"ckoleTt":{
-		"spelling":["c", "ko", "le", "Tt"],
-		"keyboard":["ga", "ko","m","c","b","k","Tt", "gh","le","Nn"]
-	},
-	
+#
+#	"bl":{
+#		"spelling":["b","l"],
+#		"keyboard":["g","n", "ca", "l","cha","ba", "b", "m","n","s"]
+#	},
+#
+#	"apel":{
+#		"spelling":["a", "pe", "l"],
+#		"keyboard":["be", "a", "kh", "i", "pe", "n", "g", "l", "cha", "c"]
+#	},
+#
+#	"beg":{
+#		"spelling":["be", "g"],
+#		"keyboard":["Rri", "g","e","me", "pa", "be", "b","m","na", "re"]
+#	},
+#
+#	"shim":{
+#		"spelling":["shi", "m"],
+#		"keyboard":["g","ra", "cha", "l","shi","rrga", "ba", "ga","m","na"]
+#	},
+#
+#	"kla":{
+#		"spelling":["k","la"],
+#		"keyboard":["b","la","m","na","k","l","ga","n", "cha", "gh"]
+#		},
+#
+#	"bichana":{
+#		"spelling":["bi", "cha", "na"],
+#		"keyboard":["ga","n", "bi", "gh","b","cha","m","kh","k","na"]
+#	},
+#
+#	"baks":{
+#		"spelling":["ba", "ks"],
+#		"keyboard":["shi","rrga", "ba", "ga","m","ks","g","ra", "cha", "l",]
+#	},
+#
+#	"balti":{
+#		"spelling":["ba", "l", "ti"],
+#		"keyboard":[ "bi", "ba","b","g","n","ti","m","kh","l","na"]
+#	},
+#
 #	"ghRri":{
 #		"spelling":["gh", "Rri"],
 #		"keyboard":["g","ra", "cha", "l","shi","Rri", "ba", "gh","m","na"]
 #	},
-	
-	
-#	"tometou":{
-#		"spelling":["to", "me", "tou"],
-#		"keyboard":["go", "to", "lo","cho","me", "ra", "ba", "tou","mo","na"]
+#
+#	"Dab":{
+#		"spelling":["Da", "b"],
+#		"keyboard":["g","ra", "b", "l","shi","rrga", "Da", "ga","m","na"]
 #	},
+#
+#	"gru":{
+#		"spelling":["g","ru"],
+#		"keyboard":["ma","ra", "cha", "l","ru","p", "ba", "g","m","na"]
+#	},
+#
+#	"hriNn":{
+#		"spelling":["h", "ri", "Nn"],
+#		"keyboard":["ga","ri","m","na", "bi","h", "gh","b","k","Nn"]
+#	},
+#
+#	"Desk":{
+#		"spelling":["De", "sk"],
+#		"keyboard":[ "l","shi", "sk", "Da", "ga","De","g","ra","m","na"]
+#	},
+#
+#	"Dim":{
+#		"spelling":["Di", "m"],
+#		"keyboard":["na","h","g","m", "be", "Di","c","ks", "cha", "l",]
+#	},
+#
+#	"ghr":{
+#		"spelling":["gh", "r"],
+#		"keyboard":[ "ga","cha","shi","r", "l","ba","gh", "ra","ks","g",]
+#	},
+#
+#	"jg":{
+#		"spelling":["j","g"],
+#		"keyboard":[ "l","ma","ru","j","ra", "ba", "g", "cha","m","na"]
+#	},
+#
+#	"am":{
+#		"spelling":["a","m"],
+#		"keyboard":["g", "l", "ca","a","cha","n", "b", "m","n","s"]
+#	},
+#
+#	"pleTt":{
+#		"spelling":["ple", "Tt"],
+#		"keyboard":[ "b", "l","Tt","g","ra","ple", "Da", "ga","m","na"]
+#	},
+#
+#	"gach":{
+#		"spelling":["ga","ch"],
+#		"keyboard":["p", "ba", "g","ma","ra", "ch", "l","ru","ga","na"]
+#	},
+#
+#	"ckoleTt":{
+#		"spelling":["c", "ko", "le", "Tt"],
+#		"keyboard":["ga", "ko","m","c","b","k","Tt", "gh","le","Nn"]
+#	},
+
+
+
+	"blekboRD":{
+		"spelling":["ble", "k", "bo", "RD",],
+		"keyboard":["g","ra", "k", "l","ble","Rri", "bo", "gh","m","RD"]
+	},
 	
+	
+	"bi":{
+		"spelling":["b", "i",],
+		"keyboard":["g","ra", "cha", "b","shi","Rri", "i", "gh","m","na"]
+	},
+
 	
 
 }
