@@ -52,6 +52,23 @@ var word_images = {
 	
 	"blekboRD": preload("res://assets/puzzle_images/Blackboard.png"),
 	"bi": preload("res://assets/puzzle_images/Book.png"),
+	"pakha": preload("res://assets/puzzle_images/Fen.png"),
+	"shiyal": preload("res://assets/puzzle_images/Fox.png"),
+	"frij": preload("res://assets/puzzle_images/Fridge.png"),
+	"peyara": preload("res://assets/puzzle_images/Guavas.png"),
+	"murgi": preload("res://assets/puzzle_images/Hen.png"),
+	"cabi": preload("res://assets/puzzle_images/Key.png"),
+	"tala": preload("res://assets/puzzle_images/lock.png"),
+	"maflar": preload("res://assets/puzzle_images/Muffler.png"),
+	"mg": preload("res://assets/puzzle_images/mug.png"),
+	"lbn": preload("res://assets/puzzle_images/Salt.png"),
+	"shart": preload("res://assets/puzzle_images/Shirt.png"),
+	"juta": preload("res://assets/puzzle_images/Shoes.png"),
+	"camc": preload("res://assets/puzzle_images/Spoon.png"),
+	"sofa": preload("res://assets/puzzle_images/Sufa.png"),
+	"suic": preload("res://assets/puzzle_images/Suich.png"),
+	"tbla": preload("res://assets/puzzle_images/Tabla.png"),
+	"ca": preload("res://assets/puzzle_images/tea.png"),
 	
 	
 	
@@ -163,6 +180,7 @@ var keyboard_letters = {
 	"ci": preload("res://assets/keyboard_letters/ci.png"),
 	"DhO": preload("res://assets/keyboard_letters/DhO.png"),
 	"f": preload("res://assets/keyboard_letters/f.png"),
+	"fa": preload("res://assets/keyboard_letters/fa.png"),
 	"fri": preload("res://assets/keyboard_letters/fri.png"),
 	"fu": preload("res://assets/keyboard_letters/fu.png"),
 	"gi": preload("res://assets/keyboard_letters/gi.png"),
@@ -314,6 +332,11 @@ var test_levels = {
 	"bi":{
 		"spelling":["b", "i",],
 		"keyboard":["g","ra", "cha", "b","shi","Rri", "i", "gh","m","na"]
+	},
+	
+	"pakha":{
+		"spelling":["pa", "kha"],
+		"keyboard":["f","la", "ju","c","pa","g","m", "sh", "kha", "l",]
 	},
 
 	
