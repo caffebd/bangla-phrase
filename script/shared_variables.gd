@@ -70,7 +70,6 @@ var word_images = {
 	"tbla": preload("res://assets/puzzle_images/Tabla.png"),
 	"ca": preload("res://assets/puzzle_images/tea.png"),
 	
-	
 	"valluk": preload("res://assets/puzzle_images/baby_bear.png"),
 	"projapti": preload("res://assets/puzzle_images/baterfly.png"),
 	"botl": preload("res://assets/puzzle_images/bottle.png"),
