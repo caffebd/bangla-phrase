@@ -1,4 +1,0 @@
-#Fri Feb 10 07:59:48 GMT 2023
-base.0=/Users/luke/Documents/Godot/BanglaPhrase1080/android/build/build/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
