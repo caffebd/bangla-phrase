@@ -218,7 +218,7 @@ window/stretch/aspect="keep_width"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/godot-firebase/plugin.cfg", "res://addons/http-sse-client/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/godot-firebase/plugin.cfg" )
 
 [gui]
 

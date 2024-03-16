@@ -91,6 +91,20 @@ var word_images = {
 	"OUSshdh": preload("res://assets/puzzle_images/medicine.png"),
 	"banr": preload("res://assets/puzzle_images/Monkey.png"),
 	
+	
+	"mshari": preload("res://assets/puzzle_images/mosquito_net.png"),
+	"kmla": preload("res://assets/puzzle_images/orange.png"),
+	"patil": preload("res://assets/puzzle_images/patil.png"),
+	"pitttja": preload("res://assets/puzzle_images/pizza.png"),
+	
+	"sap": preload("res://assets/puzzle_images/snake_2.png"),
+	"sUurzmukhii": preload("res://assets/puzzle_images/sunflower.png"),
+	"TtmeTto": preload("res://assets/puzzle_images/tomato.png"),
+	"chata": preload("res://assets/puzzle_images/Umbrella.png"),
+	"ceyar": preload("res://assets/puzzle_images/Chair.png"),
+	"ga6dha": preload("res://assets/puzzle_images/Marigold.png"),
+	
+	
 #	"kachamorich": preload("res://assets/puzzle_images/green chillies.png"),
 ##	"peepe": preload("res://assets/puzzle_images/papaya.png"),
 #	"aguunoo": preload("res://assets/puzzle_images/fire.png"),
@@ -115,14 +129,18 @@ var word_images = {
 #	"la": preload("res://assets/letters/la.png")
 #}
 
+
 var keyboard_letters = {
 	"a": preload("res://assets/keyboard_letters/a.png"),
 	"b": preload("res://assets/keyboard_letters/b.png"),
 	"ba": preload("res://assets/keyboard_letters/ba.png"),
 	"be": preload("res://assets/keyboard_letters/be.png"),
 	"bi": preload("res://assets/keyboard_letters/bi.png"),
+	"ble": preload("res://assets/keyboard_letters/ble.png"),
+	"bo": preload("res://assets/keyboard_letters/bo.png"),
 	"c": preload("res://assets/keyboard_letters/c.png"),
 	"ca": preload("res://assets/keyboard_letters/ca.png"),
+	"ce": preload("res://assets/keyboard_letters/ce.png"),
 	"ch": preload("res://assets/keyboard_letters/ch.png"),
 	"cha": preload("res://assets/keyboard_letters/cha.png"),
 	"cu": preload("res://assets/keyboard_letters/cu.png"),
@@ -130,11 +148,13 @@ var keyboard_letters = {
 	"Da": preload("res://assets/keyboard_letters/Da.png"),
 	"De": preload("res://assets/keyboard_letters/De.png"),
 	"dh": preload("res://assets/keyboard_letters/dh.png"),
+	"dha": preload("res://assets/keyboard_letters/dha.png"),
 	"dhi": preload("res://assets/keyboard_letters/dhi.png"),
 	"Di": preload("res://assets/keyboard_letters/Di.png"),
 	"e": preload("res://assets/keyboard_letters/e.png"),
 	"g": preload("res://assets/keyboard_letters/g.png"),
 	"ga": preload("res://assets/keyboard_letters/ga.png"),
+	"ga6": preload("res://assets/keyboard_letters/ga6.png"),
 	"gh": preload("res://assets/keyboard_letters/gh.png"),
 	"gu":preload("res://assets/keyboard_letters/gu.png"),
 	"h":preload("res://assets/keyboard_letters/h.png"),
@@ -147,6 +167,8 @@ var keyboard_letters = {
 	"ka6": preload("res://assets/keyboard_letters/ka6.png"),
 	"ke": preload("res://assets/keyboard_letters/ke.png"),
 	"kh": preload("res://assets/keyboard_letters/kh.png"),
+	"kha": preload("res://assets/keyboard_letters/kha.png"),
+	"khii": preload("res://assets/keyboard_letters/khii.png"),
 	"kka": preload("res://assets/keyboard_letters/kka.png"),
 	"ko": preload("res://assets/keyboard_letters/ko.png"),
 	"ks": preload("res://assets/keyboard_letters/ks.png"),
@@ -194,8 +216,7 @@ var keyboard_letters = {
 	"u": preload("res://assets/keyboard_letters/u.png"),
 	"y": preload("res://assets/keyboard_letters/y.png"),
 	"ya": preload("res://assets/keyboard_letters/ya.png"),
-	"ble": preload("res://assets/keyboard_letters/ble.png"),
-	"bo": preload("res://assets/keyboard_letters/bo.png"),
+
 	"ci": preload("res://assets/keyboard_letters/ci.png"),
 	"DhO": preload("res://assets/keyboard_letters/DhO.png"),
 	"f": preload("res://assets/keyboard_letters/f.png"),
@@ -206,7 +227,6 @@ var keyboard_letters = {
 	"ha6": preload("res://assets/keyboard_letters/ha6.png"),
 	"Ii": preload("res://assets/keyboard_letters/Ii.png"),
 	"ju": preload("res://assets/keyboard_letters/ju.png"),
-	"kha": preload("res://assets/keyboard_letters/kha.png"),
 	"llu": preload("res://assets/keyboard_letters/llu.png"),
 	"mu": preload("res://assets/keyboard_letters/mu.png"),
 	"pi": preload("res://assets/keyboard_letters/pi.png"),
