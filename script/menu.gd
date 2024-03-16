@@ -4,8 +4,6 @@ onready var avatar = $Avatar
 
 var can_interact: bool = false
 
-#push testing
-
 func _ready():
 	Firebase.Auth.connect("signup_succeeded", self, "_on_FirebaseAuth_login_succeeded")
 	if UserData.logged_in:

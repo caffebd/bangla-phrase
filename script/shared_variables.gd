@@ -91,12 +91,11 @@ var word_images = {
 	"OUSshdh": preload("res://assets/puzzle_images/medicine.png"),
 	"banr": preload("res://assets/puzzle_images/Monkey.png"),
 	
-	
 	"mshari": preload("res://assets/puzzle_images/mosquito_net.png"),
 	"kmla": preload("res://assets/puzzle_images/orange.png"),
 	"patil": preload("res://assets/puzzle_images/patil.png"),
 	"pitttja": preload("res://assets/puzzle_images/pizza.png"),
-	
+	"jahaj": preload("res://assets/puzzle_images/ship.png"),
 	"sap": preload("res://assets/puzzle_images/snake_2.png"),
 	"sUurzmukhii": preload("res://assets/puzzle_images/sunflower.png"),
 	"TtmeTto": preload("res://assets/puzzle_images/tomato.png"),
@@ -216,7 +215,6 @@ var keyboard_letters = {
 	"u": preload("res://assets/keyboard_letters/u.png"),
 	"y": preload("res://assets/keyboard_letters/y.png"),
 	"ya": preload("res://assets/keyboard_letters/ya.png"),
-
 	"ci": preload("res://assets/keyboard_letters/ci.png"),
 	"DhO": preload("res://assets/keyboard_letters/DhO.png"),
 	"f": preload("res://assets/keyboard_letters/f.png"),
