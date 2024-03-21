@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://script/menu.gd" type="Script" id=1]
-[ext_resource path="res://assets/ui/buttons_bangla/play.png" type="Texture" id=2]
+[ext_resource path="res://assets/menu/Playbtn.png" type="Texture" id=2]
 [ext_resource path="res://assets/menu/login_btn.png" type="Texture" id=3]
 [ext_resource path="res://assets/menu/anon_avatar.png" type="Texture" id=4]
 [ext_resource path="res://assets/menu/Score.png" type="Texture" id=5]
@@ -18,9 +18,9 @@ texture = ExtResource( 6 )
 
 [node name="PlayBtn" type="TextureButton" parent="."]
 margin_left = 285.0
-margin_top = 764.0
+margin_top = 769.0
 margin_right = 835.0
-margin_bottom = 954.0
+margin_bottom = 959.0
 texture_normal = ExtResource( 2 )
 
 [node name="LoginBtn" type="TextureButton" parent="."]
@@ -31,17 +31,17 @@ margin_bottom = 1502.0
 texture_normal = ExtResource( 3 )
 
 [node name="Avatar" type="TextureButton" parent="."]
-margin_left = 954.0
+margin_left = 594.0
 margin_top = 33.0
-margin_right = 1054.0
+margin_right = 694.0
 margin_bottom = 123.0
 texture_normal = ExtResource( 4 )
 
 [node name="ScoresBtn" type="TextureButton" parent="."]
-margin_left = 370.0
-margin_top = 968.0
-margin_right = 698.0
-margin_bottom = 1094.0
+margin_left = 386.0
+margin_top = 960.0
+margin_right = 714.0
+margin_bottom = 1086.0
 texture_normal = ExtResource( 5 )
 
 [connection signal="pressed" from="PlayBtn" to="." method="_on_PlayBtn_pressed"]
