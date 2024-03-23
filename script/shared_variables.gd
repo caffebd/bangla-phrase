@@ -103,6 +103,12 @@ var word_images = {
 	"ceyar": preload("res://assets/puzzle_images/Chair.png"),
 	"ga6dha": preload("res://assets/puzzle_images/Marigold.png"),
 	
+	"vat": preload("res://assets/puzzle_images/Vat.png"),
+	"Ttelivishn": preload("res://assets/puzzle_images/TV.png"),
+	"deyal": preload("res://assets/puzzle_images/Wall.png"),
+	"suta": preload("res://assets/puzzle_images/Yarn.png"),
+	
+	
 	
 #	"kachamorich": preload("res://assets/puzzle_images/green chillies.png"),
 ##	"peepe": preload("res://assets/puzzle_images/papaya.png"),
@@ -145,7 +151,8 @@ var keyboard_letters = {
 	"cu": preload("res://assets/keyboard_letters/cu.png"),
 	"d": preload("res://assets/keyboard_letters/d.png"),
 	"Da": preload("res://assets/keyboard_letters/Da.png"),
-	"De": preload("res://assets/keyboard_letters/De.png"),
+	"de": preload("res://assets/keyboard_letters/de.png"),
+	"Dde": preload("res://assets/keyboard_letters/Dde.png"),
 	"dh": preload("res://assets/keyboard_letters/dh.png"),
 	"dha": preload("res://assets/keyboard_letters/dha.png"),
 	"dhi": preload("res://assets/keyboard_letters/dhi.png"),
@@ -241,6 +248,8 @@ var keyboard_letters = {
 	"ta": preload("res://assets/keyboard_letters/ta.png"),
 	"ttt": preload("res://assets/keyboard_letters/ttt.png"),
 	"va": preload("res://assets/keyboard_letters/va.png"),
+	"vi": preload("res://assets/keyboard_letters/vi.png"),
+	
 	
 	
 	
