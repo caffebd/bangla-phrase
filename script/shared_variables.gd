@@ -49,7 +49,6 @@ var word_images = {
 	"pleTt": preload("res://assets/puzzle_images/plate.png"),
 	"gach": preload("res://assets/puzzle_images/Tree.png"),
 	"ckoleTt": preload("res://assets/puzzle_images/chocolate_2.png"),
-	
 	"blekboRD": preload("res://assets/puzzle_images/Blackboard.png"),
 	"bi": preload("res://assets/puzzle_images/Book.png"),
 	"pakha": preload("res://assets/puzzle_images/Fen.png"),
@@ -69,6 +68,8 @@ var word_images = {
 	"suic": preload("res://assets/puzzle_images/Suich.png"),
 	"tbla": preload("res://assets/puzzle_images/Tabla.png"),
 	"ca": preload("res://assets/puzzle_images/tea.png"),
+	
+	
 	
 	"valluk": preload("res://assets/puzzle_images/baby_bear.png"),
 	"projapti": preload("res://assets/puzzle_images/baterfly.png"),
@@ -272,9 +273,11 @@ var keyboard_letters = {
 	"thi": preload("res://assets/keyboard_letters/thi.png"),
 	"Tta": preload("res://assets/keyboard_letters/Tta.png"),
 	"Tthe": preload("res://assets/keyboard_letters/Tthe.png"),
+	"Ttha": preload("res://assets/keyboard_letters/Ttha.png"),
 	"Tti": preload("res://assets/keyboard_letters/Tti.png"),
 	"tu": preload("res://assets/keyboard_letters/tu.png"),
 	"ye": preload("res://assets/keyboard_letters/ye.png"),
+	"Ttra": preload("res://assets/keyboard_letters/Ttra.png"),
 	
 	
 	
