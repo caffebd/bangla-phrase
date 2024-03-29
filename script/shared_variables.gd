@@ -131,7 +131,22 @@ var word_images = {
 	"besin": preload("res://assets/puzzle_images/sink.png"),
 	"Ttiya": preload("res://assets/puzzle_images/tia_bird.png"),
 	"Ttiuboyel": preload("res://assets/puzzle_images/tube_well.png"),
-	
+	"shapla": preload("res://assets/puzzle_images/water_lily.png"),
+	"TthelagaRri": preload("res://assets/puzzle_images/ThelaGari.png"),
+	"fRring": preload("res://assets/puzzle_images/Dargon_Fly.png"),
+	"machi": preload("res://assets/puzzle_images/Fly.png"),
+	"shhidminar": preload("res://assets/puzzle_images/Shohid_minar.png"),
+	"janala": preload("res://assets/puzzle_images/window.png"),
+	"hiira": preload("res://assets/puzzle_images/Diamond.png"),
+	"mishtti": preload("res://assets/puzzle_images/sweet.png"),
+	"breDd": preload("res://assets/puzzle_images/bread.png"),
+	"pata": preload("res://assets/puzzle_images/betel_leaves.png"),
+	"malTta": preload("res://assets/puzzle_images/Malta.png"),
+	"ga6da": preload("res://assets/puzzle_images/Marigold.png"),
+	"ayna": preload("res://assets/puzzle_images/Mirror.png"),
+	"alu": preload("res://assets/puzzle_images/potatoes.png"),
+	"pakhi": preload("res://assets/puzzle_images/pakhi.png"),
+	"rekeTt": preload("res://assets/puzzle_images/Raket.png"),
 	
 	
 #	"kachamorich": preload("res://assets/puzzle_images/green chillies.png"),
@@ -301,6 +316,7 @@ var keyboard_letters = {
 	"tu": preload("res://assets/keyboard_letters/tu.png"),
 	"ye": preload("res://assets/keyboard_letters/ye.png"),
 	"Ttra": preload("res://assets/keyboard_letters/Ttra.png"),
+	"lTta": preload("res://assets/keyboard_letters/lTta.png"),
 	
 	
 	
