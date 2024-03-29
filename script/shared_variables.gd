@@ -68,7 +68,7 @@ var word_images = {
 	"suic": preload("res://assets/puzzle_images/Suich.png"),
 	"tbla": preload("res://assets/puzzle_images/Tabla.png"),
 	"ca": preload("res://assets/puzzle_images/tea.png"),
-	
+	"Ttrak": preload("res://assets/puzzle_images/truck.png"),
 	
 	
 	"valluk": preload("res://assets/puzzle_images/baby_bear.png"),
@@ -108,6 +108,29 @@ var word_images = {
 	"Ttelivishn": preload("res://assets/puzzle_images/TV.png"),
 	"deyal": preload("res://assets/puzzle_images/Wall.png"),
 	"suta": preload("res://assets/puzzle_images/Yarn.png"),
+	"ghora": preload("res://assets/puzzle_images/horse.png"),
+	"ka6Tthal": preload("res://assets/puzzle_images/Kathal.png"),
+	"gajr": preload("res://assets/puzzle_images/carrot.png"),
+	"aiskrim": preload("res://assets/puzzle_images/chocolate.png"),
+	"jaynamaj": preload("res://assets/puzzle_images/Jainamaz.png"),
+	"ka6camric": preload("res://assets/puzzle_images/green chillies.png"),
+	"istri": preload("res://assets/puzzle_images/iron.png"),
+	"rajha6s": preload("res://assets/puzzle_images/Kingfisher.png"),
+	"latim": preload("res://assets/puzzle_images/Latim.png"),
+	"singh": preload("res://assets/puzzle_images/Lion.png"),
+	"khata": preload("res://assets/puzzle_images/NoteBook.png"),
+	"pe6pe": preload("res://assets/puzzle_images/papaya.png"),
+	"klm": preload("res://assets/puzzle_images/pen.png"),
+	"Ddalim": preload("res://assets/puzzle_images/pomegranate.png"),
+	"khrgosh": preload("res://assets/puzzle_images/rabbit.png"),
+	"ndii": preload("res://assets/puzzle_images/River.png"),
+	"golap": preload("res://assets/puzzle_images/rose.png"),
+	"dourrano": preload("res://assets/puzzle_images/run.png"),
+	"sharri": preload("res://assets/puzzle_images/sari.png"),
+	"cadr": preload("res://assets/puzzle_images/sheet.png"),
+	"besin": preload("res://assets/puzzle_images/sink.png"),
+	"Ttiya": preload("res://assets/puzzle_images/tia_bird.png"),
+	"Ttiuboyel": preload("res://assets/puzzle_images/tube_well.png"),
 	
 	
 	
@@ -151,7 +174,7 @@ var keyboard_letters = {
 	"cha": preload("res://assets/keyboard_letters/cha.png"),
 	"cu": preload("res://assets/keyboard_letters/cu.png"),
 	"d": preload("res://assets/keyboard_letters/d.png"),
-	"Da": preload("res://assets/keyboard_letters/Da.png"),
+	"Dda": preload("res://assets/keyboard_letters/Dda.png"),
 	"de": preload("res://assets/keyboard_letters/de.png"),
 	"Dde": preload("res://assets/keyboard_letters/Dde.png"),
 	"dh": preload("res://assets/keyboard_letters/dh.png"),
