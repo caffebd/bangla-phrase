@@ -15,7 +15,8 @@ func _ready():
 		avatar.visible = true
 		can_interact = true
 	else:
-		Firebase.Auth.login_anonymous()
+		pass
+#		Firebase.Auth.login_anonymous()
 	UserData.load_local()
 
 

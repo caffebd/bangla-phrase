@@ -35,3 +35,13 @@ func _on_ResetPass_pressed():
 
 func _on_SaveTimer_timeout():
 	UserData.update_user_name(username_field.text)
+
+
+func _on_SignOutBtn_pressed():
+	Firebase.Auth.logout()
+	UserData.logged_in_anon = true
+	UserData.logged_in = false
+	UserData.user_email = ""
+	UserData.user_name = ""
+	UserData.user_id = ""
+	get_tree().change_scene("res://scenes/menu.tscn")

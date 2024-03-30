@@ -36,7 +36,6 @@ func userdata_received(user):
 	print ("user data is is here for db saving")
 	print (user.local_id)
 	UserData.set_user_data(user)
-
 	var my_data = {email: user.email}
 	var id = user.local_id
 	var firestore_collection : FirestoreCollection = Firebase.Firestore.collection("users")

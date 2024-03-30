@@ -7,7 +7,7 @@ var user_name: String = ""
 var user_id: String = ""
 var user_topscore: int = 0
 var logged_in: bool = false
-var logged_in_anon: bool = false
+var logged_in_anon: bool = true
 
 var local_scores: Array = []
 
