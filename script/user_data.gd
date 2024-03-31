@@ -1,6 +1,8 @@
 extends Node
 
-const SAVE_PATH = "res://local_save.json"
+
+const SAVE_PATH = "user://phrase_save.json"
+
 
 var user_email: String = ""
 var user_name: String = ""
@@ -15,6 +17,8 @@ var local_user_data: Array = []
 
 
 signal complete
+
+
 
 class MyCustomSorter:
 	static func sort_descending(a, b):
@@ -76,11 +80,14 @@ func save_local():
 	save_file.open(SAVE_PATH, File.WRITE) 
 	save_file.store_line(to_json(save_dict))
 	save_file.close()
+	print ("saved")
+
 
 func load_local():
 	var save_file = File.new()
 	if save_file.file_exists(SAVE_PATH):
 		save_file.open(SAVE_PATH, File.READ)
+		print (SAVE_PATH)
 		var data = {	}
 		local_user_data = []
 		data = JSON.parse(save_file.get_as_text()).result

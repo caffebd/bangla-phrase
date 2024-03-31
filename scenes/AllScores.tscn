@@ -49,7 +49,6 @@ scroll_horizontal_enabled = false
 
 [node name="ScoreHolder" type="VBoxContainer" parent="ScrollContainer"]
 unique_name_in_owner = true
-margin_top = 20.0
 custom_constants/separation = 80
 
 [connection signal="pressed" from="BackBtn" to="." method="_on_BackBtn_pressed"]
