@@ -402,12 +402,12 @@ var test_levels = {
 #
 #	"Dim":{
 #		"spelling":["Di", "m"],
-#		"keyboard":["na","h","g","m", "be", "Di","c","ks", "cha", "l",]
+#		"keyboard":["na","h","g","m", "be", "Di","c","ks", "cha", "l"]
 #	},
 #
 #	"ghr":{
 #		"spelling":["gh", "r"],
-#		"keyboard":[ "ga","cha","shi","r", "l","ba","gh", "ra","ks","g",]
+#		"keyboard":[ "ga","cha","shi","r", "l","ba","gh", "ra","ks","g"]
 #	},
 #
 #	"jg":{
@@ -434,25 +434,67 @@ var test_levels = {
 #		"spelling":["c", "ko", "le", "Tt"],
 #		"keyboard":["ga", "ko","m","c","b","k","Tt", "gh","le","Nn"]
 #	},
+#
+#
+#
+#	"blekboRD":{
+#		"spelling":["ble", "k", "bo", "RD",],
+#		"keyboard":["g","ra", "k", "l","ble","Rri", "bo", "gh","m","RD"]
+#	},
+#
+#
+#	"bi":{
+#		"spelling":["b", "i",],
+#		"keyboard":["g","ra", "cha", "b","shi","Rri", "i", "gh","m","na"]
+#	},
+#
+#	"pakha":{
+#		"spelling":["pa", "kha"],
+#		"keyboard":["f","la", "ju","c","pa","g","m", "sh", "kha", "l"]
+#	},
 
-
-
-	"blekboRD":{
-		"spelling":["ble", "k", "bo", "RD",],
-		"keyboard":["g","ra", "k", "l","ble","Rri", "bo", "gh","m","RD"]
+	
+	"shiyal":{
+		"spelling":["shi", "ya", "l"],
+		"keyboard":["so","a", "g","ya","pa","go","m", "shi", "e", "l"]
+	},
+	
+	"frij":{
+		"spelling":["fri", "j"],
+		"keyboard":["de","ka", "m","j","li","dii","fri", "hi", "i", "T"]
+	},
+	
+	"peyara":{
+		"spelling":["pe", "ya", "ra"],
+		"keyboard":["ku","ci", "pe","f","ra","mi","Dd", "ya", "n", "Ii"]
+	},
+	
+	"murgi":{
+		"spelling":["mu", "r", "gi"],
+		"keyboard":["i","gi", "m","sa","ku","r","fri", "mu", "l", "ne",]
+	},
+	
+	"cabi":{
+		"spelling":["ca", "bi"],
+		"keyboard":["te","t", "thi","ca","ja","i","bi", "p", "r", "k",]
+	},
+	
+	"tala":{
+		"spelling":["ta", "la"],
+		"keyboard":["ku","Dda", "m","ta","li","dii","fri", "la", "T", "t",]
+	},
+	
+	"maflar":{
+		"spelling":["ma", "f", "la", "r"],
+		"keyboard":["de","ka", "m","j","li","dii","fri", "hi", "i", "T",]
 	},
 	
 	
-	"bi":{
-		"spelling":["b", "i",],
-		"keyboard":["g","ra", "cha", "b","shi","Rri", "i", "gh","m","na"]
-	},
 	
-	"pakha":{
-		"spelling":["pa", "kha"],
-		"keyboard":["f","la", "ju","c","pa","g","m", "sh", "kha", "l",]
-	},
-
+	
+	
+	
+	
 	
 
 }
