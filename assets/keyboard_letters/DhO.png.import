@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/DhO.png-81f6af6dce31fe8d4fc04593b5ffba31.stex"
+path="res://.import/dho.png-38a254ec55708c5c4505bd717e30bfbc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/keyboard_letters/DhO.png"
-dest_files=[ "res://.import/DhO.png-81f6af6dce31fe8d4fc04593b5ffba31.stex" ]
+source_file="res://assets/keyboard_letters/dho.png"
+dest_files=[ "res://.import/dho.png-38a254ec55708c5c4505bd717e30bfbc.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Lion.png-df968cf794cce1aa9975275018faa094.stex"
+path="res://.import/lion.png-ba4047316632236e5ac8d6e89ca2703d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Lion.png"
-dest_files=[ "res://.import/Lion.png-df968cf794cce1aa9975275018faa094.stex" ]
+source_file="res://assets/puzzle_images/lion.png"
+dest_files=[ "res://.import/lion.png-ba4047316632236e5ac8d6e89ca2703d.stex" ]
 
 [params]
 

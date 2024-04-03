@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Muffler.png-7185163126169fa82a909dbb6c277f2a.stex"
+path="res://.import/muffler.png-d6b8e50dcd134f6821aa3816ccc41d07.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Muffler.png"
-dest_files=[ "res://.import/Muffler.png-7185163126169fa82a909dbb6c277f2a.stex" ]
+source_file="res://assets/puzzle_images/muffler.png"
+dest_files=[ "res://.import/muffler.png-d6b8e50dcd134f6821aa3816ccc41d07.stex" ]
 
 [params]
 

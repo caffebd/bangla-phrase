@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Shirt.png-f633bb3150d58f3c1407e6b6fc87f829.stex"
+path="res://.import/shirt.png-fc65359ed16ccf6f09b793e01c53b42b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Shirt.png"
-dest_files=[ "res://.import/Shirt.png-f633bb3150d58f3c1407e6b6fc87f829.stex" ]
+source_file="res://assets/puzzle_images/shirt.png"
+dest_files=[ "res://.import/shirt.png-fc65359ed16ccf6f09b793e01c53b42b.stex" ]
 
 [params]
 

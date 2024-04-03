@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Kathal.png-b1df0b31c8289d49c619f6b65a9c8b5d.stex"
+path="res://.import/kathal.png-1729b6cce07bad23f70e77ffb7a2e6db.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Kathal.png"
-dest_files=[ "res://.import/Kathal.png-b1df0b31c8289d49c619f6b65a9c8b5d.stex" ]
+source_file="res://assets/puzzle_images/kathal.png"
+dest_files=[ "res://.import/kathal.png-1729b6cce07bad23f70e77ffb7a2e6db.stex" ]
 
 [params]
 

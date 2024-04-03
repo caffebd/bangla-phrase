@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Umbrella.png-b4da97b18448ba8a0fad2b8075448263.stex"
+path="res://.import/umbrella.png-6c706c50611d6cb4e3e5f803a54d1464.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Umbrella.png"
-dest_files=[ "res://.import/Umbrella.png-b4da97b18448ba8a0fad2b8075448263.stex" ]
+source_file="res://assets/puzzle_images/umbrella.png"
+dest_files=[ "res://.import/umbrella.png-6c706c50611d6cb4e3e5f803a54d1464.stex" ]
 
 [params]
 

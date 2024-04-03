@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Vat.png-13c622cb815ab8528b4f006e95e9f6e0.stex"
+path="res://.import/vat.png-e4287e376e3cb5fef6935e74df1ae7ba.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Vat.png"
-dest_files=[ "res://.import/Vat.png-13c622cb815ab8528b4f006e95e9f6e0.stex" ]
+source_file="res://assets/puzzle_images/vat.png"
+dest_files=[ "res://.import/vat.png-e4287e376e3cb5fef6935e74df1ae7ba.stex" ]
 
 [params]
 

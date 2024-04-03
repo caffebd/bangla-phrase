@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Raket.png-6168bf8c323aeb5e519395cc4a99a7c5.stex"
+path="res://.import/raket.png-76558ec95619f6c93e8d9de00877bcbe.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Raket.png"
-dest_files=[ "res://.import/Raket.png-6168bf8c323aeb5e519395cc4a99a7c5.stex" ]
+source_file="res://assets/puzzle_images/raket.png"
+dest_files=[ "res://.import/raket.png-76558ec95619f6c93e8d9de00877bcbe.stex" ]
 
 [params]
 

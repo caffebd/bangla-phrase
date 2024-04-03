@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Fox.png-b6930f990e441201f1cef086b1e5edb9.stex"
+path="res://.import/fox.png-3d76f1df5c7001f4822378ddb245f044.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Fox.png"
-dest_files=[ "res://.import/Fox.png-b6930f990e441201f1cef086b1e5edb9.stex" ]
+source_file="res://assets/puzzle_images/fox.png"
+dest_files=[ "res://.import/fox.png-3d76f1df5c7001f4822378ddb245f044.stex" ]
 
 [params]
 

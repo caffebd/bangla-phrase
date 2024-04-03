@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/green chillies.png-b95045b396a7763fc6d0b16d0106a288.stex"
+path="res://.import/greenchillies.png-b29bae980a00b7eee68c8ca9c7b1f819.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/green chillies.png"
-dest_files=[ "res://.import/green chillies.png-b95045b396a7763fc6d0b16d0106a288.stex" ]
+source_file="res://assets/puzzle_images/greenchillies.png"
+dest_files=[ "res://.import/greenchillies.png-b29bae980a00b7eee68c8ca9c7b1f819.stex" ]
 
 [params]
 

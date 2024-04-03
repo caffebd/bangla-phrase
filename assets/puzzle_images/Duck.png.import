@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Duck.png-d192c10dc7ac8e358073f9f5393aa409.stex"
+path="res://.import/duck.png-6d7f7596e313962341f332fcbd0436ae.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Duck.png"
-dest_files=[ "res://.import/Duck.png-d192c10dc7ac8e358073f9f5393aa409.stex" ]
+source_file="res://assets/puzzle_images/duck.png"
+dest_files=[ "res://.import/duck.png-6d7f7596e313962341f332fcbd0436ae.stex" ]
 
 [params]
 

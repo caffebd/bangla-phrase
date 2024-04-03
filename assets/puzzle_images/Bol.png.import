@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Bol.png-c6b3ddb72b876041b3aa35fa70d394f8.stex"
+path="res://.import/bol.png-9c8f26ea0a20f16e60104b3243ac1b53.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Bol.png"
-dest_files=[ "res://.import/Bol.png-c6b3ddb72b876041b3aa35fa70d394f8.stex" ]
+source_file="res://assets/puzzle_images/bol.png"
+dest_files=[ "res://.import/bol.png-9c8f26ea0a20f16e60104b3243ac1b53.stex" ]
 
 [params]
 

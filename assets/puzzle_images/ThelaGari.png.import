@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ThelaGari.png-7f9713120183d64119e49d2d0a5ef0ee.stex"
+path="res://.import/thelagari.png-809a6c5616b356d1343f8b1282275450.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/ThelaGari.png"
-dest_files=[ "res://.import/ThelaGari.png-7f9713120183d64119e49d2d0a5ef0ee.stex" ]
+source_file="res://assets/puzzle_images/thelagari.png"
+dest_files=[ "res://.import/thelagari.png-809a6c5616b356d1343f8b1282275450.stex" ]
 
 [params]
 

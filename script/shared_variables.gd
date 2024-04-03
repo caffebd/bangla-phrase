@@ -36,7 +36,7 @@ var word_audio = {
 	
 var word_images = {
 	# easy levels-----------
-	"bl": preload("res://assets/puzzle_images/Bol.png"),
+	"bl": preload("res://assets/puzzle_images/bol.png"),
 	"apel": preload("res://assets/puzzle_images/apple.png"),
 	"beg": preload("res://assets/puzzle_images/bag.png"),
 	"shim": preload("res://assets/puzzle_images/bean.png"),
@@ -44,38 +44,38 @@ var word_images = {
 	"bichana": preload("res://assets/puzzle_images/bed.png"),
 	"baks": preload("res://assets/puzzle_images/box.png"),
 	"balti": preload("res://assets/puzzle_images/bucket_2.png"),
-	"ghRri": preload("res://assets/puzzle_images/Clock.png"),
-	"Dab": preload("res://assets/puzzle_images/Coconut.png"),
+	"ghrri": preload("res://assets/puzzle_images/clock.png"),
+	"dab": preload("res://assets/puzzle_images/coconut.png"),
 	"gru": preload("res://assets/puzzle_images/cow.png"),
-	"hriNn": preload("res://assets/puzzle_images/Deer.png"),
-	"Desk": preload("res://assets/puzzle_images/desk.png"),
-	"Dim": preload("res://assets/puzzle_images/Egg.png"),
-	"ghr": preload("res://assets/puzzle_images/Home.png"),
+	"hrinn": preload("res://assets/puzzle_images/deer.png"),
+	"desk": preload("res://assets/puzzle_images/desk.png"),
+	"dim": preload("res://assets/puzzle_images/egg.png"),
+	"ghr": preload("res://assets/puzzle_images/home.png"),
 	"jg": preload("res://assets/puzzle_images/jug.png"),
 	"am": preload("res://assets/puzzle_images/mango.png"),
-	"pleTt": preload("res://assets/puzzle_images/plate.png"),
-	"gach": preload("res://assets/puzzle_images/Tree.png"),
-	"ckoleTt": preload("res://assets/puzzle_images/chocolate_2.png"),
-	"blekboRD": preload("res://assets/puzzle_images/Blackboard.png"),
-	"bi": preload("res://assets/puzzle_images/Book.png"),
-	"pakha": preload("res://assets/puzzle_images/Fen.png"),
-	"shiyal": preload("res://assets/puzzle_images/Fox.png"),
-	"frij": preload("res://assets/puzzle_images/Fridge.png"),
-	"peyara": preload("res://assets/puzzle_images/Guavas.png"),
-	"murgi": preload("res://assets/puzzle_images/Hen.png"),
-	"cabi": preload("res://assets/puzzle_images/Key.png"),
+	"plett": preload("res://assets/puzzle_images/plate.png"),
+	"gach": preload("res://assets/puzzle_images/tree.png"),
+	"ckolett": preload("res://assets/puzzle_images/chocolate_2.png"),
+	"blekbord": preload("res://assets/puzzle_images/blackboard.png"),
+	"bi": preload("res://assets/puzzle_images/book.png"),
+	"pakha": preload("res://assets/puzzle_images/fen.png"),
+	"shiyal": preload("res://assets/puzzle_images/fox.png"),
+	"frij": preload("res://assets/puzzle_images/fridge.png"),
+	"peyara": preload("res://assets/puzzle_images/guavas.png"),
+	"murgi": preload("res://assets/puzzle_images/hen.png"),
+	"cabi": preload("res://assets/puzzle_images/key.png"),
 	"tala": preload("res://assets/puzzle_images/lock.png"),
-	"maflar": preload("res://assets/puzzle_images/Muffler.png"),
+	"maflar": preload("res://assets/puzzle_images/muffler.png"),
 	"mg": preload("res://assets/puzzle_images/mug.png"),
-	"lbn": preload("res://assets/puzzle_images/Salt.png"),
-	"shart": preload("res://assets/puzzle_images/Shirt.png"),
-	"juta": preload("res://assets/puzzle_images/Shoes.png"),
-	"camc": preload("res://assets/puzzle_images/Spoon.png"),
-	"sofa": preload("res://assets/puzzle_images/Sufa.png"),
-	"suic": preload("res://assets/puzzle_images/Suich.png"),
-	"tbla": preload("res://assets/puzzle_images/Tabla.png"),
+	"lbn": preload("res://assets/puzzle_images/salt.png"),
+	"shart": preload("res://assets/puzzle_images/shirt.png"),
+	"juta": preload("res://assets/puzzle_images/shoes.png"),
+	"camc": preload("res://assets/puzzle_images/spoon.png"),
+	"sofa": preload("res://assets/puzzle_images/sufa.png"),
+	"suic": preload("res://assets/puzzle_images/suich.png"),
+	"tbla": preload("res://assets/puzzle_images/tabla.png"),
 	"ca": preload("res://assets/puzzle_images/tea.png"),
-	"Ttrak": preload("res://assets/puzzle_images/truck.png"),
+	"ttrak": preload("res://assets/puzzle_images/truck.png"),
 	
 	
 	"valluk": preload("res://assets/puzzle_images/baby_bear.png"),
@@ -84,20 +84,20 @@ var word_images = {
 	"balb": preload("res://assets/puzzle_images/bulb.png"),
 	"bargar": preload("res://assets/puzzle_images/burger.png"),
 	"gari": preload("res://assets/puzzle_images/car.png"),
-	"biRral": preload("res://assets/puzzle_images/Cat.png"),
+	"birral": preload("res://assets/puzzle_images/cat.png"),
 	"fulkpi": preload("res://assets/puzzle_images/cauliflower.png"),
-	"cshma": preload("res://assets/puzzle_images/Chashma.png"),
+	"cshma": preload("res://assets/puzzle_images/chashma.png"),
 	"ciruni": preload("res://assets/puzzle_images/comb.png"),
 	"almari": preload("res://assets/puzzle_images/cupboard.png"),
 	"drja": preload("res://assets/puzzle_images/door.png"),
-	"DhOl": preload("res://assets/puzzle_images/Drum.png"),
-	"ha6s": preload("res://assets/puzzle_images/Duck.png"),
-	"Iigl": preload("res://assets/puzzle_images/Eagle.png"),
-	"hati": preload("res://assets/puzzle_images/Elephant.png"),
+	"dhol": preload("res://assets/puzzle_images/drum.png"),
+	"ha6s": preload("res://assets/puzzle_images/duck.png"),
+	"iigl": preload("res://assets/puzzle_images/eagle.png"),
+	"hati": preload("res://assets/puzzle_images/elephant.png"),
 	"agun": preload("res://assets/puzzle_images/fire.png"),
 	"chagl": preload("res://assets/puzzle_images/goat.png"),
-	"OUSshdh": preload("res://assets/puzzle_images/medicine.png"),
-	"banr": preload("res://assets/puzzle_images/Monkey.png"),
+	"ousshdh": preload("res://assets/puzzle_images/medicine.png"),
+	"banr": preload("res://assets/puzzle_images/monkey.png"),
 	
 	"mshari": preload("res://assets/puzzle_images/mosquito_net.png"),
 	"kmla": preload("res://assets/puzzle_images/orange.png"),
@@ -105,55 +105,55 @@ var word_images = {
 	"pitttja": preload("res://assets/puzzle_images/pizza.png"),
 	"jahaj": preload("res://assets/puzzle_images/ship.png"),
 	"sap": preload("res://assets/puzzle_images/snake_2.png"),
-	"sUurzmukhii": preload("res://assets/puzzle_images/sunflower.png"),
-	"TtmeTto": preload("res://assets/puzzle_images/tomato.png"),
-	"chata": preload("res://assets/puzzle_images/Umbrella.png"),
-	"ceyar": preload("res://assets/puzzle_images/Chair.png"),
-	"ga6dha": preload("res://assets/puzzle_images/Marigold.png"),
+	"suurzmukhii": preload("res://assets/puzzle_images/sunflower.png"),
+	"ttmetto": preload("res://assets/puzzle_images/tomato.png"),
+	"chata": preload("res://assets/puzzle_images/umbrella.png"),
+	"ceyar": preload("res://assets/puzzle_images/chair.png"),
+	"ga6dha": preload("res://assets/puzzle_images/marigold.png"),
 	
-	"vat": preload("res://assets/puzzle_images/Vat.png"),
-	"Ttelivishn": preload("res://assets/puzzle_images/TV.png"),
-	"deyal": preload("res://assets/puzzle_images/Wall.png"),
-	"suta": preload("res://assets/puzzle_images/Yarn.png"),
+	"vat": preload("res://assets/puzzle_images/vat.png"),
+	"ttelivishn": preload("res://assets/puzzle_images/tv.png"),
+	"deyal": preload("res://assets/puzzle_images/wall.png"),
+	"suta": preload("res://assets/puzzle_images/yarn.png"),
 	"ghora": preload("res://assets/puzzle_images/horse.png"),
-	"ka6Tthal": preload("res://assets/puzzle_images/Kathal.png"),
+	"ka6tthal": preload("res://assets/puzzle_images/kathal.png"),
 	"gajr": preload("res://assets/puzzle_images/carrot.png"),
 	"aiskrim": preload("res://assets/puzzle_images/chocolate.png"),
-	"jaynamaj": preload("res://assets/puzzle_images/Jainamaz.png"),
-	"ka6camric": preload("res://assets/puzzle_images/green chillies.png"),
+	"jaynamaj": preload("res://assets/puzzle_images/jainamaz.png"),
+	"ka6camric": preload("res://assets/puzzle_images/greenchillies.png"),
 	"istri": preload("res://assets/puzzle_images/iron.png"),
-	"rajha6s": preload("res://assets/puzzle_images/Kingfisher.png"),
-	"latim": preload("res://assets/puzzle_images/Latim.png"),
-	"singh": preload("res://assets/puzzle_images/Lion.png"),
-	"khata": preload("res://assets/puzzle_images/NoteBook.png"),
+	"rajha6s": preload("res://assets/puzzle_images/kingfisher.png"),
+	"latim": preload("res://assets/puzzle_images/latim.png"),
+	"singh": preload("res://assets/puzzle_images/lion.png"),
+	"khata": preload("res://assets/puzzle_images/noteBook.png"),
 	"pe6pe": preload("res://assets/puzzle_images/papaya.png"),
 	"klm": preload("res://assets/puzzle_images/pen.png"),
-	"Ddalim": preload("res://assets/puzzle_images/pomegranate.png"),
+	"ddalim": preload("res://assets/puzzle_images/pomegranate.png"),
 	"khrgosh": preload("res://assets/puzzle_images/rabbit.png"),
-	"ndii": preload("res://assets/puzzle_images/River.png"),
+	"ndii": preload("res://assets/puzzle_images/river.png"),
 	"golap": preload("res://assets/puzzle_images/rose.png"),
 	"dourrano": preload("res://assets/puzzle_images/run.png"),
 	"sharri": preload("res://assets/puzzle_images/sari.png"),
 	"cadr": preload("res://assets/puzzle_images/sheet.png"),
 	"besin": preload("res://assets/puzzle_images/sink.png"),
-	"Ttiya": preload("res://assets/puzzle_images/tia_bird.png"),
-	"Ttiuboyel": preload("res://assets/puzzle_images/tube_well.png"),
+	"ttiya": preload("res://assets/puzzle_images/tia_bird.png"),
+	"ttiuboyel": preload("res://assets/puzzle_images/tube_well.png"),
 	"shapla": preload("res://assets/puzzle_images/water_lily.png"),
-	"TthelagaRri": preload("res://assets/puzzle_images/ThelaGari.png"),
-	"fRring": preload("res://assets/puzzle_images/Dargon_Fly.png"),
-	"machi": preload("res://assets/puzzle_images/Fly.png"),
-	"shhidminar": preload("res://assets/puzzle_images/Shohid_minar.png"),
+	"tthelagaRri": preload("res://assets/puzzle_images/thelaGari.png"),
+	"fRring": preload("res://assets/puzzle_images/dargon_Fly.png"),
+	"machi": preload("res://assets/puzzle_images/fly.png"),
+	"shhidminar": preload("res://assets/puzzle_images/shohid_minar.png"),
 	"janala": preload("res://assets/puzzle_images/window.png"),
-	"hiira": preload("res://assets/puzzle_images/Diamond.png"),
+	"hiira": preload("res://assets/puzzle_images/diamond.png"),
 	"mishtti": preload("res://assets/puzzle_images/sweet.png"),
 	"breDd": preload("res://assets/puzzle_images/bread.png"),
 	"pata": preload("res://assets/puzzle_images/betel_leaves.png"),
-	"malTta": preload("res://assets/puzzle_images/Malta.png"),
-	"ga6da": preload("res://assets/puzzle_images/Marigold.png"),
-	"ayna": preload("res://assets/puzzle_images/Mirror.png"),
+	"maltta": preload("res://assets/puzzle_images/malta.png"),
+	"ga6da": preload("res://assets/puzzle_images/marigold.png"),
+	"ayna": preload("res://assets/puzzle_images/mirror.png"),
 	"alu": preload("res://assets/puzzle_images/potatoes.png"),
 	"pakhi": preload("res://assets/puzzle_images/pakhi.png"),
-	"rekeTt": preload("res://assets/puzzle_images/Raket.png"),
+	"rekett": preload("res://assets/puzzle_images/raket.png"),
 	
 	
 #	"kachamorich": preload("res://assets/puzzle_images/green chillies.png"),
@@ -196,13 +196,13 @@ var keyboard_letters = {
 	"cha": preload("res://assets/keyboard_letters/cha.png"),
 	"cu": preload("res://assets/keyboard_letters/cu.png"),
 	"d": preload("res://assets/keyboard_letters/d.png"),
-	"Dda": preload("res://assets/keyboard_letters/Dda.png"),
+	"dda": preload("res://assets/keyboard_letters/dda.png"),
 	"de": preload("res://assets/keyboard_letters/de.png"),
-	"Dde": preload("res://assets/keyboard_letters/Dde.png"),
+	"dde": preload("res://assets/keyboard_letters/dde.png"),
 	"dh": preload("res://assets/keyboard_letters/dh.png"),
 	"dha": preload("res://assets/keyboard_letters/dha.png"),
 	"dhi": preload("res://assets/keyboard_letters/dhi.png"),
-	"Ddi": preload("res://assets/keyboard_letters/Ddi.png"),
+	"ddi": preload("res://assets/keyboard_letters/ddi.png"),
 	"e": preload("res://assets/keyboard_letters/e.png"),
 	"g": preload("res://assets/keyboard_letters/g.png"),
 	"ga": preload("res://assets/keyboard_letters/ga.png"),
@@ -238,9 +238,9 @@ var keyboard_letters = {
 	"ne": preload("res://assets/keyboard_letters/ne.png"),
 	"ng": preload("res://assets/keyboard_letters/ng.png"),
 	"ni":preload("res://assets/keyboard_letters/ni.png"),
-	"Nn":preload("res://assets/keyboard_letters/Nn.png"),
-	"O": preload("res://assets/keyboard_letters/O.png"),
-	"OU": preload("res://assets/keyboard_letters/OU.png"),
+	"nn":preload("res://assets/keyboard_letters/nn.png"),
+	"o": preload("res://assets/keyboard_letters/o.png"),
+	"ou": preload("res://assets/keyboard_letters/ou.png"),
 	"p": preload("res://assets/keyboard_letters/p.png"),
 	"pa": preload("res://assets/keyboard_letters/pa.png"),
 	"pe6": preload("res://assets/keyboard_letters/pe6.png"),
@@ -250,9 +250,9 @@ var keyboard_letters = {
 	"ra": preload("res://assets/keyboard_letters/ra.png"),
 	"re": preload("res://assets/keyboard_letters/re.png"),
 	"ri": preload("res://assets/keyboard_letters/ri.png"),
-	"Rra": preload("res://assets/keyboard_letters/Rra.png"),
+	"rra": preload("res://assets/keyboard_letters/rra.png"),
 	"rrga": preload("res://assets/keyboard_letters/rrga.png"),
-	"Rri": preload("res://assets/keyboard_letters/Rri.png"),
+	"rri": preload("res://assets/keyboard_letters/rri.png"),
 	"ru": preload("res://assets/keyboard_letters/ru.png"),
 	"s": preload("res://assets/keyboard_letters/s.png"),
 	"sa": preload("res://assets/keyboard_letters/sa.png"),
@@ -260,36 +260,36 @@ var keyboard_letters = {
 	"si": preload("res://assets/keyboard_letters/si.png"),
 	"sk": preload("res://assets/keyboard_letters/sk.png"),
 	"su": preload("res://assets/keyboard_letters/su.png"),
-	"Tt": preload("res://assets/keyboard_letters/Tt.png"),
+	"tt": preload("res://assets/keyboard_letters/tt.png"),
 	"te": preload("res://assets/keyboard_letters/te.png"),
 	"ti": preload("res://assets/keyboard_letters/ti.png"),
-	"Tte": preload("res://assets/keyboard_letters/Tte.png"),
-	"Tto": preload("res://assets/keyboard_letters/Tto.png"),
+	"tte": preload("res://assets/keyboard_letters/tte.png"),
+	"tto": preload("res://assets/keyboard_letters/tto.png"),
 	"u": preload("res://assets/keyboard_letters/u.png"),
 	"y": preload("res://assets/keyboard_letters/y.png"),
 	"ya": preload("res://assets/keyboard_letters/ya.png"),
 	"ci": preload("res://assets/keyboard_letters/ci.png"),
-	"DhO": preload("res://assets/keyboard_letters/DhO.png"),
+	"dho": preload("res://assets/keyboard_letters/dho.png"),
 	"f": preload("res://assets/keyboard_letters/f.png"),
 	"fa": preload("res://assets/keyboard_letters/fa.png"),
 	"fri": preload("res://assets/keyboard_letters/fri.png"),
 	"fu": preload("res://assets/keyboard_letters/fu.png"),
 	"gi": preload("res://assets/keyboard_letters/gi.png"),
 	"ha6": preload("res://assets/keyboard_letters/ha6.png"),
-	"Ii": preload("res://assets/keyboard_letters/Ii.png"),
+	"Ii": preload("res://assets/keyboard_letters/ii.png"),
 	"ju": preload("res://assets/keyboard_letters/ju.png"),
 	"llu": preload("res://assets/keyboard_letters/llu.png"),
 	"mu": preload("res://assets/keyboard_letters/mu.png"),
 	"pi": preload("res://assets/keyboard_letters/pi.png"),
 	"pr": preload("res://assets/keyboard_letters/pr.png"),
-	"RD": preload("res://assets/keyboard_letters/RD.png"),
+	"rd": preload("res://assets/keyboard_letters/rd.png"),
 	"rt": preload("res://assets/keyboard_letters/rt.png"),
 	"rz": preload("res://assets/keyboard_letters/rz.png"),
 	"sh": preload("res://assets/keyboard_letters/sh.png"),
 	"sha": preload("res://assets/keyboard_letters/sha.png"),
 	"so": preload("res://assets/keyboard_letters/so.png"),
-	"Ssh": preload("res://assets/keyboard_letters/Ssh.png"),
-	"sUu": preload("res://assets/keyboard_letters/sUu.png"),
+	"ssh": preload("res://assets/keyboard_letters/ssh.png"),
+	"suu": preload("res://assets/keyboard_letters/suu.png"),
 	"t": preload("res://assets/keyboard_letters/t.png"),
 	"ta": preload("res://assets/keyboard_letters/ta.png"),
 	"ttt": preload("res://assets/keyboard_letters/ttt.png"),
@@ -300,7 +300,7 @@ var keyboard_letters = {
 	"bii": preload("res://assets/keyboard_letters/bii.png"),
 	"bre": preload("res://assets/keyboard_letters/bre.png"),
 	"chi": preload("res://assets/keyboard_letters/chi.png"),
-	"Dd": preload("res://assets/keyboard_letters/Dd.png"),
+	"dd": preload("res://assets/keyboard_letters/dd.png"),
 	"dii": preload("res://assets/keyboard_letters/dii.png"),
 	"dou": preload("res://assets/keyboard_letters/dou.png"),
 	"gho": preload("res://assets/keyboard_letters/gho.png"),
@@ -316,14 +316,14 @@ var keyboard_letters = {
 	"shtti": preload("res://assets/keyboard_letters/shtti.png"),
 	"stri": preload("res://assets/keyboard_letters/stri.png"),
 	"thi": preload("res://assets/keyboard_letters/thi.png"),
-	"Tta": preload("res://assets/keyboard_letters/Tta.png"),
-	"Tthe": preload("res://assets/keyboard_letters/Tthe.png"),
-	"Ttha": preload("res://assets/keyboard_letters/Ttha.png"),
-	"Tti": preload("res://assets/keyboard_letters/Tti.png"),
+	"tta": preload("res://assets/keyboard_letters/tta.png"),
+	"tthe": preload("res://assets/keyboard_letters/tthe.png"),
+	"ttha": preload("res://assets/keyboard_letters/ttha.png"),
+	"tti": preload("res://assets/keyboard_letters/tti.png"),
 	"tu": preload("res://assets/keyboard_letters/tu.png"),
 	"ye": preload("res://assets/keyboard_letters/ye.png"),
-	"Ttra": preload("res://assets/keyboard_letters/Ttra.png"),
-	"lTta": preload("res://assets/keyboard_letters/lTta.png"),
+	"ttra": preload("res://assets/keyboard_letters/ttra.png"),
+	"ltta": preload("res://assets/keyboard_letters/ltta.png"),
 	
 	
 	
@@ -354,159 +354,159 @@ var test_levels = {
 
 	"beg":{
 		"spelling":["be", "g"],
-		"keyboard":["Rri", "g","e","me", "pa", "be", "b","m","na", "re"]
+		"keyboard":["rri", "g","e","me", "pa", "be", "b","m","na", "re"]
 	},
 
-#	"shim":{
-#		"spelling":["shi", "m"],
-#		"keyboard":["g","ra", "cha", "l","shi","rrga", "ba", "ga","m","na"]
-#	},
-#
-#	"kla":{
-#		"spelling":["k","la"],
-#		"keyboard":["b","la","m","na","k","l","ga","n", "cha", "gh"]
-#		},
-#
-#	"bichana":{
-#		"spelling":["bi", "cha", "na"],
-#		"keyboard":["ga","n", "bi", "gh","b","cha","m","kh","k","na"]
-#	},
-#
-#	"baks":{
-#		"spelling":["ba", "ks"],
-#		"keyboard":["shi","rrga", "ba", "ga","m","ks","g","ra", "cha", "l",]
-#	},
-#
-#	"balti":{
-#		"spelling":["ba", "l", "ti"],
-#		"keyboard":[ "bi", "ba","b","g","n","ti","m","kh","l","na"]
-#	},
-#
-#	"ghRri":{
-#		"spelling":["gh", "Rri"],
-#		"keyboard":["g","ra", "cha", "l","shi","Rri", "ba", "gh","m","na"]
-#	},
-#
-#	"Dab":{
-#		"spelling":["Da", "b"],
-#		"keyboard":["g","ra", "b", "l","shi","rrga", "Da", "ga","m","na"]
-#	},
-#
-#	"gru":{
-#		"spelling":["g","ru"],
-#		"keyboard":["ma","ra", "cha", "l","ru","p", "ba", "g","m","na"]
-#	},
-#
-#	"hriNn":{
-#		"spelling":["h", "ri", "Nn"],
-#		"keyboard":["ga","ri","m","na", "bi","h", "gh","b","k","Nn"]
-#	},
-#
-#	"Desk":{
-#		"spelling":["De", "sk"],
-#		"keyboard":[ "l","shi", "sk", "Da", "ga","De","g","ra","m","na"]
-#	},
-#
-#	"Dim":{
-#		"spelling":["Di", "m"],
-#		"keyboard":["na","h","g","m", "be", "Di","c","ks", "cha", "l"]
-#	},
-#
-#	"ghr":{
-#		"spelling":["gh", "r"],
-#		"keyboard":[ "ga","cha","shi","r", "l","ba","gh", "ra","ks","g"]
-#	},
-#
-#	"jg":{
-#		"spelling":["j","g"],
-#		"keyboard":[ "l","ma","ru","j","ra", "ba", "g", "cha","m","na"]
-#	},
-#
-#	"am":{
-#		"spelling":["a","m"],
-#		"keyboard":["g", "l", "ca","a","cha","n", "b", "m","n","s"]
-#	},
-#
-#	"pleTt":{
-#		"spelling":["ple", "Tt"],
-#		"keyboard":[ "b", "l","Tt","g","ra","ple", "Da", "ga","m","na"]
-#	},
-#
-#	"gach":{
-#		"spelling":["ga","ch"],
-#		"keyboard":["p", "ba", "g","ma","ra", "ch", "l","ru","ga","na"]
-#	},
-#
-#	"ckoleTt":{
-#		"spelling":["c", "ko", "le", "Tt"],
-#		"keyboard":["ga", "ko","m","c","b","k","Tt", "gh","le","Nn"]
-#	},
-#
-#
-#
-#	"blekboRD":{
-#		"spelling":["ble", "k", "bo", "RD",],
-#		"keyboard":["g","ra", "k", "l","ble","Rri", "bo", "gh","m","RD"]
-#	},
-#
-#
-#	"bi":{
-#		"spelling":["b", "i",],
-#		"keyboard":["g","ra", "cha", "b","shi","Rri", "i", "gh","m","na"]
-#	},
-#
-#	"pakha":{
-#		"spelling":["pa", "kha"],
-#		"keyboard":["f","la", "ju","c","pa","g","m", "sh", "kha", "l"]
-#	},
+	"shim":{
+		"spelling":["shi", "m"],
+		"keyboard":["g","ra", "cha", "l","shi","rrga", "ba", "ga","m","na"]
+	},
 
-	
-#	"shiyal":{
-#		"spelling":["shi", "ya", "l"],
-#		"keyboard":["so","a", "g","ya","pa","go","m", "shi", "e", "l"]
-#	},
-	
-#	"frij":{
-#		"spelling":["fri", "j"],
-#		"keyboard":["de","ka", "m","j","li","dii","fri", "hi", "i", "Tt"]
-#	},
-	
-#	"peyara":{
-#		"spelling":["pe", "ya", "ra"],
-#		"keyboard":["ku","ci", "pe","f","ra","mi","Dd", "ya", "n", "Ii"]
-#	},
-	
-#	"murgi":{
-#		"spelling":["mu", "r", "gi"],
-#		"keyboard":["i","gi", "m","sa","ku","r","fri", "mu", "l", "ne",]
-#	},
-#
-#	"cabi":{
-#		"spelling":["ca", "bi"],
-#		"keyboard":["te","t", "thi","ca","ja","i","bi", "p", "r", "k",]
-#	},
-	
-#	"tala":{
-#		"spelling":["ta", "la"],
-#		"keyboard":["ku","Dda", "m","ta","li","dii","fri", "la", "Tt", "t",]
-#	},
-#
-#	"maflar":{
-#		"spelling":["ma", "f", "la", "r"],
-#		"keyboard":["de", "ka", "ma", "j", "f", "dii", "r", "hi", "i", "la",]
-#	},
-#
-#	"mg":{
-#		"spelling":["m", "g"],
-#		"keyboard":["ci", "b", "gh", "m", "Tthe", "g", "thi", "su", "r", "k",]
-#	},
-#
-#	"lbn":{
-#		"spelling":["l", "b", "n"],
-#		"keyboard":["f","n", "ju","c","b","g","m", "sh", "kha", "l"]
-#	},
-#
-#
+	"kla":{
+		"spelling":["k","la"],
+		"keyboard":["b","la","m","na","k","l","ga","n", "cha", "gh"]
+		},
+
+	"bichana":{
+		"spelling":["bi", "cha", "na"],
+		"keyboard":["ga","n", "bi", "gh","b","cha","m","kh","k","na"]
+	},
+
+	"baks":{
+		"spelling":["ba", "ks"],
+		"keyboard":["shi","rrga", "ba", "ga","m","ks","g","ra", "cha", "l",]
+	},
+
+	"balti":{
+		"spelling":["ba", "l", "ti"],
+		"keyboard":[ "bi", "ba","b","g","n","ti","m","kh","l","na"]
+	},
+
+	"ghrri":{
+		"spelling":["gh", "rri"],
+		"keyboard":["g","ra", "cha", "l","shi","rri", "ba", "gh","m","na"]
+	},
+
+	"dab":{
+		"spelling":["da", "b"],
+		"keyboard":["g","ra", "b", "l","shi","rrga", "da", "ga","m","na"]
+	},
+
+	"gru":{
+		"spelling":["g","ru"],
+		"keyboard":["ma","ra", "cha", "l","ru","p", "ba", "g","m","na"]
+	},
+
+	"hrinn":{
+		"spelling":["h", "ri", "nn"],
+		"keyboard":["ga","ri","m","na", "bi","h", "gh","b","k","nn"]
+	},
+
+	"desk":{
+		"spelling":["de", "sk"],
+		"keyboard":[ "l","shi", "sk", "da", "ga","de","g","ra","m","na"]
+	},
+
+	"dim":{
+		"spelling":["di", "m"],
+		"keyboard":["na","h","g","m", "be", "di","c","ks", "cha", "l"]
+	},
+
+	"ghr":{
+		"spelling":["gh", "r"],
+		"keyboard":[ "ga","cha","shi","r", "l","ba","gh", "ra","ks","g"]
+	},
+
+	"jg":{
+		"spelling":["j","g"],
+		"keyboard":[ "l","ma","ru","j","ra", "ba", "g", "cha","m","na"]
+	},
+
+	"am":{
+		"spelling":["a","m"],
+		"keyboard":["g", "l", "ca","a","cha","n", "b", "m","n","s"]
+	},
+
+	"plett":{
+		"spelling":["ple", "tt"],
+		"keyboard":[ "b", "l","tt","g","ra","ple", "da", "ga","m","na"]
+	},
+
+	"gach":{
+		"spelling":["ga","ch"],
+		"keyboard":["p", "ba", "g","ma","ra", "ch", "l","ru","ga","na"]
+	},
+
+	"ckolett":{
+		"spelling":["c", "ko", "le", "tt"],
+		"keyboard":["ga", "ko","m","c","b","k","tt", "gh","le","nn"]
+	},
+
+
+
+	"blekbord":{
+		"spelling":["ble", "k", "bo", "rd",],
+		"keyboard":["g","ra", "k", "l","ble","Rri", "bo", "gh","m","rd"]
+	},
+
+
+	"bi":{
+		"spelling":["b", "i",],
+		"keyboard":["g","ra", "cha", "b","shi","rri", "i", "gh","m","na"]
+	},
+
+	"pakha":{
+		"spelling":["pa", "kha"],
+		"keyboard":["f","la", "ju","c","pa","g","m", "sh", "kha", "l"]
+	},
+
+
+	"shiyal":{
+		"spelling":["shi", "ya", "l"],
+		"keyboard":["so","a", "g","ya","pa","go","m", "shi", "e", "l"]
+	},
+
+	"frij":{
+		"spelling":["fri", "j"],
+		"keyboard":["de","ka", "m","j","li","dii","fri", "hi", "i", "tt"]
+	},
+
+	"peyara":{
+		"spelling":["pe", "ya", "ra"],
+		"keyboard":["ku","ci", "pe","f","ra","mi","dd", "ya", "n", "ii"]
+	},
+
+	"murgi":{
+		"spelling":["mu", "r", "gi"],
+		"keyboard":["i","gi", "m","sa","ku","r","fri", "mu", "l", "ne",]
+	},
+
+	"cabi":{
+		"spelling":["ca", "bi"],
+		"keyboard":["te","t", "thi","ca","ja","i","bi", "p", "r", "k",]
+	},
+
+	"tala":{
+		"spelling":["ta", "la"],
+		"keyboard":["ku","dda", "m","ta","li","dii","fri", "la", "tt", "t",]
+	},
+
+	"maflar":{
+		"spelling":["ma", "f", "la", "r"],
+		"keyboard":["de", "ka", "ma", "j", "f", "dii", "r", "hi", "i", "la",]
+	},
+
+	"mg":{
+		"spelling":["m", "g"],
+		"keyboard":["ci", "b", "gh", "m", "tthe", "g", "thi", "su", "r", "k",]
+	},
+
+	"lbn":{
+		"spelling":["l", "b", "n"],
+		"keyboard":["f","n", "ju","c","b","g","m", "sh", "kha", "l"]
+	},
+
+
 
 
 }

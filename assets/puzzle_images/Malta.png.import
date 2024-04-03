@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Malta.png-93ba4ce255a7145c51a0816a3d845a32.stex"
+path="res://.import/malta.png-316b712e729d40675d6e5df82fcd82fd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Malta.png"
-dest_files=[ "res://.import/Malta.png-93ba4ce255a7145c51a0816a3d845a32.stex" ]
+source_file="res://assets/puzzle_images/malta.png"
+dest_files=[ "res://.import/malta.png-316b712e729d40675d6e5df82fcd82fd.stex" ]
 
 [params]
 
