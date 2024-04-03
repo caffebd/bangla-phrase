@@ -454,48 +454,53 @@ var test_levels = {
 #	},
 
 	
-	"shiyal":{
-		"spelling":["shi", "ya", "l"],
-		"keyboard":["so","a", "g","ya","pa","go","m", "shi", "e", "l"]
+#	"shiyal":{
+#		"spelling":["shi", "ya", "l"],
+#		"keyboard":["so","a", "g","ya","pa","go","m", "shi", "e", "l"]
+#	},
+	
+#	"frij":{
+#		"spelling":["fri", "j"],
+#		"keyboard":["de","ka", "m","j","li","dii","fri", "hi", "i", "Tt"]
+#	},
+	
+#	"peyara":{
+#		"spelling":["pe", "ya", "ra"],
+#		"keyboard":["ku","ci", "pe","f","ra","mi","Dd", "ya", "n", "Ii"]
+#	},
+	
+#	"murgi":{
+#		"spelling":["mu", "r", "gi"],
+#		"keyboard":["i","gi", "m","sa","ku","r","fri", "mu", "l", "ne",]
+#	},
+#
+#	"cabi":{
+#		"spelling":["ca", "bi"],
+#		"keyboard":["te","t", "thi","ca","ja","i","bi", "p", "r", "k",]
+#	},
+	
+#	"tala":{
+#		"spelling":["ta", "la"],
+#		"keyboard":["ku","Dda", "m","ta","li","dii","fri", "la", "Tt", "t",]
+#	},
+#
+#	"maflar":{
+#		"spelling":["ma", "f", "la", "r"],
+#		"keyboard":["de", "ka", "ma", "j", "f", "dii", "r", "hi", "i", "la",]
+#	},
+#
+	"mg":{
+		"spelling":["m", "g"],
+		"keyboard":["ci", "b", "gh", "m", "Tthe", "g", "thi", "su", "r", "k",]
+	},
+
+	"lbn":{
+		"spelling":["l", "b", "n"],
+		"keyboard":["f","la", "ju","c","pa","g","m", "sh", "kha", "l"]
 	},
 	
-	"frij":{
-		"spelling":["fri", "j"],
-		"keyboard":["de","ka", "m","j","li","dii","fri", "hi", "i", "T"]
-	},
 	
-	"peyara":{
-		"spelling":["pe", "ya", "ra"],
-		"keyboard":["ku","ci", "pe","f","ra","mi","Dd", "ya", "n", "Ii"]
-	},
-	
-	"murgi":{
-		"spelling":["mu", "r", "gi"],
-		"keyboard":["i","gi", "m","sa","ku","r","fri", "mu", "l", "ne",]
-	},
-	
-	"cabi":{
-		"spelling":["ca", "bi"],
-		"keyboard":["te","t", "thi","ca","ja","i","bi", "p", "r", "k",]
-	},
-	
-	"tala":{
-		"spelling":["ta", "la"],
-		"keyboard":["ku","Dda", "m","ta","li","dii","fri", "la", "T", "t",]
-	},
-	
-	"maflar":{
-		"spelling":["ma", "f", "la", "r"],
-		"keyboard":["de","ka", "m","j","li","dii","fri", "hi", "i", "T",]
-	},
-	
-	
-	
-	
-	
-	
-	
-	
+
 
 }
 
