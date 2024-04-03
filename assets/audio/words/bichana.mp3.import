@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bichana.mp3-b6c0f716682f567c909d1671b4f35f2a.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/bichana.mp3"
+dest_files=[ "res://.import/bichana.mp3-b6c0f716682f567c909d1671b4f35f2a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

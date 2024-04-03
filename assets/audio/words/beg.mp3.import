@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/beg.mp3-cccf1e15bc16c2f011f40f43e5515306.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/beg.mp3"
+dest_files=[ "res://.import/beg.mp3-cccf1e15bc16c2f011f40f43e5515306.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -18,6 +18,7 @@ onready var popup_panel = $"%PopupPanel"
 onready var quit_btn = $"%QuitBtn"
 onready var flash_timer = $"%FlashTimer"
 
+onready var word_audio = $CorrectWord
 
 var screen_size: Vector2 = Vector2(720, 1080)
 var x_scale_factor: float = 1.0
@@ -54,6 +55,9 @@ func _ready():
 func pick_word():
 	current_word = SharedVariables.get_random_easy_level()
 	main_image.texture = SharedVariables.word_images[current_word]
+	
+	word_audio.stream = SharedVariables.word_audio[current_word]
+	
 	SharedVariables.target_spelling = SharedVariables.test_levels[current_word]["spelling"]
 	print(SharedVariables.target_spelling)
 	keyboard_grid.place_all_keys(current_word)
@@ -111,3 +115,8 @@ func _on_QuitBtn_pressed():
 	get_tree().paused = false
 	flash_timer.stop()
 	get_tree().change_scene("res://scenes/menu.tscn")
+
+
+func _on_CorrectWord_finished():
+	yield (get_tree().create_timer(0.5), "timeout")
+	get_tree().change_scene("res://scenes/Correct.tscn")

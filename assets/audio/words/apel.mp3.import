@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/apel.mp3-596fe7e954472d3dc8974126c5006cc0.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/apel.mp3"
+dest_files=[ "res://.import/apel.mp3-596fe7e954472d3dc8974126c5006cc0.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

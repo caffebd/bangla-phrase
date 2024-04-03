@@ -81,7 +81,11 @@ func _check_answer():
 			print ("CORRECT!!!!!!!!")
 			SharedVariables.last_game_points = main_parent.game_points
 			SharedVariables.total_game_points = SharedVariables.total_game_points + main_parent.game_points
-			get_tree().change_scene("res://scenes/Correct.tscn")
+			GlobalSignals.emit_signal("remove_all_squares")
+			$"%GameTimer".stop()
+			$"../CorrectWord".play()
+			
+#			get_tree().change_scene("res://scenes/Correct.tscn")
 		else:
 			_delete_all_letters()
 			GlobalSignals.emit_signal("next_guess")

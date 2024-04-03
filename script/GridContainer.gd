@@ -38,6 +38,7 @@ func _ready():
 	rng.randomize() 
 	GlobalSignals.connect("next_guess", self, "_next_guess")
 	GlobalSignals.connect("game_paused", self, "_pause_game")
+	GlobalSignals.connect("remove_all_squares", self, "_remove_all_squares")
 	squares_array = all_squares.duplicate()
 	yield(get_tree().create_timer(0.5), "timeout")
 	stop_animation.play("flash")
@@ -94,7 +95,7 @@ func flash_cover(square: TextureRect):
 	square.texture = cover_image
 	last_square = square
 
-func remove_all_squares():
+func _remove_all_squares():
 	for square in squares_array:
 		var tween = create_tween()
 		tween.tween_property(square, "modulate:a", 0.0, 0.5)

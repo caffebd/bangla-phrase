@@ -26,6 +26,13 @@ var last_game_points: int = 0
 func _ready():
 	rng.randomize() 
 
+
+var word_audio = {
+	"bl": preload("res://assets/audio/words/bl.mp3"),
+	"apel": preload("res://assets/audio/words/apel.mp3"),
+	"beg": preload("res://assets/audio/words/beg.mp3"),
+}
+
 	
 var word_images = {
 	# easy levels-----------
@@ -334,22 +341,22 @@ var keyboard_letters = {
 
 var test_levels = {
 	
-#
-#	"bl":{
-#		"spelling":["b","l"],
-#		"keyboard":["g","n", "ca", "l","cha","ba", "b", "m","n","s"]
-#	},
-#
-#	"apel":{
-#		"spelling":["a", "pe", "l"],
-#		"keyboard":["be", "a", "kh", "i", "pe", "n", "g", "l", "cha", "c"]
-#	},
-#
-#	"beg":{
-#		"spelling":["be", "g"],
-#		"keyboard":["Rri", "g","e","me", "pa", "be", "b","m","na", "re"]
-#	},
-#
+
+	"bl":{
+		"spelling":["b","l"],
+		"keyboard":["g","n", "ca", "l","cha","ba", "b", "m","n","s"]
+	},
+
+	"apel":{
+		"spelling":["a", "pe", "l"],
+		"keyboard":["be", "a", "kh", "i", "pe", "n", "g", "l", "cha", "c"]
+	},
+
+	"beg":{
+		"spelling":["be", "g"],
+		"keyboard":["Rri", "g","e","me", "pa", "be", "b","m","na", "re"]
+	},
+
 #	"shim":{
 #		"spelling":["shi", "m"],
 #		"keyboard":["g","ra", "cha", "l","shi","rrga", "ba", "ga","m","na"]
@@ -489,17 +496,17 @@ var test_levels = {
 #		"keyboard":["de", "ka", "ma", "j", "f", "dii", "r", "hi", "i", "la",]
 #	},
 #
-	"mg":{
-		"spelling":["m", "g"],
-		"keyboard":["ci", "b", "gh", "m", "Tthe", "g", "thi", "su", "r", "k",]
-	},
-
-	"lbn":{
-		"spelling":["l", "b", "n"],
-		"keyboard":["f","la", "ju","c","pa","g","m", "sh", "kha", "l"]
-	},
-	
-	
+#	"mg":{
+#		"spelling":["m", "g"],
+#		"keyboard":["ci", "b", "gh", "m", "Tthe", "g", "thi", "su", "r", "k",]
+#	},
+#
+#	"lbn":{
+#		"spelling":["l", "b", "n"],
+#		"keyboard":["f","n", "ju","c","b","g","m", "sh", "kha", "l"]
+#	},
+#
+#
 
 
 }

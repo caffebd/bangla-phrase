@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/shim.mp3-b00b2ceeceba4d68154d0eb8aa0e9a45.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/shim.mp3"
+dest_files=[ "res://.import/shim.mp3-b00b2ceeceba4d68154d0eb8aa0e9a45.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

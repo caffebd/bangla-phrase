@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://script/AllWordsDone.gd" type="Script" id=1]
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://assets/menu/menu.png" type="Texture" id=3]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
@@ -30,4 +31,11 @@ margin_right = 444.0
 margin_bottom = 622.0
 text = "Menu"
 
-[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[node name="MenuButton" type="TextureButton" parent="."]
+margin_left = 165.0
+margin_top = 679.0
+margin_right = 915.0
+margin_bottom = 929.0
+texture_normal = ExtResource( 3 )
+
+[connection signal="pressed" from="MenuButton" to="." method="_on_MenuButton_pressed"]

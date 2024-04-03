@@ -8,3 +8,5 @@ signal submit_answer()
 signal delete_letter()
 
 signal game_paused(is_paused)
+
+signal remove_all_squares()

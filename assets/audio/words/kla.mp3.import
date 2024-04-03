@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/kla.mp3-dc1dc01dbb7bf11962932e58c39f3ca8.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/kla.mp3"
+dest_files=[ "res://.import/kla.mp3-dc1dc01dbb7bf11962932e58c39f3ca8.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
