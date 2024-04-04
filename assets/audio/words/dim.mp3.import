@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/dim.mp3-2dec8f360ff2b719c1ca021178cc0891.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/dim.mp3"
+dest_files=[ "res://.import/dim.mp3-2dec8f360ff2b719c1ca021178cc0891.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/juta.mp3-71c2f3c706b23c31cb7ff7f50c6c1fb0.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/juta.mp3"
+dest_files=[ "res://.import/juta.mp3-71c2f3c706b23c31cb7ff7f50c6c1fb0.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

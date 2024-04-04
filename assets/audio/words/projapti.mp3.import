@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/projapti.mp3-00a5ffcdcc805a36243cfe4a745dd729.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/projapti.mp3"
+dest_files=[ "res://.import/projapti.mp3-00a5ffcdcc805a36243cfe4a745dd729.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/diamond.png-7982f4dfd80493b4199582596ea6d051.stex"
+path="res://.import/Diamond.png-3da7ee1e8d9152a020e753793387dfd6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/diamond.png"
-dest_files=[ "res://.import/diamond.png-7982f4dfd80493b4199582596ea6d051.stex" ]
+source_file="res://assets/puzzle_images/Diamond.png"
+dest_files=[ "res://.import/Diamond.png-3da7ee1e8d9152a020e753793387dfd6.stex" ]
 
 [params]
 

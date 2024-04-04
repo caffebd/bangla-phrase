@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pitttja.mp3-b0dfb794cf1818c0cc69c790aff65133.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/pitttja.mp3"
+dest_files=[ "res://.import/pitttja.mp3-b0dfb794cf1818c0cc69c790aff65133.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

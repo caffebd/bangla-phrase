@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/singh.mp3-c6a07723609ff5871003cbeb8b5945ea.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/singh.mp3"
+dest_files=[ "res://.import/singh.mp3-c6a07723609ff5871003cbeb8b5945ea.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

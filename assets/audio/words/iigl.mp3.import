@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/iigl.mp3-f06cd1a8b15fc4a9f9b42829fdfee446.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/iigl.mp3"
+dest_files=[ "res://.import/iigl.mp3-f06cd1a8b15fc4a9f9b42829fdfee446.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

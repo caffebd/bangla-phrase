@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ceyar.mp3-2b59747e64dd57dc97c28ed2ea3e6fa8.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ceyar.mp3"
+dest_files=[ "res://.import/ceyar.mp3-2b59747e64dd57dc97c28ed2ea3e6fa8.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/khrgosh.mp3-b41b72ef67b425da3d52411a7a79e90c.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/khrgosh.mp3"
+dest_files=[ "res://.import/khrgosh.mp3-b41b72ef67b425da3d52411a7a79e90c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

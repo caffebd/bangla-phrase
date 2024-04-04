@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/chata.mp3-65dff5f2a8d5abfa876392a33b409319.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/chata.mp3"
+dest_files=[ "res://.import/chata.mp3-65dff5f2a8d5abfa876392a33b409319.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

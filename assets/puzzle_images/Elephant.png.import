@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/elephant.png-44058a92612ffe9331977c0c0eafdd36.stex"
+path="res://.import/Elephant.png-bde86f380b4fde96f4aec1974b3d1ccc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/elephant.png"
-dest_files=[ "res://.import/elephant.png-44058a92612ffe9331977c0c0eafdd36.stex" ]
+source_file="res://assets/puzzle_images/Elephant.png"
+dest_files=[ "res://.import/Elephant.png-bde86f380b4fde96f4aec1974b3d1ccc.stex" ]
 
 [params]
 

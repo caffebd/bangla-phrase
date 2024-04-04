@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/klm.mp3-9e18667453d03aa79faf861cfcb9ac71.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/klm.mp3"
+dest_files=[ "res://.import/klm.mp3-9e18667453d03aa79faf861cfcb9ac71.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/sofa.mp3-17fb34055a62fef145896dec493f9650.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/sofa.mp3"
+dest_files=[ "res://.import/sofa.mp3-17fb34055a62fef145896dec493f9650.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

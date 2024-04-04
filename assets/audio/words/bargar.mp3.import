@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bargar.mp3-fefaa51c1ece5409ae835d21875365f1.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/bargar.mp3"
+dest_files=[ "res://.import/bargar.mp3-fefaa51c1ece5409ae835d21875365f1.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

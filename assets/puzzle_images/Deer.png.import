@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/deer.png-482aff1d7a7bb2020c99921be68c8b86.stex"
+path="res://.import/Deer.png-c9510a7be44a913eb7c69b4a6ccf10e5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/deer.png"
-dest_files=[ "res://.import/deer.png-482aff1d7a7bb2020c99921be68c8b86.stex" ]
+source_file="res://assets/puzzle_images/Deer.png"
+dest_files=[ "res://.import/Deer.png-c9510a7be44a913eb7c69b4a6ccf10e5.stex" ]
 
 [params]
 

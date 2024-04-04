@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/shart.mp3-72730f5321af4f39f4960b1684a61065.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/shart.mp3"
+dest_files=[ "res://.import/shart.mp3-72730f5321af4f39f4960b1684a61065.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

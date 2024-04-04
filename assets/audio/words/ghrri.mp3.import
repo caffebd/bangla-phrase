@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ghrri.mp3-1a05a539087a1d56fde182d45d7b35be.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ghrri.mp3"
+dest_files=[ "res://.import/ghrri.mp3-1a05a539087a1d56fde182d45d7b35be.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

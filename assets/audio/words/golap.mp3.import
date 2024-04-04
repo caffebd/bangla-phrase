@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/golap.mp3-43ebdf99a2e9fbec49d62da830be35aa.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/golap.mp3"
+dest_files=[ "res://.import/golap.mp3-43ebdf99a2e9fbec49d62da830be35aa.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

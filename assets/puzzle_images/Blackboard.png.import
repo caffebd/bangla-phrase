@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/blackboard.png-ceec4d68b03ed9b582607328143efbf4.stex"
+path="res://.import/Blackboard.png-505f5e3312564b25de7ad801b59af888.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/blackboard.png"
-dest_files=[ "res://.import/blackboard.png-ceec4d68b03ed9b582607328143efbf4.stex" ]
+source_file="res://assets/puzzle_images/Blackboard.png"
+dest_files=[ "res://.import/Blackboard.png-505f5e3312564b25de7ad801b59af888.stex" ]
 
 [params]
 

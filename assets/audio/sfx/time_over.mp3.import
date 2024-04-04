@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/time_over.mp3-820e8d0bc783b293b65a508c5d14e7c8.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/sfx/time_over.mp3"
+dest_files=[ "res://.import/time_over.mp3-820e8d0bc783b293b65a508c5d14e7c8.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

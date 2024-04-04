@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/hrinn.mp3-3746d67e5da25ec9ae613419f1898b51.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/hrinn.mp3"
+dest_files=[ "res://.import/hrinn.mp3-3746d67e5da25ec9ae613419f1898b51.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

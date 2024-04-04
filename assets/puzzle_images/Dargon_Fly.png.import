@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dargon_Fly.png-43a6ffdb9cb87706ad8b1bd70f14bd87.stex"
+path="res://.import/Dargon_Fly.png-75adc23cd69b011403977351da2642b4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/dargon_Fly.png"
-dest_files=[ "res://.import/dargon_Fly.png-43a6ffdb9cb87706ad8b1bd70f14bd87.stex" ]
+source_file="res://assets/puzzle_images/Dargon_Fly.png"
+dest_files=[ "res://.import/Dargon_Fly.png-75adc23cd69b011403977351da2642b4.stex" ]
 
 [params]
 

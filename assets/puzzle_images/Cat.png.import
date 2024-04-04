@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cat.png-984cd82593bd3fd502937aca19e0120f.stex"
+path="res://.import/Cat.png-84d1d249bec854215c48f51c043aee5f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/cat.png"
-dest_files=[ "res://.import/cat.png-984cd82593bd3fd502937aca19e0120f.stex" ]
+source_file="res://assets/puzzle_images/Cat.png"
+dest_files=[ "res://.import/Cat.png-84d1d249bec854215c48f51c043aee5f.stex" ]
 
 [params]
 

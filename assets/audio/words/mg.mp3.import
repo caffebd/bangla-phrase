@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mg.mp3-e36c9fc43306d7cf438a6a09a66c1989.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/mg.mp3"
+dest_files=[ "res://.import/mg.mp3-e36c9fc43306d7cf438a6a09a66c1989.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/kmla.mp3-d3174fa17f9908a090895c0a38ceb869.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/kmla.mp3"
+dest_files=[ "res://.import/kmla.mp3-d3174fa17f9908a090895c0a38ceb869.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/desk.mp3-2c6f5a6a0a414b64d1d2ccba4ecd020b.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/desk.mp3"
+dest_files=[ "res://.import/desk.mp3-2c6f5a6a0a414b64d1d2ccba4ecd020b.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

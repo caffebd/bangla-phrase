@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/river.png-fa590a891b93487ea127e39c75bcd421.stex"
+path="res://.import/River.png-38b9952237046c38eb8ef0053cffbda0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/river.png"
-dest_files=[ "res://.import/river.png-fa590a891b93487ea127e39c75bcd421.stex" ]
+source_file="res://assets/puzzle_images/River.png"
+dest_files=[ "res://.import/River.png-38b9952237046c38eb8ef0053cffbda0.stex" ]
 
 [params]
 

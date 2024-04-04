@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/valluk.mp3-c60a09a6aabc0b3b0799a892d3a2fc1a.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/valluk.mp3"
+dest_files=[ "res://.import/valluk.mp3-c60a09a6aabc0b3b0799a892d3a2fc1a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

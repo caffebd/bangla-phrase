@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/hati.mp3-8429fe9b953098b00457509adb358010.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/hati.mp3"
+dest_files=[ "res://.import/hati.mp3-8429fe9b953098b00457509adb358010.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

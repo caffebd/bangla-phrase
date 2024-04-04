@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/suurzmukhii.mp3-f060a8b1e2c6e63f149bde15a67b0a4d.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/suurzmukhii.mp3"
+dest_files=[ "res://.import/suurzmukhii.mp3-f060a8b1e2c6e63f149bde15a67b0a4d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

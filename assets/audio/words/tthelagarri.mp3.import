@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/tthelagarri.mp3-23648834991bcdc519efc4b5d6ae3cbd.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/tthelagarri.mp3"
+dest_files=[ "res://.import/tthelagarri.mp3-23648834991bcdc519efc4b5d6ae3cbd.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

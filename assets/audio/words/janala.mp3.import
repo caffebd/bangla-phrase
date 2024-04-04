@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/janala.mp3-c95b5c27df68e33a14833bb2cf950de0.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/janala.mp3"
+dest_files=[ "res://.import/janala.mp3-c95b5c27df68e33a14833bb2cf950de0.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/khata.mp3-b18cb7fb1350b7ef7e1ba6783cebf9ab.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/khata.mp3"
+dest_files=[ "res://.import/khata.mp3-b18cb7fb1350b7ef7e1ba6783cebf9ab.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

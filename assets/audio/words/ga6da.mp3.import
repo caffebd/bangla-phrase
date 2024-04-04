@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ga6da.mp3-7e14598611d7b8f9c700aead30c8520b.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ga6da.mp3"
+dest_files=[ "res://.import/ga6da.mp3-7e14598611d7b8f9c700aead30c8520b.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

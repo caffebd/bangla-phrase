@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ka6camric.mp3-f33aa194cb94828fd1a358de3ab5f290.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ka6camric.mp3"
+dest_files=[ "res://.import/ka6camric.mp3-f33aa194cb94828fd1a358de3ab5f290.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

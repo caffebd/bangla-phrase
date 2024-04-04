@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/deyal.mp3-69836b33746ce89540a21432c926425f.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/deyal.mp3"
+dest_files=[ "res://.import/deyal.mp3-69836b33746ce89540a21432c926425f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

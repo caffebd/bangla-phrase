@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/gru.mp3-03e2a7435f82402e65d877997908af4d.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/gru.mp3"
+dest_files=[ "res://.import/gru.mp3-03e2a7435f82402e65d877997908af4d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

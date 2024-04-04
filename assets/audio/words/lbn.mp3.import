@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/lbn.mp3-47b7ab890c3c14e9f128b1cff3010b59.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/lbn.mp3"
+dest_files=[ "res://.import/lbn.mp3-47b7ab890c3c14e9f128b1cff3010b59.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

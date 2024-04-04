@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ghr.mp3-0f0fb750f15394341fe5b775b567a15f.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ghr.mp3"
+dest_files=[ "res://.import/ghr.mp3-0f0fb750f15394341fe5b775b567a15f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

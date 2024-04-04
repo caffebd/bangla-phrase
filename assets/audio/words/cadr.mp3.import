@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/cadr.mp3-50304d536c652b153b7af2208b7b0866.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/cadr.mp3"
+dest_files=[ "res://.import/cadr.mp3-50304d536c652b153b7af2208b7b0866.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

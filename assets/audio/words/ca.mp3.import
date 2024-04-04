@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ca.mp3-64864b3f47d02fe301c234e3970fcf1e.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ca.mp3"
+dest_files=[ "res://.import/ca.mp3-64864b3f47d02fe301c234e3970fcf1e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

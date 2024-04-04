@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/balb.mp3-41e1d3140d91fa589e843ce5a810e678.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/balb.mp3"
+dest_files=[ "res://.import/balb.mp3-41e1d3140d91fa589e843ce5a810e678.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

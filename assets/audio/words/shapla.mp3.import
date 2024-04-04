@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/shapla.mp3-903dea694fa9a3579c3bb614f6e3cfbe.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/shapla.mp3"
+dest_files=[ "res://.import/shapla.mp3-903dea694fa9a3579c3bb614f6e3cfbe.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

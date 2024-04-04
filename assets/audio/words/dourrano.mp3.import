@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/dourrano.mp3-148f2149963e7114c3854c62d9e5f28c.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/dourrano.mp3"
+dest_files=[ "res://.import/dourrano.mp3-148f2149963e7114c3854c62d9e5f28c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

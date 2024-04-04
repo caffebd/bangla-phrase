@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/rekett.mp3-514d540f042cb3f2dd3caf5a28dd1eb3.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/rekett.mp3"
+dest_files=[ "res://.import/rekett.mp3-514d540f042cb3f2dd3caf5a28dd1eb3.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

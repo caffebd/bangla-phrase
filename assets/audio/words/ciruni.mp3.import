@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ciruni.mp3-bec92fb7bed30aa04439b83c1e94d8a9.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ciruni.mp3"
+dest_files=[ "res://.import/ciruni.mp3-bec92fb7bed30aa04439b83c1e94d8a9.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

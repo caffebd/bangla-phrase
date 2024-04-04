@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ga6dha.mp3-477e632730e45ab330e265fcd7763cd7.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ga6dha.mp3"
+dest_files=[ "res://.import/ga6dha.mp3-477e632730e45ab330e265fcd7763cd7.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

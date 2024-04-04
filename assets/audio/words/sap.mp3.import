@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/sap.mp3-4fa0b54d351c28f6382d89d6ed050d26.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/sap.mp3"
+dest_files=[ "res://.import/sap.mp3-4fa0b54d351c28f6382d89d6ed050d26.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

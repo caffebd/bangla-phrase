@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/monkey.png-da87286df0ad981080e79ad9f165c983.stex"
+path="res://.import/Monkey.png-708d8eb6f34ba0c85a6d6186956eb936.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/monkey.png"
-dest_files=[ "res://.import/monkey.png-da87286df0ad981080e79ad9f165c983.stex" ]
+source_file="res://assets/puzzle_images/Monkey.png"
+dest_files=[ "res://.import/Monkey.png-708d8eb6f34ba0c85a6d6186956eb936.stex" ]
 
 [params]
 

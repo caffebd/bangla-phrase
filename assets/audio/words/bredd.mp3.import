@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bredd.mp3-1886ca315f6a8b0dbc4a29d240aeb728.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/bredd.mp3"
+dest_files=[ "res://.import/bredd.mp3-1886ca315f6a8b0dbc4a29d240aeb728.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

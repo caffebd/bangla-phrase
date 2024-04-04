@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tto.png-7fc39f258d066f5962acb2a9ab982ea4.stex"
+path="res://.import/Tto.png-58e4e0045b1821dbb612ca6dd96f5d04.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/keyboard_letters/tto.png"
-dest_files=[ "res://.import/tto.png-7fc39f258d066f5962acb2a9ab982ea4.stex" ]
+source_file="res://assets/keyboard_letters/Tto.png"
+dest_files=[ "res://.import/Tto.png-58e4e0045b1821dbb612ca6dd96f5d04.stex" ]
 
 [params]
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=2]
+[gd_scene load_steps=39 format=2]
 
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://assets/puzzle_images/tomato.png" type="Texture" id=2]
@@ -34,6 +34,7 @@
 [ext_resource path="res://assets/ui/star_animated/Star0110.png" type="Texture" id=32]
 [ext_resource path="res://assets/ui/star_animated/Star0140.png" type="Texture" id=33]
 [ext_resource path="res://assets/ui/star_animated/Star0030.png" type="Texture" id=34]
+[ext_resource path="res://assets/audio/sfx/star_ver_1.mp3" type="AudioStream" id=35]
 
 [sub_resource type="DynamicFont" id=1]
 size = 100
@@ -119,6 +120,9 @@ frames = SubResource( 3 )
 animation = "spin"
 
 [node name="Tween" type="Tween" parent="."]
+
+[node name="StarSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 35 )
 
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
 [connection signal="tween_completed" from="Tween" to="." method="_on_Tween_tween_completed"]

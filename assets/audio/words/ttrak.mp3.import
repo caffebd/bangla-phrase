@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ttrak.mp3-5c458075b541fbefc16a748aaac907e5.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ttrak.mp3"
+dest_files=[ "res://.import/ttrak.mp3-5c458075b541fbefc16a748aaac907e5.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

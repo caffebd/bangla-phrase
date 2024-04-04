@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/peyara.mp3-fd1715dc2eb752246d8372ccbe183235.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/peyara.mp3"
+dest_files=[ "res://.import/peyara.mp3-fd1715dc2eb752246d8372ccbe183235.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

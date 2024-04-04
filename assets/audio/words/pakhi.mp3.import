@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pakhi.mp3-6441093de7cf826b3ae1bdfabb5c2999.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/pakhi.mp3"
+dest_files=[ "res://.import/pakhi.mp3-6441093de7cf826b3ae1bdfabb5c2999.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

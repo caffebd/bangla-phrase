@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ttiuboyel.mp3-782e94bbb22685fac59879029423d291.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ttiuboyel.mp3"
+dest_files=[ "res://.import/ttiuboyel.mp3-782e94bbb22685fac59879029423d291.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

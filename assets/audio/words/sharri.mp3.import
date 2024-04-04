@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/sharri.mp3-66a4bf7d36edf01ac9d6bd088dc70f96.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/sharri.mp3"
+dest_files=[ "res://.import/sharri.mp3-66a4bf7d36edf01ac9d6bd088dc70f96.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

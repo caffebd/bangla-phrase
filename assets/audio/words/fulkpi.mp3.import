@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/fulkpi.mp3-e44ac72f90fb802848d38e6d79062f25.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/fulkpi.mp3"
+dest_files=[ "res://.import/fulkpi.mp3-e44ac72f90fb802848d38e6d79062f25.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

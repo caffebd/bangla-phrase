@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/suu.png-3ad95c9731c816544f4a1586f26819a3.stex"
+path="res://.import/sUu.png-4ea6af3398649174739afca70779e666.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/keyboard_letters/suu.png"
-dest_files=[ "res://.import/suu.png-3ad95c9731c816544f4a1586f26819a3.stex" ]
+source_file="res://assets/keyboard_letters/sUu.png"
+dest_files=[ "res://.import/sUu.png-4ea6af3398649174739afca70779e666.stex" ]
 
 [params]
 

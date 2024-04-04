@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/frring.mp3-34548c4bcde032775a259baea12e4337.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/frring.mp3"
+dest_files=[ "res://.import/frring.mp3-34548c4bcde032775a259baea12e4337.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

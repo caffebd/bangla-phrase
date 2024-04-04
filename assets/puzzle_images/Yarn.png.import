@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/yarn.png-bed22d7773051da118d8b3db1bf1f64c.stex"
+path="res://.import/Yarn.png-0e22bc98180835e92d0c73c3f979ff5d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/yarn.png"
-dest_files=[ "res://.import/yarn.png-bed22d7773051da118d8b3db1bf1f64c.stex" ]
+source_file="res://assets/puzzle_images/Yarn.png"
+dest_files=[ "res://.import/Yarn.png-0e22bc98180835e92d0c73c3f979ff5d.stex" ]
 
 [params]
 

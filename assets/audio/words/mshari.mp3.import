@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mshari.mp3-5744953440a3543a829a8a3589f5c2f2.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/mshari.mp3"
+dest_files=[ "res://.import/mshari.mp3-5744953440a3543a829a8a3589f5c2f2.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

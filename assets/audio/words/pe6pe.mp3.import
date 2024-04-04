@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pe6pe.mp3-16f1900cc2a258445934ddc0cef4aca2.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/pe6pe.mp3"
+dest_files=[ "res://.import/pe6pe.mp3-16f1900cc2a258445934ddc0cef4aca2.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

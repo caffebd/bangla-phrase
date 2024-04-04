@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ayna.mp3-e787837438b467d335202b8f38ff0a20.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ayna.mp3"
+dest_files=[ "res://.import/ayna.mp3-e787837438b467d335202b8f38ff0a20.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

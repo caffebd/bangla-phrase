@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/jg.mp3-2ea6d2bb3c7c90dbd64d05e3c1f2e78b.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/jg.mp3"
+dest_files=[ "res://.import/jg.mp3-2ea6d2bb3c7c90dbd64d05e3c1f2e78b.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

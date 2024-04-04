@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/gach.mp3-b0bd59df9c9492f3c038a57eb55a6e11.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/gach.mp3"
+dest_files=[ "res://.import/gach.mp3-b0bd59df9c9492f3c038a57eb55a6e11.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

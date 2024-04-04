@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ddalim.mp3-2f3fde0b2d5d3525b7786835415cefbd.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ddalim.mp3"
+dest_files=[ "res://.import/ddalim.mp3-2f3fde0b2d5d3525b7786835415cefbd.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

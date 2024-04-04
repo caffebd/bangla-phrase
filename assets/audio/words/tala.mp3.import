@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/tala.mp3-9e437702f5bdc78c6134c5435ce7b73e.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/tala.mp3"
+dest_files=[ "res://.import/tala.mp3-9e437702f5bdc78c6134c5435ce7b73e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

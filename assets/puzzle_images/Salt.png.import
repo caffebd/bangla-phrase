@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/salt.png-ba0fa78414e730fd26e568de9fad52c4.stex"
+path="res://.import/Salt.png-930c6c3233b62683a625d1975dccadf3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/salt.png"
-dest_files=[ "res://.import/salt.png-ba0fa78414e730fd26e568de9fad52c4.stex" ]
+source_file="res://assets/puzzle_images/Salt.png"
+dest_files=[ "res://.import/Salt.png-930c6c3233b62683a625d1975dccadf3.stex" ]
 
 [params]
 

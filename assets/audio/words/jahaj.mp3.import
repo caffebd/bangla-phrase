@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/jahaj.mp3-efc84545c649dcb50e2eca0e2da5104f.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/jahaj.mp3"
+dest_files=[ "res://.import/jahaj.mp3-efc84545c649dcb50e2eca0e2da5104f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

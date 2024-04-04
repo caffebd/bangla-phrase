@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/suta.mp3-b13d04cc6aec26ac2ad94bce435b8186.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/suta.mp3"
+dest_files=[ "res://.import/suta.mp3-b13d04cc6aec26ac2ad94bce435b8186.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

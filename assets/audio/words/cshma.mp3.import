@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/cshma.mp3-a63f473fa9d6bc223003732fc753eccd.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/cshma.mp3"
+dest_files=[ "res://.import/cshma.mp3-a63f473fa9d6bc223003732fc753eccd.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

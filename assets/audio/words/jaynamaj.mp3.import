@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/jaynamaj.mp3-21840a0f946cd9e89dd91b9cbe688c43.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/jaynamaj.mp3"
+dest_files=[ "res://.import/jaynamaj.mp3-21840a0f946cd9e89dd91b9cbe688c43.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

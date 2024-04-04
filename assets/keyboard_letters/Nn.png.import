@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/nn.png-43797c1aa05fbc4d5c28b05a39cd6855.stex"
+path="res://.import/Nn.png-e45397eadf660f0a9385f2781777aa1f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/keyboard_letters/nn.png"
-dest_files=[ "res://.import/nn.png-43797c1aa05fbc4d5c28b05a39cd6855.stex" ]
+source_file="res://assets/keyboard_letters/Nn.png"
+dest_files=[ "res://.import/Nn.png-e45397eadf660f0a9385f2781777aa1f.stex" ]
 
 [params]
 

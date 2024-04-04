@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/alu.mp3-e4096e52ab473f8e937ba617e5021199.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/alu.mp3"
+dest_files=[ "res://.import/alu.mp3-e4096e52ab473f8e937ba617e5021199.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/blekbord.mp3-3059e55338cad8384c1569141ffa6150.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/blekbord.mp3"
+dest_files=[ "res://.import/blekbord.mp3-3059e55338cad8384c1569141ffa6150.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

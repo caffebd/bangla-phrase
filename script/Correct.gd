@@ -67,6 +67,7 @@ func _next_star():
 					
 
 func show_star(count: int):
+	$StarSound.play()
 	stars[count].visible = true
 	stars[count].play()
 	star_tween.interpolate_property(stars[count], "scale", Vector2(9,9), Vector2(4,4), 0.7, Tween.TRANS_LINEAR, Tween.EASE_IN_OUT)

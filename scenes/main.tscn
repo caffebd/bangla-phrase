@@ -1,4 +1,4 @@
-[gd_scene load_steps=37 format=2]
+[gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://assets/ui/ui_1080/Stop Button.png" type="Texture" id=1]
 [ext_resource path="res://script/main.gd" type="Script" id=2]
@@ -15,6 +15,7 @@
 [ext_resource path="res://assets/ui/ui_1080/Menu Button.png" type="Texture" id=13]
 [ext_resource path="res://assets/puzzle_images/tomato.png" type="Texture" id=14]
 [ext_resource path="res://assets/ui/ui_1080/Box Large.png" type="Texture" id=15]
+[ext_resource path="res://assets/audio/sfx/wrong_2.mp3" type="AudioStream" id=16]
 
 [sub_resource type="DynamicFont" id=7]
 font_data = ExtResource( 11 )
@@ -461,6 +462,10 @@ custom_fonts/font = SubResource( 24 )
 text = "1234"
 
 [node name="CorrectWord" type="AudioStreamPlayer" parent="."]
+
+[node name="IncorrectSound" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource( 16 )
 
 [connection signal="pressed" from="MenuButton" to="." method="_on_MenuButton_pressed"]
 [connection signal="timeout" from="GameTimer" to="." method="_on_GameTimer_timeout"]

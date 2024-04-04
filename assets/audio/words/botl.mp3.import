@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/botl.mp3-d4e6f52e020ee64835a2f81ff35efa5f.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/botl.mp3"
+dest_files=[ "res://.import/botl.mp3-d4e6f52e020ee64835a2f81ff35efa5f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

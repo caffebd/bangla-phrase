@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/suich.png-dcab6fc3ed09379787ae723806198007.stex"
+path="res://.import/Suich.png-e18a241fa39fd951d8d7046b137bb7ca.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/suich.png"
-dest_files=[ "res://.import/suich.png-dcab6fc3ed09379787ae723806198007.stex" ]
+source_file="res://assets/puzzle_images/Suich.png"
+dest_files=[ "res://.import/Suich.png-e18a241fa39fd951d8d7046b137bb7ca.stex" ]
 
 [params]
 

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ttelivishn.mp3-d254a592c1894ae84bf666f287b15405.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ttelivishn.mp3"
+dest_files=[ "res://.import/ttelivishn.mp3-d254a592c1894ae84bf666f287b15405.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

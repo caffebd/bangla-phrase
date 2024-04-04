@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/suic.mp3-edcbe6307a038052a0d660f3e78b2c1e.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/suic.mp3"
+dest_files=[ "res://.import/suic.mp3-edcbe6307a038052a0d660f3e78b2c1e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

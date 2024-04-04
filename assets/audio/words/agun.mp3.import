@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/agun.mp3-cddc60a8bfafa1a581ab8608decf8d7a.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/agun.mp3"
+dest_files=[ "res://.import/agun.mp3-cddc60a8bfafa1a581ab8608decf8d7a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

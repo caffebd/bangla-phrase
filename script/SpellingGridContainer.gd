@@ -58,7 +58,7 @@ func _delete_letter():
 		if "Spacer" in spelling_grid.get_child(empty_space).name:
 			empty_space = empty_space - 1
 		var letter_block = spelling_grid.get_child(empty_space)
-		letter_block.texture = load("res://assets/1080/Single box.png")
+		letter_block.texture = load("res://assets/ui/ui_1080/Box Large.png")
 		letter_block.my_letter = ""
 
 func _delete_all_letters():
@@ -66,7 +66,7 @@ func _delete_all_letters():
 		empty_space = 0
 		for block in spelling_grid.get_children():
 			if !"Spacer" in block.name:
-				block.texture = load("res://assets/1080/Single box.png")
+				block.texture = load("res://assets/ui/ui_1080/Box Large.png")
 				block.my_letter = ""
 
 func _check_answer():
@@ -87,6 +87,7 @@ func _check_answer():
 			
 #			get_tree().change_scene("res://scenes/Correct.tscn")
 		else:
+			$"%IncorrectSound".play()
 			_delete_all_letters()
 			GlobalSignals.emit_signal("next_guess")
 	else:

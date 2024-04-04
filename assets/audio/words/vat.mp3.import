@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/vat.mp3-d951e69e4c86322d304a62c6cbb30484.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/vat.mp3"
+dest_files=[ "res://.import/vat.mp3-d951e69e4c86322d304a62c6cbb30484.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

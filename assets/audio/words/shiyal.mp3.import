@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/shiyal.mp3-c4330d6d9c343a039f2e68a7e7f1183d.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/shiyal.mp3"
+dest_files=[ "res://.import/shiyal.mp3-c4330d6d9c343a039f2e68a7e7f1183d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

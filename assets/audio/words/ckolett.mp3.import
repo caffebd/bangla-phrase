@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ckolett.mp3-fa11f3af422a97bd42fefbff2b46c855.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ckolett.mp3"
+dest_files=[ "res://.import/ckolett.mp3-fa11f3af422a97bd42fefbff2b46c855.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

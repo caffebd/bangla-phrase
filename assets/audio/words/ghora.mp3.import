@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ghora.mp3-9e32890f7c5e63f29c554618bec50c9d.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/ghora.mp3"
+dest_files=[ "res://.import/ghora.mp3-9e32890f7c5e63f29c554618bec50c9d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

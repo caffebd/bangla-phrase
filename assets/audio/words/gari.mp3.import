@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/gari.mp3-497b39468aef0fce1664790ae66d5979.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/gari.mp3"
+dest_files=[ "res://.import/gari.mp3-497b39468aef0fce1664790ae66d5979.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

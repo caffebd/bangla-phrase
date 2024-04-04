@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/besin.mp3-768f91b7aba48170f3f902f8e710763c.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/besin.mp3"
+dest_files=[ "res://.import/besin.mp3-768f91b7aba48170f3f902f8e710763c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

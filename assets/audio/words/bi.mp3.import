@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bi.mp3-f4b4d5e47f8c3a1eaf90b6ff2db43c50.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/bi.mp3"
+dest_files=[ "res://.import/bi.mp3-f4b4d5e47f8c3a1eaf90b6ff2db43c50.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

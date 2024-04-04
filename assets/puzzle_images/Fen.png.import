@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fen.png-1d1ab115d76326e810a94cbede4ed98f.stex"
+path="res://.import/Fen.png-58df1c98f3550e933108220592548162.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/fen.png"
-dest_files=[ "res://.import/fen.png-1d1ab115d76326e810a94cbede4ed98f.stex" ]
+source_file="res://assets/puzzle_images/Fen.png"
+dest_files=[ "res://.import/Fen.png-58df1c98f3550e933108220592548162.stex" ]
 
 [params]
 

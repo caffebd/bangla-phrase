@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/birral.mp3-ceb00f85edff96f257902db3db020260.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/birral.mp3"
+dest_files=[ "res://.import/birral.mp3-ceb00f85edff96f257902db3db020260.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

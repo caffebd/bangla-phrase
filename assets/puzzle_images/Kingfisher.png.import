@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/kingfisher.png-abf30fa7280ce2ad027d032ce5ef1dae.stex"
+path="res://.import/Kingfisher.png-9d214375d77326f3288796e2a036c43b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/kingfisher.png"
-dest_files=[ "res://.import/kingfisher.png-abf30fa7280ce2ad027d032ce5ef1dae.stex" ]
+source_file="res://assets/puzzle_images/Kingfisher.png"
+dest_files=[ "res://.import/Kingfisher.png-9d214375d77326f3288796e2a036c43b.stex" ]
 
 [params]
 

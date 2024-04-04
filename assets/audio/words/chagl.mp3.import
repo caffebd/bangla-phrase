@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/chagl.mp3-eea897d80485320099cc0760cd990d76.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/chagl.mp3"
+dest_files=[ "res://.import/chagl.mp3-eea897d80485320099cc0760cd990d76.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

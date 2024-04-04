@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/istri.mp3-ed7b2307d8040b044331c164b83e8a32.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/istri.mp3"
+dest_files=[ "res://.import/istri.mp3-ed7b2307d8040b044331c164b83e8a32.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

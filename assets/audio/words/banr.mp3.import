@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/banr.mp3-e3be8ed59af7dfff019c30c2d2579238.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/banr.mp3"
+dest_files=[ "res://.import/banr.mp3-e3be8ed59af7dfff019c30c2d2579238.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

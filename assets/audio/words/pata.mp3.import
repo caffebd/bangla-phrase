@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pata.mp3-ac90f440b732e628499272dc55b3dc4e.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/pata.mp3"
+dest_files=[ "res://.import/pata.mp3-ac90f440b732e628499272dc55b3dc4e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

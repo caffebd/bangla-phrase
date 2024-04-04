@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/dab.mp3-2810e059afb271532335ad3aba58f3bd.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/dab.mp3"
+dest_files=[ "res://.import/dab.mp3-2810e059afb271532335ad3aba58f3bd.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
