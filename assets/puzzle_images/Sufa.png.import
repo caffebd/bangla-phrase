@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sufa.png-2f5b0a787199c3077de47e5e0cbc42c6.stex"
+path="res://.import/sufa.png-70763968a2c86a6ef44d652d38574604.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Sufa.png"
-dest_files=[ "res://.import/Sufa.png-2f5b0a787199c3077de47e5e0cbc42c6.stex" ]
+source_file="res://assets/puzzle_images/sufa.png"
+dest_files=[ "res://.import/sufa.png-70763968a2c86a6ef44d652d38574604.stex" ]
 
 [params]
 

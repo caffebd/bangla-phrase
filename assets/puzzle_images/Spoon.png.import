@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Spoon.png-2b165b008f4d394c10378552d35e8c1d.stex"
+path="res://.import/spoon.png-efc44fc441f91aabaf80a8956d2c2a3c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Spoon.png"
-dest_files=[ "res://.import/Spoon.png-2b165b008f4d394c10378552d35e8c1d.stex" ]
+source_file="res://assets/puzzle_images/spoon.png"
+dest_files=[ "res://.import/spoon.png-efc44fc441f91aabaf80a8956d2c2a3c.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Eagle.png-18f81502a3c7a6636f215d6390ac0688.stex"
+path="res://.import/eagle.png-770e5ec5362da84d6e31ad9aa6801ba4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Eagle.png"
-dest_files=[ "res://.import/Eagle.png-18f81502a3c7a6636f215d6390ac0688.stex" ]
+source_file="res://assets/puzzle_images/eagle.png"
+dest_files=[ "res://.import/eagle.png-770e5ec5362da84d6e31ad9aa6801ba4.stex" ]
 
 [params]
 

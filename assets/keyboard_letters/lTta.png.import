@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lTta.png-92013f34254279f909aa46aa63758df3.stex"
+path="res://.import/ltta.png-75e6ad633847f557480ec37c7d189f97.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/keyboard_letters/lTta.png"
-dest_files=[ "res://.import/lTta.png-92013f34254279f909aa46aa63758df3.stex" ]
+source_file="res://assets/keyboard_letters/ltta.png"
+dest_files=[ "res://.import/ltta.png-75e6ad633847f557480ec37c7d189f97.stex" ]
 
 [params]
 

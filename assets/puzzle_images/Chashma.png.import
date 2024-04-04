@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Chashma.png-68450cefc1f3c34982c6be0159450a92.stex"
+path="res://.import/chashma.png-e803810c2c589b7d78b790f2bb3a9b85.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Chashma.png"
-dest_files=[ "res://.import/Chashma.png-68450cefc1f3c34982c6be0159450a92.stex" ]
+source_file="res://assets/puzzle_images/chashma.png"
+dest_files=[ "res://.import/chashma.png-e803810c2c589b7d78b790f2bb3a9b85.stex" ]
 
 [params]
 

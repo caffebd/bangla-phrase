@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Egg.png-54ca1a5402ed898851056016fd0f86b0.stex"
+path="res://.import/egg.png-c0842b6c06f19b0c37984d2467baea5b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Egg.png"
-dest_files=[ "res://.import/Egg.png-54ca1a5402ed898851056016fd0f86b0.stex" ]
+source_file="res://assets/puzzle_images/egg.png"
+dest_files=[ "res://.import/egg.png-c0842b6c06f19b0c37984d2467baea5b.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Book.png-ec35ad534e7b80f2556baf9e74249fef.stex"
+path="res://.import/book.png-822c46c9442e056212a0a2506dcd399e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Book.png"
-dest_files=[ "res://.import/Book.png-ec35ad534e7b80f2556baf9e74249fef.stex" ]
+source_file="res://assets/puzzle_images/book.png"
+dest_files=[ "res://.import/book.png-822c46c9442e056212a0a2506dcd399e.stex" ]
 
 [params]
 

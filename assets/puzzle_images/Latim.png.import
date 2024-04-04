@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Latim.png-b859d2c75ea0112807807ae1350f3131.stex"
+path="res://.import/latim.png-b223d32af039a58e429d4e3f1d4d20ce.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Latim.png"
-dest_files=[ "res://.import/Latim.png-b859d2c75ea0112807807ae1350f3131.stex" ]
+source_file="res://assets/puzzle_images/latim.png"
+dest_files=[ "res://.import/latim.png-b223d32af039a58e429d4e3f1d4d20ce.stex" ]
 
 [params]
 

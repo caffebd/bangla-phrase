@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Marigold.png-d7daad0b83b441d3dbef57dba7bf6e73.stex"
+path="res://.import/marigold.png-d39eed21491f6fae4f08dd9eacb2b2f4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/Marigold.png"
-dest_files=[ "res://.import/Marigold.png-d7daad0b83b441d3dbef57dba7bf6e73.stex" ]
+source_file="res://assets/puzzle_images/marigold.png"
+dest_files=[ "res://.import/marigold.png-d39eed21491f6fae4f08dd9eacb2b2f4.stex" ]
 
 [params]
 

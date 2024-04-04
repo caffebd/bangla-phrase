@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tea.png-10d94a52c1170e2bcc184cc8efb2d199.stex"
+path="res://.import/harmoniam.png-0a37186808595380881b844aa5395c1a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/puzzle_images/tea.png"
-dest_files=[ "res://.import/tea.png-10d94a52c1170e2bcc184cc8efb2d199.stex" ]
+source_file="res://assets/puzzle_images/harmoniam.png"
+dest_files=[ "res://.import/harmoniam.png-0a37186808595380881b844aa5395c1a.stex" ]
 
 [params]
 
