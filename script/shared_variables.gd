@@ -191,7 +191,7 @@ var word_images = {
 	"sofa": preload("res://assets/puzzle_images/sufa.png"),
 	"suic": preload("res://assets/puzzle_images/suich.png"),
 	"tbla": preload("res://assets/puzzle_images/tabla.png"),
-	"ca": preload("res://assets/puzzle_images/tea.png"),
+	"ca": preload("res://assets/puzzle_images/tealeaf.png"),
 	"ttrak": preload("res://assets/puzzle_images/truck.png"),
 	
 	
@@ -256,7 +256,7 @@ var word_images = {
 	"ttiya": preload("res://assets/puzzle_images/tia_bird.png"),
 	"ttiuboyel": preload("res://assets/puzzle_images/tube_well.png"),
 	"shapla": preload("res://assets/puzzle_images/water_lily.png"),
-	"tthelagarri": preload("res://assets/puzzle_images/thelaGari.png"),
+	"tthelagarri": preload("res://assets/puzzle_images/wheelbarrow.png"),
 	"fRring": preload("res://assets/puzzle_images/dargon_Fly.png"),
 	"machi": preload("res://assets/puzzle_images/fly.png"),
 	"shhidminar": preload("res://assets/puzzle_images/shohid_minar.png"),
