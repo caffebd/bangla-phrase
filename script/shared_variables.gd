@@ -667,7 +667,25 @@ var test_levels = {
 	},
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 #	Medium level -------------------------
+
+	"ddesk":{
+		"spelling":["dde", "sk"],
+		"keyboard":[ "l","shi", "sk", "dda", "ga","dde","g","ra","m","na"]
+	},
 
 	"shim":{
 		"spelling":["shi", "m"],
@@ -679,11 +697,7 @@ var test_levels = {
 		"keyboard":["ga","n", "bi", "gh","b","cha","m","kh","k","na"]
 	},
 	
-	"ddesk":{
-		"spelling":["dde", "sk"],
-		"keyboard":[ "l","shi", "sk", "dda", "ga","dde","g","ra","m","na"]
-	},
-	
+
 	"ckolett":{
 		"spelling":["c", "ko", "le", "tt"],
 		"keyboard":["ga", "ko","m","c","b","k","tt", "gh","le","nn"]
@@ -718,6 +732,36 @@ var test_levels = {
 		"keyboard":["va","k", "s", "sha","p","li", "rt", "gh","m","r"]
 	},
 	
+	
+	"projapti":{
+		"spelling":["pro", "ja", "p", "ti"],
+		"keyboard":["p","", "r", "sha","ja", "gh","m","pro", "rt","ti"]
+	},
+	
+	"botl":{
+		"spelling":["bo", "t", "l"],
+		"keyboard":[ "l","shi", "sk", "dda", "ga","dde","g","ra","m","na"]
+	},
+	
+	"balb":{
+		"spelling":["ba","lb"], 
+		"keyboard":["o","i","ti","ko","bo","te","so","lb", "l", "ba"]
+	},
+	
+	"garri":{
+		"spelling":["ga","rri"], 
+		"keyboard":["i","ku","ga","o","bo","ne","de","rri", "rd", "lp"]
+	},
+	
+	"fulkpi":{
+		"spelling":["fu", "l", "k", "pi"], 
+		"keyboard":["na","mo","k","si","pi","ne","l","i", "fu", "p"]
+	},
+	
+	"ciruni":{
+		"spelling":["ci", "ru", "ni"],
+		"keyboard":[ "gh", "ni", "cha", "ci", "kh", "k", "ga", "ru", "bi", "na"]
+	},
 	
 	
 	
