@@ -37,11 +37,11 @@ var word_audio = {
 	"baks": preload("res://assets/audio/words/baks.mp3"),
 	"balti": preload("res://assets/audio/words/balti.mp3"),
 	"ghrri": preload("res://assets/audio/words/ghrri.mp3"),
-	"dab": preload("res://assets/audio/words/dab.mp3"),
+	"ddab": preload("res://assets/audio/words/dab.mp3"),
 	"gru": preload("res://assets/audio/words/gru.mp3"),
 	"hrinn": preload("res://assets/audio/words/hrinn.mp3"),
-	"desk": preload("res://assets/audio/words/desk.mp3"),
-	"dim": preload("res://assets/audio/words/dim.mp3"),
+	"ddesk": preload("res://assets/audio/words/desk.mp3"),
+	"ddim": preload("res://assets/audio/words/dim.mp3"),
 	"ghr": preload("res://assets/audio/words/ghr.mp3"),
 	"jg": preload("res://assets/audio/words/jg.mp3"),
 	"am": preload("res://assets/audio/words/am.mp3"),
@@ -74,8 +74,8 @@ var word_audio = {
 	"projapti": preload("res://assets/audio/words/projapti.mp3"),
 	"botl": preload("res://assets/audio/words/botl.mp3"),
 	"balb": preload("res://assets/audio/words/balb.mp3"),
-	"bargar": preload("res://assets/audio/words/bargar.mp3"),
-	"gari": preload("res://assets/audio/words/gari.mp3"),
+	"barrgar": preload("res://assets/audio/words/bargar.mp3"),
+	"garri": preload("res://assets/audio/words/gari.mp3"),
 	"birral": preload("res://assets/audio/words/birral.mp3"),
 	"fulkpi": preload("res://assets/audio/words/fulkpi.mp3"),
 	"cshma": preload("res://assets/audio/words/cshma.mp3"),
@@ -199,8 +199,8 @@ var word_images = {
 	"projapti": preload("res://assets/puzzle_images/baterfly.png"),
 	"botl": preload("res://assets/puzzle_images/bottle.png"),
 	"balb": preload("res://assets/puzzle_images/bulb.png"),
-	"bargar": preload("res://assets/puzzle_images/burger.png"),
-	"gari": preload("res://assets/puzzle_images/car.png"),
+	"barrgar": preload("res://assets/puzzle_images/burger.png"),
+	"garri": preload("res://assets/puzzle_images/car.png"),
 	"birral": preload("res://assets/puzzle_images/cat.png"),
 	"fulkpi": preload("res://assets/puzzle_images/cauliflower.png"),
 	"cshma": preload("res://assets/puzzle_images/chashma.png"),
@@ -314,6 +314,7 @@ var keyboard_letters = {
 	"cha": preload("res://assets/keyboard_letters/cha.png"),
 	"cu": preload("res://assets/keyboard_letters/cu.png"),
 	"d": preload("res://assets/keyboard_letters/d.png"),
+	"da": preload("res://assets/keyboard_letters/da.png"),
 	"dda": preload("res://assets/keyboard_letters/dda.png"),
 	"de": preload("res://assets/keyboard_letters/de.png"),
 	"dde": preload("res://assets/keyboard_letters/dde.png"),
@@ -524,7 +525,7 @@ var test_levels = {
 
 	"ddesk":{
 		"spelling":["dde", "sk"],
-		"keyboard":[ "l","shi", "sk", "da", "ga","dde","g","ra","m","na"]
+		"keyboard":[ "l","shi", "sk", "dda", "ga","dde","g","ra","m","na"]
 	},
 
 	"ddim":{
@@ -652,9 +653,32 @@ var test_levels = {
 		"keyboard":["pa","s", "su", "m", "ke","c","fa","i", "p","ja",]
 	},
 	
-
-
-
+	"tbla":{
+		"spelling":["t", "b", "la"],
+		"keyboard":["mu","k", "s", "b","p","la", "rt", "gh","t","r"]
+	},
+	
+	"ca*pata":{
+		"spelling":["ca", "*", "pa", "ta"],
+		"keyboard":["va","k", "s", "sha","p","li", "rt", "gh","m","r"]
+	},
+	
+	"trak":{
+		"spelling":["tra", "k"],
+		"keyboard":["mu","k", "s", "b","p","la", "rt", "gh","t","r"]
+	},
+	
+	"valluk":{
+		"spelling":["va", "llu", "k"],
+		"keyboard":["li","nga", "va", "b","k","la", "rt", "llu","tt","re"]
+	},
+	
+	"barrgar":{
+		"spelling":["ba", "rrga", "r"],
+		"keyboard":["sh","l", "rrga", "p","ba","la", "r", "tt","si","o"]
+	},
+	
+	
 
 }
 
