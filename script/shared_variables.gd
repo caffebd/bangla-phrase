@@ -474,7 +474,7 @@ var test_levels = {
 
 	"beg":{
 		"spelling":["be", "g"],
-		"keyboard":["rri", "g","e","me", "pa", "be", "b","m","na", "re"]
+		"keyboard":["rri", "g", "e", "me", "pa", "be", "b", "m", "na", "re"]
 	},
 
 	"shim":{
@@ -640,6 +640,16 @@ var test_levels = {
 	"camc":{
 		"spelling":["ca", "m", "c"],
 		"keyboard":["d","ra", "m","f","ca","mi","dd", "c", "n", "ii"]
+	},
+	
+	"sofa":{
+		"spelling":["so", "fa"],
+		"keyboard":["c","la", "sh", "so", "ke","m","fa","ta", "p","ja",]
+	},
+	
+	"suic":{
+		"spelling":["su", "i", "c"],
+		"keyboard":["pa","s", "su", "m", "ke","c","fa","i", "p","ja",]
 	},
 	
 
