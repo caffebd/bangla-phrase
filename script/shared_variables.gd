@@ -663,9 +663,9 @@ var test_levels = {
 		"keyboard":["va","k", "s", "sha","p","li", "rt", "gh","m","r"]
 	},
 	
-	"trak":{
-		"spelling":["tra", "k"],
-		"keyboard":["mu","k", "s", "b","p","la", "rt", "gh","t","r"]
+	"ttrak":{
+		"spelling":["ttra", "k"],
+		"keyboard":["mu","k", "s", "b","p","la", "rt", "gh","ttra","r"]
 	},
 	
 	"valluk":{
@@ -678,6 +678,20 @@ var test_levels = {
 		"keyboard":["sh","l", "rrga", "p","ba","la", "r", "tt","si","o"]
 	},
 	
+	"birral":{
+		"spelling":["bi", "rra", "l"],
+		"keyboard":["t","p", "l", "tta","bi","la", "rt", "rra","r","la"]
+	},
+	
+	"cshma":{
+		"spelling":["c", "sh", "ma"],
+		"keyboard":["de","tt", "sh","prri","c","i","bi", "ma", "k", "r",]
+	},
+	
+	"drja":{
+		"spelling":["d", "r", "ja"],
+		"keyboard":["te","t", "thi","ca","ja","i","bi", "p", "r", "k",]
+	},
 	
 
 }
