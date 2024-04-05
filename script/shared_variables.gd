@@ -162,11 +162,11 @@ var word_images = {
 	"baks": preload("res://assets/puzzle_images/box.png"),
 	"balti": preload("res://assets/puzzle_images/bucket_2.png"),
 	"ghrri": preload("res://assets/puzzle_images/clock.png"),
-	"dab": preload("res://assets/puzzle_images/coconut.png"),
+	"ddab": preload("res://assets/puzzle_images/coconut.png"),
 	"gru": preload("res://assets/puzzle_images/cow.png"),
 	"hrinn": preload("res://assets/puzzle_images/deer.png"),
-	"desk": preload("res://assets/puzzle_images/desk.png"),
-	"dim": preload("res://assets/puzzle_images/egg.png"),
+	"ddesk": preload("res://assets/puzzle_images/desk.png"),
+	"ddim": preload("res://assets/puzzle_images/egg.png"),
 	"ghr": preload("res://assets/puzzle_images/home.png"),
 	"jg": preload("res://assets/puzzle_images/jug.png"),
 	"am": preload("res://assets/puzzle_images/mango.png"),
@@ -191,7 +191,7 @@ var word_images = {
 	"sofa": preload("res://assets/puzzle_images/sufa.png"),
 	"suic": preload("res://assets/puzzle_images/suich.png"),
 	"tbla": preload("res://assets/puzzle_images/tabla.png"),
-	"ca": preload("res://assets/puzzle_images/tealeaf.png"),
+	"ca*pata": preload("res://assets/puzzle_images/tealeaf.png"),
 	"ttrak": preload("res://assets/puzzle_images/truck.png"),
 	
 	
@@ -394,7 +394,7 @@ var keyboard_letters = {
 	"fu": preload("res://assets/keyboard_letters/fu.png"),
 	"gi": preload("res://assets/keyboard_letters/gi.png"),
 	"ha6": preload("res://assets/keyboard_letters/ha6.png"),
-	"Ii": preload("res://assets/keyboard_letters/ii.png"),
+	"ii": preload("res://assets/keyboard_letters/ii.png"),
 	"ju": preload("res://assets/keyboard_letters/ju.png"),
 	"llu": preload("res://assets/keyboard_letters/llu.png"),
 	"mu": preload("res://assets/keyboard_letters/mu.png"),
@@ -460,7 +460,8 @@ var keyboard_letters = {
 
 var test_levels = {
 	
-
+#	Easy levels-----
+	
 	"bl":{
 		"spelling":["b","l"],
 		"keyboard":["g","n", "ca", "l","cha","ba", "b", "m","n","s"]
@@ -506,9 +507,9 @@ var test_levels = {
 		"keyboard":["g","ra", "cha", "l","shi","rri", "ba", "gh","m","na"]
 	},
 
-	"dab":{
-		"spelling":["da", "b"],
-		"keyboard":["g","ra", "b", "l","shi","rrga", "da", "ga","m","na"]
+	"ddab":{
+		"spelling":["dda", "b"],
+		"keyboard":["g","ra", "b", "l","shi","rrga", "dda", "ga","m","na"]
 	},
 
 	"gru":{
@@ -521,14 +522,14 @@ var test_levels = {
 		"keyboard":["ga","ri","m","na", "bi","h", "gh","b","k","nn"]
 	},
 
-	"desk":{
-		"spelling":["de", "sk"],
-		"keyboard":[ "l","shi", "sk", "da", "ga","de","g","ra","m","na"]
+	"ddesk":{
+		"spelling":["dde", "sk"],
+		"keyboard":[ "l","shi", "sk", "da", "ga","dde","g","ra","m","na"]
 	},
 
-	"dim":{
-		"spelling":["di", "m"],
-		"keyboard":["na","h","g","m", "be", "di","c","ks", "cha", "l"]
+	"ddim":{
+		"spelling":["ddi", "m"],
+		"keyboard":["na","h","g","m", "be", "ddi","c","ks", "cha", "l"]
 	},
 
 	"ghr":{
@@ -548,7 +549,7 @@ var test_levels = {
 
 	"plett":{
 		"spelling":["ple", "tt"],
-		"keyboard":[ "b", "l","tt","g","ra","ple", "da", "ga","m","na"]
+		"keyboard":[ "b", "l","tt","g","ra","ple", "dda", "ga","m","na"]
 	},
 
 	"gach":{
@@ -565,7 +566,7 @@ var test_levels = {
 
 	"blekbord":{
 		"spelling":["ble", "k", "bo", "rd",],
-		"keyboard":["g","ra", "k", "l","ble","Rri", "bo", "gh","m","rd"]
+		"keyboard":["g","ra", "k", "l","ble","rri", "bo", "gh","m","rd"]
 	},
 
 
@@ -624,6 +625,23 @@ var test_levels = {
 		"spelling":["l", "b", "n"],
 		"keyboard":["f","n", "ju","c","b","g","m", "sh", "kha", "l"]
 	},
+	
+	
+	"shart":{
+		"spelling":["sha", "rt"],
+		"keyboard":["va","k", "s", "sha","p","li", "rt", "gh","m","r"]
+	},
+	
+	"juta":{
+		"spelling":["ju", "ta"],
+		"keyboard":["no","ku", "sh", "ju", "gh","h","p","ta", "c","m",]
+	},
+	
+	"camc":{
+		"spelling":["ca", "m", "c"],
+		"keyboard":["d","ra", "m","f","ca","mi","dd", "c", "n", "ii"]
+	},
+	
 
 
 
