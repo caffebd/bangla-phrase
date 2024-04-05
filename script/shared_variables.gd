@@ -763,6 +763,10 @@ var test_levels = {
 		"keyboard":[ "gh", "ni", "cha", "ci", "kh", "k", "ga", "ru", "bi", "na"]
 	},
 	
+	"almari":{
+		"spelling":["a", "l", "ma", "ri"],
+		"keyboard":[ "ci", "ri", "k","ma","k","a","pi", "l", "bi", "na"]
+	},
 	
 	
 	
