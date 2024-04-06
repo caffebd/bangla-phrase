@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/score.png-9419739e04e09d3783fba56a3b9e184f.stex"
+path="res://.import/signout.png-f7a2d044233fcfeb602164029184168f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui/buttons_bangla/score.png"
-dest_files=[ "res://.import/score.png-9419739e04e09d3783fba56a3b9e184f.stex" ]
+source_file="res://assets/ui/buttons_bangla/signout.png"
+dest_files=[ "res://.import/signout.png-f7a2d044233fcfeb602164029184168f.stex" ]
 
 [params]
 
