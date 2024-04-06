@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/s_background2.png-fff399bac90d878584eb98bd5ebb4968.stex"
+path="res://.import/back_btn3.png-d74e7f09bc9ca88d2ac1487c03888ab6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu/s_background2.png"
-dest_files=[ "res://.import/s_background2.png-fff399bac90d878584eb98bd5ebb4968.stex" ]
+source_file="res://assets/ui/buttons_bangla/back_btn3.png"
+dest_files=[ "res://.import/back_btn3.png-d74e7f09bc9ca88d2ac1487c03888ab6.stex" ]
 
 [params]
 
