@@ -146,7 +146,7 @@ var word_audio = {
 	"alu": preload("res://assets/audio/words/alu.mp3"),
 	"pakhi": preload("res://assets/audio/words/pakhi.mp3"),
 	"rekett": preload("res://assets/audio/words/rekett.mp3"),
-#	"kamranga": preload("res://assets/audio/words/kamranga.mp3"),
+	"kamranga": preload("res://assets/audio/words/kamranga.mp3"),
 
 	"bri": preload("res://assets/audio/words/boroi.mp3"),
 	"kukur": preload("res://assets/audio/words/kukur.mp3"),
