@@ -115,7 +115,7 @@ var word_audio = {
 	"ka6camric": preload("res://assets/audio/words/ka6camric.mp3"),
 	"istri": preload("res://assets/audio/words/istri.mp3"),
 	"rajha6s": preload("res://assets/audio/words/rajha6s.mp3"),
-	"latim": preload("res://assets/audio/words/latim.mp3"),
+	"lattim": preload("res://assets/audio/words/latim.mp3"),
 	"singh": preload("res://assets/audio/words/singh.mp3"),
 	"khata": preload("res://assets/audio/words/khata.mp3"),
 	"pe6pe": preload("res://assets/audio/words/pe6pe.mp3"),
@@ -247,7 +247,7 @@ var word_images = {
 	"ka6camric": preload("res://assets/puzzle_images/greenchillies.png"),
 	"istri": preload("res://assets/puzzle_images/iron.png"),
 	"rajha6s": preload("res://assets/puzzle_images/kingfisher.png"),
-	"latim": preload("res://assets/puzzle_images/latim.png"),
+	"lattim": preload("res://assets/puzzle_images/latim.png"),
 	"singh": preload("res://assets/puzzle_images/lion.png"),
 	"khata": preload("res://assets/puzzle_images/noteBook.png"),
 	"pe6pe": preload("res://assets/puzzle_images/papaya.png"),
@@ -264,7 +264,7 @@ var word_images = {
 	"ttiuboyel": preload("res://assets/puzzle_images/tube_well.png"),
 	"shapla": preload("res://assets/puzzle_images/water_lily.png"),
 	"tthelagarri": preload("res://assets/puzzle_images/wheelbarrow.png"),
-	"fRring": preload("res://assets/puzzle_images/dargon_Fly.png"),
+	"frring": preload("res://assets/puzzle_images/dargon_fly.png"),
 	"machi": preload("res://assets/puzzle_images/fly.png"),
 	"shhidminar": preload("res://assets/puzzle_images/shohid_minar.png"),
 	"janala": preload("res://assets/puzzle_images/window.png"),
@@ -476,7 +476,7 @@ var keyboard_letters = {
 var test_levels = {
 	
 #	Easy levels-----
-	
+
 	"bl":{
 		"spelling":["b","l"],
 		"keyboard":["g","n", "ca", "l","cha","ba", "b", "m","n","s"]
@@ -679,12 +679,6 @@ var test_levels = {
 		"spelling":["va", "t"],
 		"keyboard":[ "l","cha","g","n", "ca", "n","s","ba", "b", "m"]
 	},
-	
-	
-	
-	
-	
-	
 	
 
 	
@@ -905,8 +899,6 @@ var test_levels = {
 	
 	
 	
-	
-	
 #	Hard Level --------------------------------------------
 	
 	"gajr":{
@@ -939,7 +931,179 @@ var test_levels = {
 		"keyboard":["ha6","tt", "s","prri","c","i","j", "ma", "k", "ra",]
 	},
 	
+	"lattim":{
+		"spelling":["la", "tti", "m"],
+		"keyboard":["fu", "tti", "ssh", "a", "la", "rri", "ba", "dh", "m", "na"]
+	},
 	
+	"singh":{
+		"spelling":["si", "ng", "h"],
+		"keyboard":["so","h", "g","ya","ng","go","m", "si", "e", "l"]
+	},
+	
+	"khata":{
+		"spelling":["kha","ta"],
+		"keyboard":["p", "ba", "g","kha","ra", "ch", "ta","ru","ga","na"]
+	},
+	
+	"pe6pe":{
+		"spelling":["pe6", "pe"],
+		"keyboard":["la","pe", "sh", "so", "ke","m","fa","ta", "pe6","ja",]
+	},
+	
+	"klm":{
+		"spelling":["k", "l", "m"],
+		"keyboard":["f","na", "k","ta","b","g","m", "sh", "kha", "l"]
+	},
+	
+	"ddalim":{
+		"spelling":["dda", "li", "m"],
+		"keyboard":[ "li","cha","g","n", "dda", "n","s","ba", "b", "m"]
+	},
+	
+	"golap":{
+		"spelling":["go", "la", "p"],
+		"keyboard":["ga","p","ri", "bi","la", "m", "na", "go", "k", "nn"]
+	},
+	
+	"dourrano":{
+		"spelling":["dou", "rra", "no"],
+		"keyboard":["ke","dou", "ii", "ple", "no", "c", "fa", "rra", "j","pa",]
+	},
+	
+	"sharri":{
+		"spelling":["sha", "rri"],
+		"keyboard":[ "ci", "ri", "k","ma","sha","a","rri", "l", "bi", "na"]
+	},
+	
+	"cadr":{
+		"spelling":["ca", "d", "r"],
+		"keyboard":["g", "r", "ca","a","cha","n", "d", "m","n","s"]
+	},
+	
+	"besin":{
+		"spelling":["be", "si", "n"], 
+		"keyboard":["si","ku","ga","o","be","n","de","rri", "rd", "lp"]
+	},
+	
+	"ttiya":{
+		"spelling":["tti", "ya"],
+		"keyboard":["li","ya", "va", "b","k","la", "rt", "llu","tti","re"]
+	},
+	
+	"ttiuboyel":{
+		"spelling":["tti", "u", "b", "*", "o", "ye", "l"],
+		"keyboard":["ye","k", "b", "tti","o","li", "rt", "u","l","r"]
+	},
+	
+	"shapla":{
+		"spelling":["sha", "p", "la"],
+		"keyboard":["te","t", "sha","ca","la","i","bi", "p", "r", "k",]
+	},
+	
+	"tthelagarri":{
+		"spelling":["tthe", "la", "ga", "rri"],
+		"keyboard":["ga","ci", "la","f","ra","tthe","dd", "ya", "rri", "ii"]
+	},
+	
+	"frring":{
+		"spelling":["f", "rri", "ng"],
+		"keyboard":["so","a", "rri","ya","f","go","m", "ng", "e", "l"]
+	},
+	
+	"machi":{
+		"spelling":["ma", "chi"],
+		"keyboard":["ku","dda", "ma","ta","li","dii","chi", "la", "tt", "t",]
+	},
+	
+	
+	"shhidminar":{
+		"spelling":["sh", "hi", "d", "*", "mi", "na", "r"], 
+		"keyboard":["na","d","k","sh","pi","hi","l","mi", "r", "p"]
+	},
+	
+	"janala":{
+		"spelling":["ja", "na", "la"],
+		"keyboard":[ "l","ble", "na", "bo", "gh", "ja", "g", "la", "m","rd"]
+	},
+	
+	"mishtti":{
+		"spelling":["mi", "shtti"],
+		"keyboard":[ "l","mi", "sk", "dda", "ga","shtti","g","ra","m","na"]
+	},
+	
+	"bredd":{
+		"spelling":["bre", "dd"],
+		"keyboard":[ "l","shi", "sk", "dd", "ga", "bre","g","ra","m","na"]
+	},
+	
+	"pata":{
+		"spelling":["pa", "ta"],
+		"keyboard":[ "me", "pa", "s","rri", "g", "ta", "ha6", "m", "na", "re"]
+	},
+	
+	
+	"maltta":{
+		"spelling":["ma", "ltta"],
+		"keyboard":["f","la", "ltta","c","pa","gho","ma", "sh", "kha", "l"]
+	},
+	
+	"ga6da":{
+		"spelling":["ga6", "da"],
+		"keyboard":["m","na","ga6","ri", "bi","h","da", "gh","b","nn"]
+	},
+	
+	"ayna":{
+		"spelling":["a","y", "na"],
+		"keyboard":["ma","y", "cha", "l","ru","p", "a", "g","m","na"]
+	},
+	
+	"alu":{
+		"spelling":["a", "lu"],
+		"keyboard":["i","gi", "a","sa","k","r","fri", "mu", "lu", "ne",]
+	},
+	
+	"pakhi":{
+		"spelling":["pa", "khi"],
+		"keyboard":["g","ra", "pa", "l","shi","khi", "ba", "gh","m","na"]
+	},
+	
+	"rekett":{
+		"spelling":["re","ke", "tt"],
+		"keyboard":[ "l","ma","re","j","ke", "ba", "g", "tt","m","na"]
+	},
+	
+	"prrithibii":{
+		"spelling":["prri", "thi", "bii"],
+		"keyboard":["fu", "thi", "ssh", "a", "la", "prri", "ba", "dh", "bii", "na"]
+	},
+	
+	"kukur":{
+		"spelling":["ku", "ku", "r"],
+		"keyboard":[ "b", "l","ku","g","r","ple", "dda", "ga","ku","na"]
+	},
+	
+	
+	"mishttikumrra":{
+		"spelling":["mi", "shtti", "*", "ku", "m", "rra"],
+		"keyboard":["ku", "s", "rra", "pa", "mi", "li", "shtti", "gh", "r", "m"]
+	},
+	
+	"mshari":{
+		"spelling":["m", "sha", "ri"],
+		"keyboard":["ga","ri", "bi", "sha","b","cha","m","kh","k","na"]
+	},
+	
+	"jahaj":{
+		"spelling":["ja", "ha", "j"],
+		"keyboard":["de","ja", "r","j","li","b","fri", "ha", "i", "tt"]
+	},
+	
+	
+	"kamranga":{
+		"spelling":["ka", "m", "ra", "nga"],
+		"keyboard":["ks","ra", "cha", "ka","l","m", "ba", "nga","rri","na"]
+	},
 	
 	
 	
