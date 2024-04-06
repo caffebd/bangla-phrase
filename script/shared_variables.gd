@@ -768,6 +768,17 @@ var test_levels = {
 		"keyboard":[ "ci", "ri", "k","ma","k","a","pi", "l", "bi", "na"]
 	},
 	
+	"dhol":{
+		"spelling":["dho", "l"],
+		"keyboard":["ra","ju", "bi", "dho","fu","te","l","mi","k","da"]
+	},
+	
+	"iigl":{
+		"spelling":["ii", "g", "l"],
+		"keyboard":["ke","dd", "ii", "ple", "l", "c", "fa", "g", "j","pa",]
+	},
+	
+	
 	
 	
 	
