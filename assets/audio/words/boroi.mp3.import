@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/boroi.mp3-96f6804cbf640115209cae579e66fb82.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/boroi.mp3"
+dest_files=[ "res://.import/boroi.mp3-96f6804cbf640115209cae579e66fb82.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

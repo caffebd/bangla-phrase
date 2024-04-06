@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/kukur.mp3-f6018a41aa29696a260e579fc4fdaa5d.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/kukur.mp3"
+dest_files=[ "res://.import/kukur.mp3-f6018a41aa29696a260e579fc4fdaa5d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -147,6 +147,13 @@ var word_audio = {
 	"pakhi": preload("res://assets/audio/words/pakhi.mp3"),
 	"rekett": preload("res://assets/audio/words/rekett.mp3"),
 #	"kamranga": preload("res://assets/audio/words/kamranga.mp3"),
+
+	"boroi": preload("res://assets/audio/words/boroi.mp3"),
+	"kukur": preload("res://assets/audio/words/kukur.mp3"),
+	"mishtti*kumrra": preload("res://assets/audio/words/mistikumra.mp3"),
+	"prrithibii": preload("res://assets/audio/words/prithibi.mp3"),
+	"pukur": preload("res://assets/audio/words/pukur.mp3"),
+	"tetul": preload("res://assets/audio/words/tetul.mp3"),
 	
 }
 
@@ -272,6 +279,13 @@ var word_images = {
 	"pakhi": preload("res://assets/puzzle_images/pakhi.png"),
 	"rekett": preload("res://assets/puzzle_images/raket.png"),
 	"kamranga": preload("res://assets/puzzle_images/kamranga.png"),
+	
+	"boroi": preload("res://assets/puzzle_images/boroi.png"),
+	"kukur": preload("res://assets/puzzle_images/dog.png"),
+	"mishtti*kumrra": preload("res://assets/puzzle_images/misti_kumra.png"),
+	"prrithibii": preload("res://assets/puzzle_images/erth.png"),
+	"pukur": preload("res://assets/puzzle_images/pukur.png"),
+	"tetul": preload("res://assets/puzzle_images/tetul.png"),
 	
 	
 #	"kachamorich": preload("res://assets/puzzle_images/green chillies.png"),
@@ -778,7 +792,15 @@ var test_levels = {
 		"keyboard":["ke","dd", "ii", "ple", "l", "c", "fa", "g", "j","pa",]
 	},
 	
+	"hati":{
+		"spelling":["ha", "ti"],
+		"keyboard":["g","ra", "cha", "l","shi","rri", "ba", "gh","m","na"]
+	},
 	
+	"agun":{
+		"spelling":["a", "gu", "n"],
+		"keyboard":["ga","ri","m","na", "bi","h", "gh","b","k","nn"]
+	},
 	
 	
 	

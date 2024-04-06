@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/tetul.mp3-3a38abab17cccd976433a6a1f19a3b16.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/tetul.mp3"
+dest_files=[ "res://.import/tetul.mp3-3a38abab17cccd976433a6a1f19a3b16.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

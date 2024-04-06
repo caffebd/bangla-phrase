@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mistikumra.mp3-976cba6116f8e13e17759cc5ca793a0f.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/mistikumra.mp3"
+dest_files=[ "res://.import/mistikumra.mp3-976cba6116f8e13e17759cc5ca793a0f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

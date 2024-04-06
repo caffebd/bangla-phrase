@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/prithibi.mp3-c3632462a1525b88f45f5d3cca3d1aaf.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/prithibi.mp3"
+dest_files=[ "res://.import/prithibi.mp3-c3632462a1525b88f45f5d3cca3d1aaf.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
