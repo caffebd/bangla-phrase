@@ -35,27 +35,43 @@
 [ext_resource path="res://assets/ui/star_animated/Star0140.png" type="Texture" id=33]
 [ext_resource path="res://assets/ui/star_animated/Star0030.png" type="Texture" id=34]
 [ext_resource path="res://assets/audio/sfx/star_ver_1.mp3" type="AudioStream" id=35]
+[ext_resource path="res://assets/ui/buttons_bangla/next_btn.png" type="Texture" id=36]
 
 [sub_resource type="DynamicFont" id=1]
 size = 100
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=2]
-size = 70
-font_data = ExtResource( 1 )
-
 [sub_resource type="SpriteFrames" id=3]
 animations = [ {
 "frames": [ ExtResource( 13 ), ExtResource( 30 ), ExtResource( 9 ), ExtResource( 34 ), ExtResource( 20 ), ExtResource( 12 ), ExtResource( 31 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 29 ), ExtResource( 23 ), ExtResource( 32 ), ExtResource( 24 ), ExtResource( 11 ), ExtResource( 33 ), ExtResource( 10 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 28 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ) ],
-"loop": true,
+"loop": false,
 "name": "spin",
 "speed": 100.0
 } ]
 
-[node name="Correct" type="Node2D"]
+[node name="Correct" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
 script = ExtResource( 3 )
 
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1080.0
+margin_bottom = 1920.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color( 0.301961, 0.498039, 0.866667, 1 )
+
+[node name="ShowImage" type="TextureRect" parent="."]
+margin_left = 257.0
+margin_top = 113.0
+margin_right = 857.0
+margin_bottom = 713.0
+rect_min_size = Vector2( 600, 600 )
+texture = ExtResource( 2 )
+expand = true
+
 [node name="PanelContainer" type="PanelContainer" parent="."]
+visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 256.0
@@ -63,19 +79,13 @@ margin_top = 62.0
 margin_right = 829.0
 margin_bottom = 635.0
 
-[node name="ShowImage" type="TextureRect" parent="PanelContainer"]
-margin_left = 7.0
-margin_top = 7.0
-margin_right = 566.0
-margin_bottom = 566.0
-texture = ExtResource( 2 )
-expand = true
-
 [node name="CorrectBanner" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
 margin_left = 84.0
-margin_top = 715.0
-margin_right = 1004.0
-margin_bottom = 991.0
+margin_top = 787.0
+margin_right = -76.0
+margin_bottom = -857.0
 texture = ExtResource( 4 )
 expand = true
 
@@ -90,32 +100,35 @@ custom_fonts/font = SubResource( 1 )
 text = "100"
 align = 1
 
-[node name="Button" type="Button" parent="."]
-margin_left = 474.0
-margin_top = 1709.0
-margin_right = 680.0
-margin_bottom = 1812.0
-custom_fonts/font = SubResource( 2 )
-text = "next"
+[node name="NextBtn" type="TextureButton" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -269.0
+margin_top = 604.0
+margin_right = 281.0
+margin_bottom = 804.0
+texture_normal = ExtResource( 36 )
 
 [node name="Star1" type="AnimatedSprite" parent="."]
 visible = false
-position = Vector2( 204, 1437 )
-scale = Vector2( 5, 5 )
+position = Vector2( 213, 1292 )
+scale = Vector2( 4, 4 )
 frames = SubResource( 3 )
 animation = "spin"
 
 [node name="Star2" type="AnimatedSprite" parent="."]
 visible = false
-position = Vector2( 540, 1334 )
-scale = Vector2( 5, 5 )
+position = Vector2( 549, 1189 )
+scale = Vector2( 4, 4 )
 frames = SubResource( 3 )
 animation = "spin"
 
 [node name="Star3" type="AnimatedSprite" parent="."]
 visible = false
-position = Vector2( 885, 1435 )
-scale = Vector2( 5, 5 )
+position = Vector2( 894, 1290 )
+scale = Vector2( 4, 4 )
 frames = SubResource( 3 )
 animation = "spin"
 
@@ -124,5 +137,4 @@ animation = "spin"
 [node name="StarSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 35 )
 
-[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
-[connection signal="tween_completed" from="Tween" to="." method="_on_Tween_tween_completed"]
+[connection signal="pressed" from="NextBtn" to="." method="_on_NextBtn_pressed"]

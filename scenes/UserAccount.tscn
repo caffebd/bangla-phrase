@@ -1,9 +1,12 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://assets/menu/panda_avatar.png" type="Texture" id=2]
 [ext_resource path="res://script/UserAccount.gd" type="Script" id=3]
-[ext_resource path="res://assets/ui/back_btn.png" type="Texture" id=4]
+[ext_resource path="res://assets/ui/buttons_bangla/signout.png" type="Texture" id=4]
+[ext_resource path="res://assets/menu/s_background.png" type="Texture" id=5]
+[ext_resource path="res://assets/ui/buttons_bangla/pw_reset.png" type="Texture" id=6]
+[ext_resource path="res://assets/ui/buttons_bangla/back_btn2.png" type="Texture" id=7]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -13,31 +16,37 @@ font_data = ExtResource( 1 )
 default_font = SubResource( 1 )
 
 [sub_resource type="DynamicFont" id=3]
-size = 44
+size = 52
 font_data = ExtResource( 1 )
 
-[sub_resource type="StyleBoxFlat" id=4]
-bg_color = Color( 0.741176, 0.74902, 0.2, 1 )
-border_width_left = 4
-border_width_top = 4
-border_width_right = 4
-border_width_bottom = 4
-border_color = Color( 0.109804, 0.65098, 0, 1 )
-corner_radius_top_left = 2
-corner_radius_top_right = 2
-corner_radius_bottom_right = 2
-corner_radius_bottom_left = 2
+[sub_resource type="DynamicFont" id=4]
+size = 46
+font_data = ExtResource( 1 )
 
 [sub_resource type="StyleBoxFlat" id=5]
-bg_color = Color( 0.741176, 0.74902, 0.2, 1 )
+bg_color = Color( 1, 1, 1, 1 )
 border_width_left = 2
 border_width_top = 2
 border_width_right = 2
 border_width_bottom = 2
+border_color = Color( 0, 0, 0, 1 )
 corner_radius_top_left = 2
 corner_radius_top_right = 2
 corner_radius_bottom_right = 2
 corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 1, 1, 1, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+expand_margin_left = 20.0
 
 [node name="UserAccount" type="Control"]
 anchor_right = 1.0
@@ -45,14 +54,54 @@ anchor_bottom = 1.0
 theme = SubResource( 2 )
 script = ExtResource( 3 )
 
+[node name="Backgtound" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -1040.0
+margin_bottom = -1880.0
+texture = ExtResource( 5 )
+
+[node name="Cover" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.286275, 0.286275, 0.286275, 0.584314 )
+
+[node name="PwRestBG" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 493.0
+margin_top = 1456.0
+margin_right = -43.0
+margin_bottom = -362.0
+color = Color( 0, 0.729412, 0.694118, 1 )
+
+[node name="EmailBG" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 206.0
+margin_top = 503.0
+margin_right = -176.0
+margin_bottom = -1315.0
+color = Color( 0.168627, 0.152941, 0.152941, 0.764706 )
+
+[node name="ResetPass" type="TextureButton" parent="."]
+margin_left = 503.0
+margin_top = 1460.0
+margin_right = 828.0
+margin_bottom = 1510.0
+rect_scale = Vector2( 1.6, 1.8 )
+texture_normal = ExtResource( 6 )
+
 [node name="BackBtn" type="TextureButton" parent="."]
-margin_left = 1.0
-margin_top = 39.0
-margin_right = 75.0
-margin_bottom = 109.0
-texture_normal = ExtResource( 4 )
+margin_left = 58.0
+margin_top = 61.0
+margin_right = 132.0
+margin_bottom = 131.0
+rect_scale = Vector2( 2, 2 )
+texture_normal = ExtResource( 7 )
 
 [node name="ProfilePic" type="TextureRect" parent="."]
+visible = false
 anchor_left = 0.5
 anchor_right = 0.5
 margin_left = -47.0
@@ -64,24 +113,30 @@ texture = ExtResource( 2 )
 [node name="UserEmail" type="Label" parent="."]
 anchor_left = 0.5
 anchor_right = 0.5
-margin_left = -121.0
-margin_top = 313.0
-margin_right = 135.0
-margin_bottom = 357.0
+margin_left = -189.0
+margin_top = 518.0
+margin_right = 229.0
+margin_bottom = 590.0
+grow_horizontal = 2
+grow_vertical = 2
+custom_fonts/font = SubResource( 3 )
 text = "luke@mail.com"
+align = 1
+valign = 1
 
 [node name="Username" type="LineEdit" parent="."]
-margin_left = 239.0
-margin_top = 408.0
-margin_right = 507.0
-margin_bottom = 462.0
-
-[node name="ResetPass" type="Button" parent="."]
-margin_left = 218.0
-margin_top = 522.0
-margin_right = 542.0
-margin_bottom = 572.0
-text = "Reset Password"
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 221.0
+margin_top = 649.0
+margin_right = -428.0
+margin_bottom = -1161.0
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 4 )
+custom_styles/focus = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "fefefefef"
 
 [node name="PassCheckEmail" type="Label" parent="."]
 visible = false
@@ -97,19 +152,14 @@ align = 1
 wait_time = 5.0
 one_shot = true
 
-[node name="SignOutBtn" type="Button" parent="."]
-margin_left = 240.0
-margin_top = 657.0
-margin_right = 640.0
-margin_bottom = 737.0
-custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-custom_fonts/font = SubResource( 3 )
-custom_styles/focus = SubResource( 4 )
-custom_styles/normal = SubResource( 5 )
-text = "Sign Out"
+[node name="SignOutBtn" type="TextureButton" parent="."]
+margin_left = 489.0
+margin_top = 1655.0
+margin_right = 1049.0
+margin_bottom = 1815.0
+texture_normal = ExtResource( 4 )
 
-[connection signal="pressed" from="BackBtn" to="." method="_on_BackBtn_pressed"]
 [connection signal="pressed" from="ResetPass" to="." method="_on_ResetPass_pressed"]
+[connection signal="pressed" from="BackBtn" to="." method="_on_BackBtn_pressed"]
 [connection signal="timeout" from="SaveTimer" to="." method="_on_SaveTimer_timeout"]
 [connection signal="pressed" from="SignOutBtn" to="." method="_on_SignOutBtn_pressed"]

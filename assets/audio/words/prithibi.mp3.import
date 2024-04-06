@@ -11,5 +11,5 @@ dest_files=[ "res://.import/prithibi.mp3-c3632462a1525b88f45f5d3cca3d1aaf.mp3str
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

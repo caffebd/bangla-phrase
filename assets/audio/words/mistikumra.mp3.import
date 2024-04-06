@@ -11,5 +11,5 @@ dest_files=[ "res://.import/mistikumra.mp3-976cba6116f8e13e17759cc5ca793a0f.mp3s
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

@@ -8,11 +8,11 @@ func _ready():
 	Firebase.Auth.connect("signup_succeeded", self, "_on_FirebaseAuth_login_succeeded")
 	if UserData.logged_in:
 		avatar.texture_normal = load("res://assets/menu/panda_avatar.png")
-		avatar.visible = true
+#		avatar.visible = true
 		can_interact = true
 	elif UserData.logged_in_anon:
 		avatar.texture_normal = load("res://assets/menu/anon_avatar.png")
-		avatar.visible = true
+#		avatar.visible = true
 		can_interact = true
 	else:
 		pass

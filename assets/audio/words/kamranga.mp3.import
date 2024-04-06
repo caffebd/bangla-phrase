@@ -11,5 +11,5 @@ dest_files=[ "res://.import/kamranga.mp3-4e48794748defa77e09b295926629585.mp3str
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

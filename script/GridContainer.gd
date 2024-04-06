@@ -74,7 +74,8 @@ func start_flashing():
 	stop_button.disabled = true
 	stop_button.visible = false
 	reveal_square(position)
-	
+	if avail_positions.size() == 0:
+		GlobalSignals.emit_signal("show_help")
 
 func reveal_square(pos: int):
 #	NO FADE
@@ -88,6 +89,7 @@ func reveal_square(pos: int):
 		main_parent.update_points()
 	else:
 		first_square = false
+	
 
 func flash_cover(square: TextureRect):
 	if last_square != null:
@@ -109,3 +111,5 @@ func _on_TextureButton_button_down():
 	Input.vibrate_handheld(200)
 	flashing = false
 	
+
+

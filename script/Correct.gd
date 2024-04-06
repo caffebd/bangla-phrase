@@ -1,4 +1,4 @@
-extends Node2D
+extends Control
 
 signal shrink_done
 
@@ -15,9 +15,10 @@ var current_star = 0
 var star_y = 1240
 
 func _ready():
+#	points_label.text = str(SharedVariables.last_game_points)
 	points_label.text = str(SharedVariables.last_game_points)
 	SharedVariables.words_complete = SharedVariables.words_complete + 1
-	$PanelContainer/ShowImage.texture = SharedVariables.word_images[SharedVariables.target_word ]
+	$ShowImage.texture = SharedVariables.word_images[SharedVariables.target_word ]
 	if UserData.logged_in:
 		if UserData.user_topscore < SharedVariables.total_game_points:
 			UserData.send_score()
@@ -29,13 +30,8 @@ func _ready():
 		position_stars(0)
 
 
-func _on_Button_pressed():
-	star_tween.stop_all()
-	star_tween.remove_all()
-	if SharedVariables.all_keys_size == 0:
-		get_tree().change_scene("res://scenes/AllWordsDone.tscn")	
-	else:
-		get_tree().change_scene("res://scenes/main.tscn")
+
+
 
 func position_stars(count: int):
 	match count:
@@ -85,3 +81,12 @@ func _on_Tween_tween_completed(object, key):
 		else:
 			object.frame = 0
 	
+
+
+func _on_NextBtn_pressed():
+	star_tween.stop_all()
+	star_tween.remove_all()
+	if SharedVariables.all_keys_size == 0:
+		get_tree().change_scene("res://scenes/AllWordsDone.tscn")	
+	else:
+		get_tree().change_scene("res://scenes/main.tscn")

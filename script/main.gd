@@ -50,6 +50,9 @@ func _ready():
 	spelling_grid.rect_position.y = frame_bottom + y_gap
 	keyboard_container.rect_position.y = spelling_grid.rect_position.y + 150 + y_gap
 	stop_button.rect_position.y = keyboard_container.rect_position.y
+	GlobalSignals.connect("show_help", self, "_show_help")
+	$"%SkipBtn".visible = false
+	$"%SkipBtn".disabled = true
 	pick_word()
 
 func pick_word():
@@ -120,3 +123,12 @@ func _on_QuitBtn_pressed():
 func _on_CorrectWord_finished():
 	yield (get_tree().create_timer(0.5), "timeout")
 	get_tree().change_scene("res://scenes/Correct.tscn")
+
+func _show_help():
+	$"%SkipBtn".visible = true
+	$"%SkipBtn".disabled = false
+
+
+
+	
+	

@@ -11,5 +11,5 @@ dest_files=[ "res://.import/kukur.mp3-f6018a41aa29696a260e579fc4fdaa5d.mp3str" ]
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

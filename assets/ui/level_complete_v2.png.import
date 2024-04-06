@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Score.png-ee2f8e92eb0d0f4d02b569f3cf2de387.stex"
+path="res://.import/level_complete_v2.png-613fb9f3a724deb396f49ab3ff01b139.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ui/buttons_bangla/Score.png"
-dest_files=[ "res://.import/Score.png-ee2f8e92eb0d0f4d02b569f3cf2de387.stex" ]
+source_file="res://assets/ui/level_complete_v2.png"
+dest_files=[ "res://.import/level_complete_v2.png-613fb9f3a724deb396f49ab3ff01b139.stex" ]
 
 [params]
 

@@ -95,3 +95,12 @@ func _check_answer():
 		GlobalSignals.emit_signal("next_guess")
 		
 
+
+
+func _on_SkipBtn_pressed():
+	main_parent.game_points = 0
+	SharedVariables.last_game_points = main_parent.game_points
+	SharedVariables.total_game_points = SharedVariables.total_game_points + main_parent.game_points
+	GlobalSignals.emit_signal("remove_all_squares")
+	$"%GameTimer".stop()
+	$"../CorrectWord".play()
