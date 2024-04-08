@@ -45,7 +45,7 @@ func _ready():
 #	$PanelContainer.rect_scale = Vector2(x_scale_factor,x_scale_factor)
 	var frame_bottom = frame_container.rect_position.y + 900 
 	var y_gap_size = buttons_container.rect_position.y - frame_bottom - 450
-	var y_gap = y_gap_size / 3
+	var y_gap = y_gap_size / 2.5
 	$DebugHeight.text = str(y_gap)
 	spelling_grid.rect_position.y = frame_bottom + y_gap
 	keyboard_container.rect_position.y = spelling_grid.rect_position.y + 150 + y_gap
@@ -132,3 +132,7 @@ func _show_help():
 
 	
 	
+
+
+func _on_MusicBtn_toggled(button_pressed):
+	print ("toggle")

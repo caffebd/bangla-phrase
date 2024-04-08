@@ -89,6 +89,7 @@ func reveal_square(pos: int):
 		main_parent.update_points()
 	else:
 		first_square = false
+	$"%Reveal".play()
 	
 
 func flash_cover(square: TextureRect):
@@ -103,6 +104,7 @@ func _remove_all_squares():
 		tween.tween_property(square, "modulate:a", 0.0, 0.5)
 	avail_positions.clear()
 	flashing = false
+	$"%Reveal".play()
 	
 
 

@@ -79,6 +79,9 @@ func on_signup_failed(error_code, message):
 
 func _on_SubmitBtn_pressed():
 	var pass_checks = true
+	email_valid_label.visible = false
+	user_field_check.visible = false
+	pass_field_check.visible = false
 	if !_email_validity():
 		email_valid_label.visible = true
 		pass_checks = false
@@ -110,14 +113,14 @@ func _email_validity() -> bool:
 
 func _pass_field_check()->bool:
 	var strip_pass = pass_field.text.strip_edges()
-	if strip_pass.length() > 0:
+	if strip_pass.length() > 5:
 		return true
 	else:
 		return false
 
 func _username_field_check()->bool:
 	var strip_username = user_field.text.strip_edges()
-	if strip_username.length() > 0:
+	if strip_username.length() > 2:
 		return true
 	else:
 		return false

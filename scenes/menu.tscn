@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://script/menu.gd" type="Script" id=1]
 [ext_resource path="res://assets/menu/Playbtn.png" type="Texture" id=2]
@@ -7,6 +7,15 @@
 [ext_resource path="res://assets/menu/Score.png" type="Texture" id=5]
 [ext_resource path="res://assets/menu/s_background.png" type="Texture" id=6]
 [ext_resource path="res://assets/menu/logo_v2.png" type="Texture" id=7]
+[ext_resource path="res://assets/menu/sound_on_2.png" type="Texture" id=8]
+[ext_resource path="res://assets/menu/sound_off_2.png" type="Texture" id=9]
+[ext_resource path="res://script/MusicToggle.gd" type="Script" id=10]
+[ext_resource path="res://assets/menu/account.png" type="Texture" id=11]
+[ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=12]
+
+[sub_resource type="DynamicFont" id=1]
+size = 40
+font_data = ExtResource( 12 )
 
 [node name="Menu" type="Control"]
 anchor_right = 1.0
@@ -16,12 +25,9 @@ script = ExtResource( 1 )
 [node name="background" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -1080.0
-margin_bottom = -1920.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource( 6 )
-__meta__ = {
-"_edit_use_anchors_": true
-}
 
 [node name="Cover" type="ColorRect" parent="."]
 anchor_right = 1.0
@@ -36,6 +42,7 @@ margin_bottom = 1331.0
 texture_normal = ExtResource( 2 )
 
 [node name="LoginBtn" type="TextureButton" parent="."]
+unique_name_in_owner = true
 margin_left = 665.0
 margin_top = 153.0
 margin_right = 1225.0
@@ -59,12 +66,10 @@ margin_bottom = 1593.0
 texture_normal = ExtResource( 5 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 264.0
-margin_top = 427.0
-margin_right = -243.0
-margin_bottom = -940.0
+margin_left = 278.0
+margin_top = 437.0
+margin_right = 822.0
+margin_bottom = 981.0
 color = Color( 0.72549, 0.596078, 0.0352941, 1 )
 
 [node name="Logo" type="TextureRect" parent="."]
@@ -74,7 +79,40 @@ margin_right = 811.0
 margin_bottom = 961.0
 texture = ExtResource( 7 )
 
+[node name="MusicToggle" type="TextureButton" parent="."]
+margin_left = 415.0
+margin_top = 1717.0
+margin_right = 727.0
+margin_bottom = 1817.0
+toggle_mode = true
+texture_normal = ExtResource( 9 )
+texture_pressed = ExtResource( 8 )
+script = ExtResource( 10 )
+
+[node name="AccountBtn" type="TextureButton" parent="."]
+unique_name_in_owner = true
+margin_left = 669.0
+margin_top = 154.0
+margin_right = 1229.0
+margin_bottom = 314.0
+rect_scale = Vector2( 0.6, 0.7 )
+texture_normal = ExtResource( 11 )
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = 493.0
+margin_top = 325.0
+margin_right = 623.0
+margin_bottom = 390.0
+custom_colors/cursor_color = Color( 1, 1, 1, 1 )
+custom_colors/font_color_selected = Color( 1, 1, 1, 1 )
+custom_colors/font_color_uneditable = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "0"
+placeholder_text = "no."
+caret_blink = true
+
 [connection signal="pressed" from="PlayBtn" to="." method="_on_PlayBtn_pressed"]
 [connection signal="pressed" from="LoginBtn" to="." method="_on_LoginBtn_pressed"]
-[connection signal="pressed" from="Avatar" to="." method="_on_Avatar_pressed"]
 [connection signal="pressed" from="ScoresBtn" to="." method="_on_ScoresBtn_pressed"]
+[connection signal="toggled" from="MusicToggle" to="MusicToggle" method="_on_MusicToggle_toggled"]
+[connection signal="pressed" from="AccountBtn" to="." method="_on_AccountBtn_pressed"]

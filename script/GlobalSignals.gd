@@ -12,3 +12,5 @@ signal game_paused(is_paused)
 signal remove_all_squares()
 
 signal show_help()
+
+signal show_submit(state)

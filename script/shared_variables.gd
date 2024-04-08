@@ -23,9 +23,17 @@ var total_seconds: int = 0
 
 var last_game_points: int = 0
 
+var temp_number: int = 0
+
 func _ready():
 	rng.randomize() 
 
+
+var background_audio = {
+	"track1": preload("res://assets/audio/music/music_track_1.mp3"),
+	"track2": preload("res://assets/audio/music/music_track_2.mp3"),
+	"track3": preload("res://assets/audio/music/music_track_3.mp3"),
+}
 
 var word_audio = {
 	"bl": preload("res://assets/audio/words/bl.mp3"),
@@ -174,6 +182,7 @@ var word_images = {
 	"hrinn": preload("res://assets/puzzle_images/deer.png"),
 	"ddesk": preload("res://assets/puzzle_images/desk.png"),
 	"ddim": preload("res://assets/puzzle_images/egg.png"),
+	"capata": preload("res://assets/puzzle_images/tealeaf.png"),
 	"ghr": preload("res://assets/puzzle_images/home.png"),
 	"jg": preload("res://assets/puzzle_images/jug.png"),
 	"am": preload("res://assets/puzzle_images/mango.png"),
@@ -313,6 +322,8 @@ var word_images = {
 #}
 
 
+
+
 var keyboard_letters = {
 	"a": preload("res://assets/keyboard_letters/a.png"),
 	"b": preload("res://assets/keyboard_letters/b.png"),
@@ -411,6 +422,7 @@ var keyboard_letters = {
 	"ha6": preload("res://assets/keyboard_letters/ha6.png"),
 	"ii": preload("res://assets/keyboard_letters/ii.png"),
 	"ju": preload("res://assets/keyboard_letters/ju.png"),
+	"lu": preload("res://assets/keyboard_letters/lu.png"),
 	"llu": preload("res://assets/keyboard_letters/llu.png"),
 	"mu": preload("res://assets/keyboard_letters/mu.png"),
 	"pi": preload("res://assets/keyboard_letters/pi.png"),
@@ -472,6 +484,13 @@ var keyboard_letters = {
 #missing gar (burger)
 #pee if ok but pe missing
 # noo is missing (different to no?) 
+
+var test_levels_a = {
+	"pitttja":{
+		"spelling":["pi", "ttt", "ja"],
+		"keyboard":[ "b", "l", "ttt","g","ra","pi", "dda", "ja","m","na"]
+	},
+}
 
 var test_levels = {
 	
@@ -1230,7 +1249,8 @@ func get_random_easy_level()-> String:
 	all_keys_size = all_keys.size()
 	print ("start rand "+str(all_keys_size))
 	var ind = rng.randi_range (0,all_keys_size-1)
-	var picked_key = all_keys[ind]
+#	var picked_key = all_keys[ind]
+	var picked_key = all_keys[temp_number]
 	print (picked_key)
 	playing_levels.erase(picked_key)
 	all_keys_size = all_keys_size - 1		

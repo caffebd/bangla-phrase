@@ -18,6 +18,7 @@ func _ready():
 	Firebase.Auth.connect("signup_failed", self, "on_signup_failed")
 	Firebase.Auth.connect("userdata_received", self, "userdata_received")
 	Firebase.Auth.connect("logged_out", self, "_logged_out")
+	fail.visible = false
 	tab_controls = [email_field, pass_field, submit_btn]
 	email_field.grab_focus()
 

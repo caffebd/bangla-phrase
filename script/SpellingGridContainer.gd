@@ -50,11 +50,15 @@ func _place_letter(key: String):
 		letter_block.texture = SharedVariables.keyboard_letters[key]
 		letter_block.my_letter = key
 		empty_space = empty_space + 1
+		$"%TypeAudio".play()
+		if empty_space == SharedVariables.target_word_length:
+			GlobalSignals.emit_signal("show_submit", true)
 
 			
 func _delete_letter():
 	if empty_space > 0:
 		empty_space = empty_space - 1
+		GlobalSignals.emit_signal("show_submit", false)
 		if "Spacer" in spelling_grid.get_child(empty_space).name:
 			empty_space = empty_space - 1
 		var letter_block = spelling_grid.get_child(empty_space)
@@ -64,6 +68,7 @@ func _delete_letter():
 func _delete_all_letters():
 	if empty_space > 0:
 		empty_space = 0
+		GlobalSignals.emit_signal("show_submit", false)
 		for block in spelling_grid.get_children():
 			if !"Spacer" in block.name:
 				block.texture = load("res://assets/ui/ui_1080/Box Large.png")

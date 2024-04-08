@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/reveal_2.mp3-9fc0bc9a78fa7e7e61dda40ac645e382.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/sfx/reveal_2.mp3"
+dest_files=[ "res://.import/reveal_2.mp3-9fc0bc9a78fa7e7e61dda40ac645e382.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
