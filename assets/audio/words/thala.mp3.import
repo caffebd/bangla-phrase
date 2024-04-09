@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/thala.mp3-8ed59128fa87a08a5e7f9b8e3eea35a8.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/thala.mp3"
+dest_files=[ "res://.import/thala.mp3-8ed59128fa87a08a5e7f9b8e3eea35a8.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

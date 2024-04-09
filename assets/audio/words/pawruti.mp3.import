@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pawruti.mp3-e08dd567b874789e4e2fef9ffcdf22c8.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/words/pawruti.mp3"
+dest_files=[ "res://.import/pawruti.mp3-e08dd567b874789e4e2fef9ffcdf22c8.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -53,6 +53,7 @@ func _ready():
 	GlobalSignals.connect("show_help", self, "_show_help")
 	$"%SkipBtn".visible = false
 	$"%SkipBtn".disabled = true
+	$"%StopAnim".play("pulse")
 	pick_word()
 
 func pick_word():

@@ -3,6 +3,7 @@ extends PanelContainer
 
 func _ready():
 	GlobalSignals.connect("show_submit", self, "_show_submit")
+	$"%SubmitAnim".play("pulse")
 #	GlobalSignals.connect("next_guess", self, "_next_guess")
 
 #func _next_guess():

@@ -25,6 +25,8 @@ var last_game_points: int = 0
 
 var temp_number: int = 0
 
+var selected_words:Array = []
+
 func _ready():
 	rng.randomize() 
 
@@ -38,7 +40,7 @@ var background_audio = {
 var word_audio = {
 	"bl": preload("res://assets/audio/words/bl.mp3"),
 	"apel": preload("res://assets/audio/words/apel.mp3"),
-	"beg": preload("res://assets/audio/words/beg.mp3"),
+	"baag": preload("res://assets/audio/words/beg.mp3"),
 	"shim": preload("res://assets/audio/words/shim.mp3"),
 	"kla": preload("res://assets/audio/words/kla.mp3"),
 	"bichana": preload("res://assets/audio/words/bichana.mp3"),
@@ -48,12 +50,12 @@ var word_audio = {
 	"ddab": preload("res://assets/audio/words/dab.mp3"),
 	"gru": preload("res://assets/audio/words/gru.mp3"),
 	"hrinn": preload("res://assets/audio/words/hrinn.mp3"),
-	"ddesk": preload("res://assets/audio/words/desk.mp3"),
+	"ttebil": preload("res://assets/audio/words/table.mp3"),
 	"ddim": preload("res://assets/audio/words/dim.mp3"),
 	"ghr": preload("res://assets/audio/words/ghr.mp3"),
 	"jg": preload("res://assets/audio/words/jg.mp3"),
 	"am": preload("res://assets/audio/words/am.mp3"),
-	"plett": preload("res://assets/audio/words/plett.mp3"),
+	"thala": preload("res://assets/audio/words/thala.mp3"),
 	"gach": preload("res://assets/audio/words/gach.mp3"),
 	"ckolett": preload("res://assets/audio/words/ckolett.mp3"),
 	"blekbord": preload("res://assets/audio/words/blekbord.mp3"),
@@ -65,16 +67,16 @@ var word_audio = {
 	"murgi": preload("res://assets/audio/words/murgi.mp3"),
 	"cabi": preload("res://assets/audio/words/cabi.mp3"),
 	"tala": preload("res://assets/audio/words/tala.mp3"),
-	"maflar": preload("res://assets/audio/words/maflar.mp3"),
+#	"maflar": preload("res://assets/audio/words/maflar.mp3"),
 	"mg": preload("res://assets/audio/words/mg.mp3"),
 	"lbn": preload("res://assets/audio/words/lbn.mp3"),
 	"shart": preload("res://assets/audio/words/shart.mp3"),
 	"juta": preload("res://assets/audio/words/juta.mp3"),
 	"camc": preload("res://assets/audio/words/camc.mp3"),
-	"sofa": preload("res://assets/audio/words/sofa.mp3"),
-	"suic": preload("res://assets/audio/words/suic.mp3"),
+#	"sofa": preload("res://assets/audio/words/sofa.mp3"),
+#	"suic": preload("res://assets/audio/words/suic.mp3"),
 	"tbla": preload("res://assets/audio/words/tbla.mp3"),
-	"capata": preload("res://assets/audio/words/ca.mp3"),
+#	"capata": preload("res://assets/audio/words/ca.mp3"),
 	"ttrak": preload("res://assets/audio/words/ttrak.mp3"),
 	
 	
@@ -102,7 +104,7 @@ var word_audio = {
 	"mshari": preload("res://assets/audio/words/mshari.mp3"),
 	"kmla": preload("res://assets/audio/words/kmla.mp3"),
 	"patil": preload("res://assets/audio/words/patil.mp3"),
-	"pitttja": preload("res://assets/audio/words/pitttja.mp3"),
+#	"pitttja": preload("res://assets/audio/words/pitttja.mp3"),
 	"jahaj": preload("res://assets/audio/words/jahaj.mp3"),
 	"sap": preload("res://assets/audio/words/sap.mp3"),
 	"suurzmukhii": preload("res://assets/audio/words/suurzmukhii.mp3"),
@@ -119,7 +121,7 @@ var word_audio = {
 	"ka6tthal": preload("res://assets/audio/words/ka6tthal.mp3"),
 	"gajr": preload("res://assets/audio/words/gajr.mp3"),
 	"aiskrim": preload("res://assets/audio/words/aiskrim.mp3"),
-	"jaynamaj": preload("res://assets/audio/words/jaynamaj.mp3"),
+#	"jaynamaj": preload("res://assets/audio/words/jaynamaj.mp3"),
 	"ka6camric": preload("res://assets/audio/words/ka6camric.mp3"),
 	"istri": preload("res://assets/audio/words/istri.mp3"),
 	"rajha6s": preload("res://assets/audio/words/rajha6s.mp3"),
@@ -135,7 +137,7 @@ var word_audio = {
 	"dourrano": preload("res://assets/audio/words/dourrano.mp3"),
 	"sharri": preload("res://assets/audio/words/sharri.mp3"),
 	"cadr": preload("res://assets/audio/words/cadr.mp3"),
-	"besin": preload("res://assets/audio/words/besin.mp3"),
+#	"besin": preload("res://assets/audio/words/besin.mp3"),
 	"ttiya": preload("res://assets/audio/words/ttiya.mp3"),
 	"ttiuboyel": preload("res://assets/audio/words/ttiuboyel.mp3"),
 	"shapla": preload("res://assets/audio/words/shapla.mp3"),
@@ -146,14 +148,14 @@ var word_audio = {
 	"janala": preload("res://assets/audio/words/janala.mp3"),
 	"hiira": preload("res://assets/audio/words/hiira.mp3"),
 	"mishtti": preload("res://assets/audio/words/mishtti.mp3"),
-	"bredd": preload("res://assets/audio/words/bredd.mp3"),
+	"pawruti": preload("res://assets/audio/words/pawruti.mp3"),
 	"pata": preload("res://assets/audio/words/pata.mp3"),
-	"maltta": preload("res://assets/audio/words/maltta.mp3"),
+#	"maltta": preload("res://assets/audio/words/maltta.mp3"),
 	"ga6da": preload("res://assets/audio/words/ga6da.mp3"),
 	"ayna": preload("res://assets/audio/words/ayna.mp3"),
 	"alu": preload("res://assets/audio/words/alu.mp3"),
-	"pakhi": preload("res://assets/audio/words/pakhi.mp3"),
-	"rekett": preload("res://assets/audio/words/rekett.mp3"),
+#	"pakhi": preload("res://assets/audio/words/pakhi.mp3"),
+#	"rekett": preload("res://assets/audio/words/rekett.mp3"),
 	"kamranga": preload("res://assets/audio/words/kamranga.mp3"),
 
 	"bri": preload("res://assets/audio/words/boroi.mp3"),
@@ -170,7 +172,7 @@ var word_images = {
 	# easy levels-----------
 	"bl": preload("res://assets/puzzle_images/bol.png"),
 	"apel": preload("res://assets/puzzle_images/apple.png"),
-	"beg": preload("res://assets/puzzle_images/bag.png"),
+	"baag": preload("res://assets/puzzle_images/bag.png"),
 	"shim": preload("res://assets/puzzle_images/bean.png"),
 	"kla": preload("res://assets/puzzle_images/bananas.png"),
 	"bichana": preload("res://assets/puzzle_images/bed.png"),
@@ -180,13 +182,13 @@ var word_images = {
 	"ddab": preload("res://assets/puzzle_images/coconut.png"),
 	"gru": preload("res://assets/puzzle_images/cow.png"),
 	"hrinn": preload("res://assets/puzzle_images/deer.png"),
-	"ddesk": preload("res://assets/puzzle_images/desk.png"),
+	"ttebil": preload("res://assets/puzzle_images/desk.png"),
 	"ddim": preload("res://assets/puzzle_images/egg.png"),
-	"capata": preload("res://assets/puzzle_images/tealeaf.png"),
+#	"capata": preload("res://assets/puzzle_images/tealeaf.png"),
 	"ghr": preload("res://assets/puzzle_images/home.png"),
 	"jg": preload("res://assets/puzzle_images/jug.png"),
 	"am": preload("res://assets/puzzle_images/mango.png"),
-	"plett": preload("res://assets/puzzle_images/plate.png"),
+	"thala": preload("res://assets/puzzle_images/plate.png"),
 	"gach": preload("res://assets/puzzle_images/tree.png"),
 	"ckolett": preload("res://assets/puzzle_images/chocolate_2.png"),
 	"blekbord": preload("res://assets/puzzle_images/blackboard.png"),
@@ -198,14 +200,14 @@ var word_images = {
 	"murgi": preload("res://assets/puzzle_images/hen.png"),
 	"cabi": preload("res://assets/puzzle_images/key.png"),
 	"tala": preload("res://assets/puzzle_images/lock.png"),
-	"maflar": preload("res://assets/puzzle_images/muffler.png"),
+#	"maflar": preload("res://assets/puzzle_images/muffler.png"),
 	"mg": preload("res://assets/puzzle_images/mug.png"),
 	"lbn": preload("res://assets/puzzle_images/salt.png"),
 	"shart": preload("res://assets/puzzle_images/shirt.png"),
 	"juta": preload("res://assets/puzzle_images/shoes.png"),
 	"camc": preload("res://assets/puzzle_images/spoon.png"),
-	"sofa": preload("res://assets/puzzle_images/sufa.png"),
-	"suic": preload("res://assets/puzzle_images/suich.png"),
+#	"sofa": preload("res://assets/puzzle_images/sufa.png"),
+#	"suic": preload("res://assets/puzzle_images/suich.png"),
 	"tbla": preload("res://assets/puzzle_images/tabla.png"),
 	"ca*pata": preload("res://assets/puzzle_images/tealeaf.png"),
 	"ttrak": preload("res://assets/puzzle_images/truck.png"),
@@ -235,7 +237,7 @@ var word_images = {
 	"mshari": preload("res://assets/puzzle_images/mosquito_net.png"),
 	"kmla": preload("res://assets/puzzle_images/orange.png"),
 	"patil": preload("res://assets/puzzle_images/patil.png"),
-	"pitttja": preload("res://assets/puzzle_images/pizza.png"),
+#	"pitttja": preload("res://assets/puzzle_images/pizza.png"),
 	"jahaj": preload("res://assets/puzzle_images/ship.png"),
 	"sap": preload("res://assets/puzzle_images/snake_2.png"),
 	"suurzmukhii": preload("res://assets/puzzle_images/sunflower.png"),
@@ -252,7 +254,7 @@ var word_images = {
 	"ka6tthal": preload("res://assets/puzzle_images/kathal.png"),
 	"gajr": preload("res://assets/puzzle_images/carrot.png"),
 	"aiskrim": preload("res://assets/puzzle_images/chocolate.png"),
-	"jaynamaj": preload("res://assets/puzzle_images/jainamaz.png"),
+#	"jaynamaj": preload("res://assets/puzzle_images/jainamaz.png"),
 	"ka6camric": preload("res://assets/puzzle_images/greenchillies.png"),
 	"istri": preload("res://assets/puzzle_images/iron.png"),
 	"rajha6s": preload("res://assets/puzzle_images/kingfisher.png"),
@@ -268,7 +270,7 @@ var word_images = {
 	"dourrano": preload("res://assets/puzzle_images/run.png"),
 	"sharri": preload("res://assets/puzzle_images/sari.png"),
 	"cadr": preload("res://assets/puzzle_images/sheet.png"),
-	"besin": preload("res://assets/puzzle_images/sink.png"),
+#	"besin": preload("res://assets/puzzle_images/sink.png"),
 	"ttiya": preload("res://assets/puzzle_images/tia_bird.png"),
 	"ttiuboyel": preload("res://assets/puzzle_images/tube_well.png"),
 	"shapla": preload("res://assets/puzzle_images/water_lily.png"),
@@ -279,14 +281,14 @@ var word_images = {
 	"janala": preload("res://assets/puzzle_images/window.png"),
 	"hiira": preload("res://assets/puzzle_images/diamond.png"),
 	"mishtti": preload("res://assets/puzzle_images/sweet.png"),
-	"bredd": preload("res://assets/puzzle_images/bread.png"),
+	"pawruti": preload("res://assets/puzzle_images/bread.png"),
 	"pata": preload("res://assets/puzzle_images/betel_leaves.png"),
-	"maltta": preload("res://assets/puzzle_images/malta.png"),
+#	"maltta": preload("res://assets/puzzle_images/malta.png"),
 	"ga6da": preload("res://assets/puzzle_images/marigold.png"),
 	"ayna": preload("res://assets/puzzle_images/mirror.png"),
 	"alu": preload("res://assets/puzzle_images/potatoes.png"),
-	"pakhi": preload("res://assets/puzzle_images/pakhi.png"),
-	"rekett": preload("res://assets/puzzle_images/raket.png"),
+#	"pakhi": preload("res://assets/puzzle_images/pakhi.png"),
+#	"rekett": preload("res://assets/puzzle_images/raket.png"),
 	"kamranga": preload("res://assets/puzzle_images/kamranga.png"),
 	
 	"bri": preload("res://assets/puzzle_images/boroi.png"),
@@ -328,6 +330,7 @@ var keyboard_letters = {
 	"a": preload("res://assets/keyboard_letters/a.png"),
 	"b": preload("res://assets/keyboard_letters/b.png"),
 	"ba": preload("res://assets/keyboard_letters/ba.png"),
+	"baa": preload("res://assets/keyboard_letters/baa.png"),
 	"be": preload("res://assets/keyboard_letters/be.png"),
 	"bi": preload("res://assets/keyboard_letters/bi.png"),
 	"ble": preload("res://assets/keyboard_letters/ble.png"),
@@ -411,6 +414,7 @@ var keyboard_letters = {
 	"ti": preload("res://assets/keyboard_letters/ti.png"),
 	"tte": preload("res://assets/keyboard_letters/tte.png"),
 	"tto": preload("res://assets/keyboard_letters/tto.png"),
+	"tha":preload("res://assets/keyboard_letters/tha.png"),
 	"u": preload("res://assets/keyboard_letters/u.png"),
 	"y": preload("res://assets/keyboard_letters/y.png"),
 	"ya": preload("res://assets/keyboard_letters/ya.png"),
@@ -488,10 +492,11 @@ var keyboard_letters = {
 # noo is missing (different to no?) 
 
 var test_levels_a = {
-	"pitttja":{
-		"spelling":["pi", "ttt", "ja"],
-		"keyboard":[ "b", "l", "ttt","g","ra","pi", "dda", "ja","m","na"]
-	},
+	"ttiuboyel":{
+		"spelling":["tti", "u", "b", "o", "ye", "l"],
+		"keyboard":["ye","k", "b", "tti","o","li", "rt", "u","l","r"]
+	}
+
 }
 
 var test_levels = {
@@ -508,9 +513,9 @@ var test_levels = {
 		"keyboard":["be", "a", "kh", "i", "pe", "n", "g", "l", "cha", "c"]
 	},
 
-	"beg":{
-		"spelling":["be", "g"],
-		"keyboard":["rri", "g", "e", "me", "pa", "be", "b", "m", "na", "re"]
+	"baag":{
+		"spelling":["baa", "g"],
+		"keyboard":["rri", "g", "e", "me", "baa", "be", "b", "m", "na", "re"]
 	},
 
 
@@ -569,9 +574,9 @@ var test_levels = {
 		"keyboard":["g", "l", "ca","a","cha","n", "b", "m","n","s"]
 	},
 
-	"plett":{
-		"spelling":["ple", "tt"],
-		"keyboard":[ "b", "l","tt","g","ra","ple", "dda", "ga","m","na"]
+	"thala":{
+		"spelling":["tha", "la"],
+		"keyboard":[ "b", "l","tt","la","ra","ple", "tha", "ga","m","na"]
 	},
 
 	"gach":{
@@ -642,10 +647,10 @@ var test_levels = {
 		"keyboard":["d","ra", "m","f","ca","mi","dd", "c", "n", "ii"]
 	},
 
-	"sofa":{
-		"spelling":["so", "fa"],
-		"keyboard":["c","la", "sh", "so", "ke","m","fa","ta", "p","ja",]
-	},
+#	"sofa":{
+#		"spelling":["so", "fa"],
+#		"keyboard":["c","la", "sh", "so", "ke","m","fa","ta", "p","ja",]
+#	},
 
 	"tbla":{
 		"spelling":["t", "b", "la"],
@@ -708,9 +713,9 @@ var test_levels = {
 
 #	Medium level -------------------------------------------------------
 
-	"ddesk":{
-		"spelling":["dde", "sk"],
-		"keyboard":[ "l","shi", "sk", "dda", "ga","dde","g","ra","m","na"]
+	"ttebil":{
+		"spelling":["tte", "bi", "l"],
+		"keyboard":[ "l","shi", "tte", "dda", "ga","dde","bi","ra","m","na"]
 	},
 
 	"shim":{
@@ -736,10 +741,10 @@ var test_levels = {
 	},
 
 
-	"maflar":{
-		"spelling":["ma", "f", "la", "r"],
-		"keyboard":["de", "ka", "ma", "j", "f", "dii", "r", "hi", "i", "la",]
-	},
+#	"maflar":{
+#		"spelling":["ma", "f", "la", "r"],
+#		"keyboard":["de", "ka", "ma", "j", "f", "dii", "r", "hi", "i", "la",]
+#	},
 
 
 	"lbn":{
@@ -747,16 +752,16 @@ var test_levels = {
 		"keyboard":["f","n", "ju","c","b","g","m", "sh", "kha", "l"]
 	},
 
-	"suic":{
-		"spelling":["su", "i", "c"],
-		"keyboard":["pa","s", "su", "m", "ke","c","fa","i", "p","ja",]
-	},
+#	"suic":{
+#		"spelling":["su", "i", "c"],
+#		"keyboard":["pa","s", "su", "m", "ke","c","fa","i", "p","ja",]
+#	},
 
 
-	"capata":{
-		"spelling":["ca", "*", "pa", "ta"],
-		"keyboard":["va","pa", "s", "sha","p","ca", "rt", "gh","ta","r"]
-	},
+#	"capata":{
+#		"spelling":["ca", "*", "pa", "ta"],
+#		"keyboard":["va","pa", "s", "sha","p","ca", "rt", "gh","ta","r"]
+#	},
 
 
 	"projapti":{
@@ -835,10 +840,10 @@ var test_levels = {
 		"keyboard":["i","gi", "m","sa","k","r","fri", "mu", "la", "ne",]
 	},
 
-	"pitttja":{
-		"spelling":["pi", "ttt", "ja"],
-		"keyboard":[ "b", "l", "ttt","g","ra","pi", "dda", "ja","m","na"]
-	},
+#	"pitttja":{
+#		"spelling":["pi", "ttt", "ja"],
+#		"keyboard":[ "b", "l", "ttt","g","ra","pi", "dda", "ja","m","na"]
+#	},
 
 	"sap":{
 		"spelling":["sa", "p"],
@@ -933,10 +938,10 @@ var test_levels = {
 		"keyboard":["no","i", "s", "kri", "gh","h","p","a", "c","m",]
 	},
 
-	"jaynamaj":{
-		"spelling":["ja", "y", "na", "ma", "j"],
-		"keyboard":["t","y", "l", "ja","bi","na", "rt", "j","r","ma"]
-	},
+#	"jaynamaj":{
+#		"spelling":["ja", "y", "na", "ma", "j"],
+#		"keyboard":["t","y", "l", "ja","bi","na", "rt", "j","r","ma"]
+#	},
 
 	"ka6camric":{
 		"spelling":["ka6","ca","*","m","ri","c"],
@@ -1003,10 +1008,10 @@ var test_levels = {
 		"keyboard":["g", "r", "ca","a","cha","n", "d", "m","n","s"]
 	},
 
-	"besin":{
-		"spelling":["be", "si", "n"], 
-		"keyboard":["si","ku","ga","o","be","n","de","rri", "rd", "lp"]
-	},
+#	"besin":{
+#		"spelling":["be", "si", "n"], 
+#		"keyboard":["si","ku","ga","o","be","n","de","rri", "rd", "lp"]
+#	},
 
 	"ttiya":{
 		"spelling":["tti", "ya"],
@@ -1014,7 +1019,7 @@ var test_levels = {
 	},
 
 	"ttiuboyel":{
-		"spelling":["tti", "u", "b", "*", "o", "ye", "l"],
+		"spelling":["tti", "u", "b", "o", "ye", "l"],
 		"keyboard":["ye","k", "b", "tti","o","li", "rt", "u","l","r"]
 	},
 
@@ -1054,9 +1059,9 @@ var test_levels = {
 		"keyboard":[ "l","mi", "sk", "dda", "ga","shtti","g","ra","m","na"]
 	},
 
-	"bredd":{
-		"spelling":["bre", "dd"],
-		"keyboard":[ "l","shi", "sk", "dd", "ga", "bre","g","ra","m","na"]
+	"pawruti":{
+		"spelling":["pa", "u", "ru", "tii"],
+		"keyboard":[ "me", "u", "s","rri", "ru", "ta", "tti", "m", "pa", "re"]
 	},
 
 	"pata":{
@@ -1065,10 +1070,10 @@ var test_levels = {
 	},
 
 
-	"maltta":{
-		"spelling":["ma", "ltta"],
-		"keyboard":["f","la", "ltta","c","pa","gho","ma", "sh", "kha", "l"]
-	},
+#	"maltta":{
+#		"spelling":["ma", "ltta"],
+#		"keyboard":["f","la", "ltta","c","pa","gho","ma", "sh", "kha", "l"]
+#	},
 
 	"ga6da":{
 		"spelling":["ga6", "da"],
@@ -1085,15 +1090,15 @@ var test_levels = {
 		"keyboard":["i","gi", "a","sa","k","r","fri", "mu", "lu", "ne",]
 	},
 
-	"pakhi":{
-		"spelling":["pa", "khi"],
-		"keyboard":["g","ra", "pa", "l","shi","khi", "ba", "gh","m","na"]
-	},
+#	"pakhi":{
+#		"spelling":["pa", "khi"],
+#		"keyboard":["g","ra", "pa", "l","shi","khi", "ba", "gh","m","na"]
+#	},
 
-	"rekett":{
-		"spelling":["re","ke", "tt"],
-		"keyboard":[ "l","ma","re","j","ke", "ba", "g", "tt","m","na"]
-	},
+#	"rekett":{
+#		"spelling":["re","ke", "tt"],
+#		"keyboard":[ "l","ma","re","j","ke", "ba", "g", "tt","m","na"]
+#	},
 
 	"prrithibii":{
 		"spelling":["prri", "thi", "bii"],
@@ -1239,20 +1244,35 @@ var all_levels = [test_levels]
 var playing_levels = []
 
 func reset_levels():
-	playing_levels = all_levels[level_selected].duplicate()
-	var all_keys = playing_levels.keys()
-	all_keys_size = all_keys.size()
+	var indexes_avail:Array = []
+	var the_keys = all_levels[level_selected].keys()
+#	for i in the_keys.size()-1:
+#		indexes_avail.append(i)
+	
+	print (str(the_keys.size()))
+	for i in 15:
+		var index = rng.randi_range(0, the_keys.size()-1)
+		var picked_word = the_keys[index]
+		selected_words.append(picked_word)
+		the_keys.erase(picked_word)
+	
+	
+	playing_levels = selected_words.duplicate()
+#	var all_keys = playing_levels.keys()
+#	all_keys_size = all_keys.size()
 	total_game_points = 0
 	words_complete = 0
+	print (playing_levels)
+
 
 
 func get_random_easy_level()-> String:
-	var all_keys = playing_levels.keys()
-	all_keys_size = all_keys.size()
+#	var all_keys = playing_levels.keys()
+	all_keys_size = playing_levels.size()
 	print ("start rand "+str(all_keys_size))
 	var ind = rng.randi_range (0,all_keys_size-1)
 #	var picked_key = all_keys[ind]
-	var picked_key = all_keys[temp_number]
+	var picked_key = playing_levels[temp_number]
 	print (picked_key)
 	playing_levels.erase(picked_key)
 	all_keys_size = all_keys_size - 1		
