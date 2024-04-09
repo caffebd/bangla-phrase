@@ -359,6 +359,7 @@ var keyboard_letters = {
 	"j": preload("res://assets/keyboard_letters/j.png"),
 	"ja": preload("res://assets/keyboard_letters/ja.png"),
 	"k": preload("res://assets/keyboard_letters/k.png"),
+	"khi": preload("res://assets/keyboard_letters/khi.png"),
 	"ka": preload("res://assets/keyboard_letters/ka.png"),
 	"ka6": preload("res://assets/keyboard_letters/ka6.png"),
 	"ke": preload("res://assets/keyboard_letters/ke.png"),
@@ -386,6 +387,7 @@ var keyboard_letters = {
 	"o": preload("res://assets/keyboard_letters/o.png"),
 	"ou": preload("res://assets/keyboard_letters/ou.png"),
 	"p": preload("res://assets/keyboard_letters/p.png"),
+	"pu": preload("res://assets/keyboard_letters/pu.png"),
 	"pa": preload("res://assets/keyboard_letters/pa.png"),
 	"pe6": preload("res://assets/keyboard_letters/pe6.png"),
 	"pe": preload("res://assets/keyboard_letters/pe.png"),
@@ -677,7 +679,7 @@ var test_levels = {
 
 	"drja":{
 		"spelling":["d", "r", "ja"],
-		"keyboard":["te","t", "thi","ca","ja","i","bi", "p", "r", "k",]
+		"keyboard":["te","t", "thi","ca","ja","i","bi", "p", "r", "d",]
 	},
 
 	"ha6s":{
@@ -687,7 +689,7 @@ var test_levels = {
 
 	"chata":{
 		"spelling":["cha", "ta",],
-		"keyboard":[ "l","ble", "k", "bo", "gh", "rri", "g", "ra", "m","rd"]
+		"keyboard":[ "l","ble", "ta", "bo", "gh", "rri", "cha", "ra", "m","rd"]
 	},
 
 	"ceyar":{
@@ -697,7 +699,7 @@ var test_levels = {
 
 	"vat":{
 		"spelling":["va", "t"],
-		"keyboard":[ "l","cha","g","n", "ca", "n","s","ba", "b", "m"]
+		"keyboard":[ "l","cha","va","n", "ca", "n","s","ba", "t", "m"]
 	},
 
 
@@ -753,18 +755,18 @@ var test_levels = {
 
 	"capata":{
 		"spelling":["ca", "*", "pa", "ta"],
-		"keyboard":["va","k", "s", "sha","p","li", "rt", "gh","m","r"]
+		"keyboard":["va","pa", "s", "sha","p","ca", "rt", "gh","ta","r"]
 	},
 
 
 	"projapti":{
-		"spelling":["pro", "ja", "p", "ti"],
-		"keyboard":["p","", "r", "sha","ja", "gh","m","pro", "rt","ti"]
+		"spelling":["pr", "ja", "p", "ti"],
+		"keyboard":["p","sha", "r", "sha","ja", "gh","m","pr", "ti","fa"]
 	},
 
 	"botl":{
 		"spelling":["bo", "t", "l"],
-		"keyboard":[ "l","shi", "sk", "dda", "ga","dde","g","ra","m","na"]
+		"keyboard":[ "l","shi", "bo", "dda", "ga","dde","t","ra","m","na"]
 	},
 
 	"balb":{
@@ -804,7 +806,7 @@ var test_levels = {
 
 	"hati":{
 		"spelling":["ha", "ti"],
-		"keyboard":["g","ra", "cha", "l","shi","rri", "ba", "gh","m","na"]
+		"keyboard":["g","ti", "cha", "l","shi","rri", "ha", "gh","m","na"]
 	},
 
 	"agun":{
@@ -846,7 +848,7 @@ var test_levels = {
 
 	"suurzmukhii":{
 		"spelling":["suu", "rz", "mu", "khii"],
-		"keyboard":["d","rz", "m","su","ca","mu","dd", "c", "khii", "ii"]
+		"keyboard":["d","rz", "m","su","ca","mu","dd", "suu", "khii", "ii"]
 	},
 
 	"ttmetto":{
@@ -895,8 +897,8 @@ var test_levels = {
 	},
 
 	"khrgosh":{
-		"spelling":["g","ru"],
-		"keyboard":["ma","ra", "cha", "l","ru","p", "ba", "g","m","na"]
+		"spelling":["kh","r", "go", "sh"],
+		"keyboard":["r","ra", "cha", "kh","ru","go", "ba", "g","m","sh"]
 	},
 
 
@@ -938,7 +940,7 @@ var test_levels = {
 
 	"ka6camric":{
 		"spelling":["ka6","ca","*","m","ri","c"],
-		"keyboard":["m","la","na","ri","ka6","lo","c","no", "ca", "cho"]
+		"keyboard":["m","la","na","ri","ka6","l","c","no", "ca", "ch"]
 	},
 
 	"istri":{
@@ -1100,7 +1102,7 @@ var test_levels = {
 
 	"kukur":{
 		"spelling":["ku", "ku", "r"],
-		"keyboard":[ "b", "l","ku","g","r","ple", "dda", "ga","ku","na"]
+		"keyboard":[ "b", "l","ku","g","r","ple", "dda", "ga","ru","na"]
 	},
 
 
@@ -1142,8 +1144,8 @@ var test_levels = {
 
 var easy_levels =  {
 	"kachamorich":{
-		"spelling":["kaa","cha","*","mo","ri","cho"],
-		"keyboard":["mo","la","na","ri","kaa","lo","go","no", "cha", "cho"]
+		"spelling":["kaa","cha","*","mo","ri","ch"],
+		"keyboard":["mo","la","na","ri","kaa","lo","go","no", "cha", "ch"]
 		},
   
 	"kola":{
@@ -1180,7 +1182,7 @@ var easy_levels =  {
 
    "gajoro":{
 		"spelling":["ga","jo", "ro"], 
-		"keyboard":["cho","ng","ga","a","ca","Rri","ro","go", "ka", "jo"]
+		"keyboard":["ch","ng","ga","a","ca","Rri","ro","go", "ka", "jo"]
 		},	
 # Luke did
 "komola":{
