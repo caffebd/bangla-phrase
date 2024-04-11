@@ -58,3 +58,7 @@ func _on_ScoresBtn_pressed():
 func _on_AccountBtn_pressed():
 	if UserData.logged_in:
 		get_tree().change_scene("res://scenes/UserAccount.tscn")
+
+
+func _on_InstructionsBtn_pressed():
+	get_tree().change_scene("res://scenes/Instructions.tscn")

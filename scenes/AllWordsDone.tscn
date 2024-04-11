@@ -1,12 +1,16 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://script/AllWordsDone.gd" type="Script" id=1]
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://assets/menu/menu.png" type="Texture" id=3]
 [ext_resource path="res://assets/menu/sumon_bg4.png" type="Texture" id=4]
-[ext_resource path="res://assets/ui/level_complete_v2.png" type="Texture" id=5]
-[ext_resource path="res://assets/menu/NewHighScoreEn.png" type="Texture" id=6]
+[ext_resource path="res://assets/menu/new_high_score_bn.png" type="Texture" id=5]
+[ext_resource path="res://assets/audio/sfx/complete_short.mp3" type="AudioStream" id=6]
 [ext_resource path="res://assets/success/Banner.png" type="Texture" id=7]
+[ext_resource path="res://assets/menu/correct_words_bangla_line.png" type="Texture" id=8]
+[ext_resource path="res://assets/menu/score_bn.png" type="Texture" id=9]
+[ext_resource path="res://assets/menu/skipped_words_bangla_line.png" type="Texture" id=10]
+[ext_resource path="res://assets/audio/sfx/complete_long.mp3" type="AudioStream" id=11]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
@@ -67,59 +71,53 @@ margin_right = -95.0
 margin_bottom = -1275.0
 color = Color( 1, 1, 1, 0.882353 )
 
-[node name="CorrectLabel" type="Label" parent="StatsBackground"]
-margin_left = 65.0
-margin_top = 56.0
-margin_right = 365.0
-margin_bottom = 139.0
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-custom_fonts/font = SubResource( 3 )
-text = "Correct"
+[node name="CorrectLabel" type="TextureRect" parent="StatsBackground"]
+margin_left = 67.0
+margin_top = 32.0
+margin_right = 562.0
+margin_bottom = 192.0
+texture = ExtResource( 8 )
 
 [node name="CorrectCount" type="Label" parent="StatsBackground"]
 unique_name_in_owner = true
-margin_left = 470.0
-margin_top = 55.0
-margin_right = 770.0
-margin_bottom = 138.0
+margin_left = 596.0
+margin_top = 58.0
+margin_right = 843.0
+margin_bottom = 141.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "12"
 
-[node name="ScoreLabel" type="Label" parent="StatsBackground"]
-margin_left = 68.0
-margin_top = 229.0
-margin_right = 368.0
-margin_bottom = 312.0
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-custom_fonts/font = SubResource( 3 )
-text = "Score"
+[node name="ScoreLabel" type="TextureRect" parent="StatsBackground"]
+margin_left = 320.0
+margin_top = 203.0
+margin_right = 527.0
+margin_bottom = 353.0
+texture = ExtResource( 9 )
 
 [node name="ScoreCount" type="Label" parent="StatsBackground"]
 unique_name_in_owner = true
-margin_left = 465.0
-margin_top = 230.0
-margin_right = 765.0
-margin_bottom = 313.0
+margin_left = 600.0
+margin_top = 237.0
+margin_right = 851.0
+margin_bottom = 320.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "222"
 
-[node name="PassLabel" type="Label" parent="StatsBackground"]
-margin_left = 68.0
-margin_top = 391.0
-margin_right = 368.0
-margin_bottom = 474.0
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-custom_fonts/font = SubResource( 3 )
-text = "Passed"
+[node name="PassLabel" type="TextureRect" parent="StatsBackground"]
+margin_left = 29.0
+margin_top = 383.0
+margin_right = 693.0
+margin_bottom = 583.0
+texture = ExtResource( 10 )
 
 [node name="PassCount" type="Label" parent="StatsBackground"]
 unique_name_in_owner = true
-margin_left = 462.0
-margin_top = 387.0
-margin_right = 762.0
-margin_bottom = 470.0
+margin_left = 613.0
+margin_top = 411.0
+margin_right = 913.0
+margin_bottom = 494.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "1"
@@ -148,35 +146,31 @@ margin_right = -115.0
 margin_bottom = -983.0
 color = Color( 0.698039, 0.784314, 0.137255, 1 )
 
-[node name="TextureRect" type="TextureRect" parent="."]
-visible = false
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 145.0
-margin_top = 522.0
-margin_right = -735.0
-margin_bottom = -1298.0
-rect_scale = Vector2( 4, 4 )
-texture = ExtResource( 5 )
-
 [node name="NewHighBanner" type="TextureRect" parent="."]
 unique_name_in_owner = true
 visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 82.0
+margin_left = 48.0
 margin_top = 742.0
-margin_right = -78.0
+margin_right = -23.0
 margin_bottom = -902.0
 texture = ExtResource( 7 )
 expand = true
 
 [node name="NewHighScore" type="TextureRect" parent="NewHighBanner"]
-margin_left = 239.0
-margin_top = 45.0001
-margin_right = 639.0
-margin_bottom = 141.0
-rect_scale = Vector2( 1.2, 1.2 )
-texture = ExtResource( 6 )
+margin_left = 153.0
+margin_top = 48.0
+margin_right = 903.0
+margin_bottom = 198.0
+texture = ExtResource( 5 )
+
+[node name="WinShort" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource( 6 )
+
+[node name="WinLong" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource( 11 )
 
 [connection signal="pressed" from="MenuButton" to="." method="_on_MenuButton_pressed"]

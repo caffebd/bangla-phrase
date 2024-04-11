@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://script/menu.gd" type="Script" id=1]
 [ext_resource path="res://assets/menu/new_play_btn_2.png" type="Texture" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://script/MusicToggle.gd" type="Script" id=10]
 [ext_resource path="res://assets/menu/score.png" type="Texture" id=11]
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=12]
+[ext_resource path="res://assets/menu/instructions_btn.png" type="Texture" id=13]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
@@ -87,10 +88,10 @@ rect_pivot_offset = Vector2( 119, 119 )
 texture = ExtResource( 7 )
 
 [node name="MusicToggle" type="TextureButton" parent="."]
-margin_left = 484.0
-margin_top = 1702.0
-margin_right = 724.0
-margin_bottom = 1902.0
+margin_left = 692.0
+margin_top = 1709.0
+margin_right = 932.0
+margin_bottom = 1909.0
 rect_scale = Vector2( 0.7, 0.7 )
 toggle_mode = true
 texture_normal = ExtResource( 9 )
@@ -121,8 +122,17 @@ text = "0"
 placeholder_text = "no."
 caret_blink = true
 
+[node name="InstructionsBtn" type="TextureButton" parent="."]
+margin_left = 285.0
+margin_top = 1710.0
+margin_right = 786.0
+margin_bottom = 1910.0
+rect_scale = Vector2( 0.7, 0.7 )
+texture_normal = ExtResource( 13 )
+
 [connection signal="pressed" from="PlayBtn" to="." method="_on_PlayBtn_pressed"]
 [connection signal="pressed" from="LoginBtn" to="." method="_on_LoginBtn_pressed"]
 [connection signal="pressed" from="ScoresBtn" to="." method="_on_ScoresBtn_pressed"]
 [connection signal="toggled" from="MusicToggle" to="MusicToggle" method="_on_MusicToggle_toggled"]
 [connection signal="pressed" from="AccountBtn" to="." method="_on_AccountBtn_pressed"]
+[connection signal="pressed" from="InstructionsBtn" to="." method="_on_InstructionsBtn_pressed"]

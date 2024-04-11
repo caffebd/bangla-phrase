@@ -7,6 +7,9 @@ func _ready():
 	$"%PassCount".text = str(SharedVariables.words_skipped)
 	if UserData.user_topscore < SharedVariables.total_game_points:
 		$"%NewHighBanner".visible = true
+		$"%WinLong".play()
+	else:
+		$"%WinShort".play()
 
 
 func _on_MenuButton_pressed():

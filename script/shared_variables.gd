@@ -4,7 +4,7 @@ var rng : RandomNumberGenerator = RandomNumberGenerator.new()
 
 var current_level = 0
 
-var game_time: int = 13
+var game_time: int = 30
 
 var target_word: String = ""
 var target_word_length: int = 0
@@ -1252,7 +1252,8 @@ func reset_levels():
 	playing_levels.clear()
 	var indexes_avail:Array = []
 	var the_keys = all_levels[level_selected].keys()
-	for i in 15:
+#	print(the_keys.size())
+	for i in the_keys.size()-1:
 		var index = rng.randi_range(0, the_keys.size()-1)
 		var picked_word = the_keys[index]
 		selected_words.append(picked_word)
@@ -1264,7 +1265,7 @@ func reset_levels():
 	total_game_points = 0
 	words_complete = 0
 	words_skipped = 0
-	game_time = 13
+	game_time = 30
 #	print (playing_levels)
 
 

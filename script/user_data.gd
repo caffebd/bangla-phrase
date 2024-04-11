@@ -120,7 +120,7 @@ func load_local():
 					"complete": the_data["complete"],
 					})				
 		local_user_data.sort_custom(MyCustomSorter, "sort_descending")
-		print (local_user_data[0]["score"])
+#		print (local_user_data[0]["score"])
 		user_topscore = local_user_data[0]["score"]
 			
 
