@@ -30,6 +30,7 @@ func _input(event):
 		fail.visible = false
 		email_valid_label.visible = false
 		pass_field_check.visible = false
+		user_field_check.visible = false
 	if event is InputEventKey and event.scancode == KEY_SPACE:
 		get_tree().set_input_as_handled()
 	if event.is_action_pressed("ui_focus_next"):

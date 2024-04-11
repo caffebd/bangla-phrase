@@ -1,7 +1,7 @@
 extends Control
 
 onready var username_field =  $Username
-onready var pass_reset = $PassCheckEmail
+onready var pass_reset = $CheckEmail
 onready var save_timer = $SaveTimer
 onready var user_email_field = $UserEmail
 

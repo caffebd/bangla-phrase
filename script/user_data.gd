@@ -52,7 +52,15 @@ func _get_my_username():
 	var document_task : FirestoreTask = collection.get(user_id)
 	var document : FirestoreDocument = yield(document_task, "get_document")
 	user_name = document["doc_fields"]["username"]
-	user_topscore = document["doc_fields"]["topscore"]	
+	user_topscore = document["doc_fields"]["topscore"]
+
+func get_username_for_score(doc_id)->String:
+	print ("getting score name for "+doc_id)
+	var collection : FirestoreCollection = Firebase.Firestore.collection("users")
+	var document_task : FirestoreTask = collection.get(doc_id)
+	var document : FirestoreDocument = yield(document_task, "get_document")
+	user_name = document["doc_fields"]["username"]
+	return user_name	
 	
 func update_user_name(new_name:String):
 	print ("new name "+new_name)
@@ -61,6 +69,18 @@ func update_user_name(new_name:String):
 	var document : FirestoreTask = yield(add_task, "task_finished")
 	print ("username updated")
 	user_name = new_name
+	update_username_in_top_scores()
+
+func update_username_in_top_scores():
+	var firestore_collection_scores : FirestoreCollection = Firebase.Firestore.collection("all_scores")
+	var document_task : FirestoreTask = firestore_collection_scores.get(user_id)
+	if not document_task:
+		print ("No SCORE FOUDN")
+	else:
+		print ("exisitng found")
+		var id = UserData.user_id
+		var add_task_score : FirestoreTask = firestore_collection_scores.update(id, {"name":user_name})
+		var document_score_update : FirestoreTask = yield(add_task_score, "task_finished")	
 
 func send_score():
 	user_topscore = SharedVariables.total_game_points 
@@ -70,7 +90,8 @@ func send_score():
 	var document : FirestoreTask = yield(add_task, "task_finished")
 	print ("user score updated")
 	var firestore_collection_scores : FirestoreCollection = Firebase.Firestore.collection("all_scores")
-	var add_task_score : FirestoreTask = firestore_collection_scores.update(id, {"score":SharedVariables.total_game_points })
+	
+	var add_task_score : FirestoreTask = firestore_collection_scores.update(id, {"score":SharedVariables.total_game_points , "name":user_name})
 	var document_score : FirestoreTask = yield(add_task, "task_finished")		
 
 func save_local():

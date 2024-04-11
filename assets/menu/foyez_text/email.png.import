@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/score.png-9726dfd9830b11d9e6ad4105f0024d05.stex"
+path="res://.import/email.png-c47eaf5c8bfda63861e73b1fa73b7113.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu/score.png"
-dest_files=[ "res://.import/score.png-9726dfd9830b11d9e6ad4105f0024d05.stex" ]
+source_file="res://assets/menu/foyez_text/email.png"
+dest_files=[ "res://.import/email.png-c47eaf5c8bfda63861e73b1fa73b7113.stex" ]
 
 [params]
 

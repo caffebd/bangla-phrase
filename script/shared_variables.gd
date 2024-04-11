@@ -60,7 +60,7 @@ var word_audio = {
 	"ckolett": preload("res://assets/audio/words/ckolett.mp3"),
 	"blekbord": preload("res://assets/audio/words/blekbord.mp3"),
 	"bi": preload("res://assets/audio/words/bi.mp3"),
-	"pakha": preload("res://assets/audio/words/pakha.mp3"),
+#	"pakha": preload("res://assets/audio/words/pakha.mp3"),
 	"shiyal": preload("res://assets/audio/words/shiyal.mp3"),
 	"frij": preload("res://assets/audio/words/frij.mp3"),
 	"peyara": preload("res://assets/audio/words/peyara.mp3"),
@@ -123,7 +123,7 @@ var word_audio = {
 	"aiskrim": preload("res://assets/audio/words/aiskrim.mp3"),
 #	"jaynamaj": preload("res://assets/audio/words/jaynamaj.mp3"),
 	"ka6camric": preload("res://assets/audio/words/ka6camric.mp3"),
-	"istri": preload("res://assets/audio/words/istri.mp3"),
+#	"istri": preload("res://assets/audio/words/istri.mp3"),
 	"rajha6s": preload("res://assets/audio/words/rajha6s.mp3"),
 	"lattim": preload("res://assets/audio/words/latim.mp3"),
 	"singh": preload("res://assets/audio/words/singh.mp3"),
@@ -193,7 +193,7 @@ var word_images = {
 	"ckolett": preload("res://assets/puzzle_images/chocolate_2.png"),
 	"blekbord": preload("res://assets/puzzle_images/blackboard.png"),
 	"bi": preload("res://assets/puzzle_images/book.png"),
-	"pakha": preload("res://assets/puzzle_images/fen.png"),
+#	"pakha": preload("res://assets/puzzle_images/fen.png"),
 	"shiyal": preload("res://assets/puzzle_images/fox.png"),
 	"frij": preload("res://assets/puzzle_images/fridge.png"),
 	"peyara": preload("res://assets/puzzle_images/guavas.png"),
@@ -256,7 +256,7 @@ var word_images = {
 	"aiskrim": preload("res://assets/puzzle_images/chocolate.png"),
 #	"jaynamaj": preload("res://assets/puzzle_images/jainamaz.png"),
 	"ka6camric": preload("res://assets/puzzle_images/greenchillies.png"),
-	"istri": preload("res://assets/puzzle_images/iron.png"),
+#	"istri": preload("res://assets/puzzle_images/iron.png"),
 	"rajha6s": preload("res://assets/puzzle_images/kingfisher.png"),
 	"lattim": preload("res://assets/puzzle_images/latim.png"),
 	"singh": preload("res://assets/puzzle_images/lion.png"),
@@ -589,10 +589,10 @@ var test_levels = {
 		"keyboard":["g","ra", "cha", "b","shi","rri", "i", "gh","m","na"]
 	},
 
-	"pakha":{
-		"spelling":["pa", "kha"],
-		"keyboard":["f","la", "ju","c","pa","g","m", "sh", "kha", "l"]
-	},
+#	"pakha":{
+#		"spelling":["pa", "kha"],
+#		"keyboard":["f","la", "ju","c","pa","g","m", "sh", "kha", "l"]
+#	},
 
 
 	"shiyal":{
@@ -948,10 +948,10 @@ var test_levels = {
 		"keyboard":["m","la","na","ri","ka6","l","c","no", "ca", "ch"]
 	},
 
-	"istri":{
-		"spelling":["i", "stri"],
-		"keyboard":["ga", "ko","stri","c","b","i","tt", "gh","le","nn"]
-	},
+#	"istri":{
+#		"spelling":["i", "stri"],
+#		"keyboard":["ga", "ko","stri","c","b","i","tt", "gh","le","nn"]
+#	},
 
 	"rajha6s":{
 		"spelling":["ra", "j", "ha6", "s"],
@@ -1244,25 +1244,22 @@ var all_levels = [test_levels]
 var playing_levels = []
 
 func reset_levels():
+	selected_words.clear()
+	playing_levels.clear()
 	var indexes_avail:Array = []
 	var the_keys = all_levels[level_selected].keys()
-#	for i in the_keys.size()-1:
-#		indexes_avail.append(i)
-	
-	print (str(the_keys.size()))
 	for i in 15:
 		var index = rng.randi_range(0, the_keys.size()-1)
 		var picked_word = the_keys[index]
 		selected_words.append(picked_word)
 		the_keys.erase(picked_word)
 	
-	
 	playing_levels = selected_words.duplicate()
 #	var all_keys = playing_levels.keys()
 #	all_keys_size = all_keys.size()
 	total_game_points = 0
 	words_complete = 0
-	print (playing_levels)
+#	print (playing_levels)
 
 
 

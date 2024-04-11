@@ -4,9 +4,9 @@
 [ext_resource path="res://scenes/AllScores.tscn" type="PackedScene" id=2]
 [ext_resource path="res://script/ScoresPage.gd" type="Script" id=3]
 [ext_resource path="res://scenes/MyScores.tscn" type="PackedScene" id=4]
-[ext_resource path="res://assets/ui/buttons_bangla/my_score.png" type="Texture" id=5]
-[ext_resource path="res://assets/ui/buttons_bangla/back_btn2.png" type="Texture" id=6]
-[ext_resource path="res://assets/ui/buttons_bangla/all_score.png" type="Texture" id=7]
+[ext_resource path="res://assets/menu/back button.png" type="Texture" id=5]
+[ext_resource path="res://assets/menu/online_score_2.png" type="Texture" id=6]
+[ext_resource path="res://assets/menu/my_score_2.png" type="Texture" id=7]
 
 [node name="ScoresPage" type="Control"]
 anchor_right = 1.0
@@ -27,7 +27,7 @@ color = Color( 0.156863, 0.141176, 0.141176, 0.627451 )
 
 [node name="MyScores" parent="." instance=ExtResource( 4 )]
 margin_left = 11.0
-margin_top = 64.0
+margin_top = 129.0
 margin_right = 11.0
 margin_bottom = 3.0
 
@@ -43,23 +43,28 @@ margin_left = 8.0
 margin_top = 25.0
 margin_right = 82.0
 margin_bottom = 95.0
-texture_normal = ExtResource( 6 )
-
-[node name="MyScoresBtn" type="TextureButton" parent="."]
-margin_left = 156.0
-margin_top = 32.0
-margin_right = 326.0
-margin_bottom = 72.0
-rect_scale = Vector2( 2, 2 )
+rect_scale = Vector2( 0.7, 0.7 )
 texture_normal = ExtResource( 5 )
 
-[node name="AllScoresBtn" type="TextureButton" parent="."]
-margin_left = 570.0
-margin_top = 35.0
-margin_right = 740.0
-margin_bottom = 75.0
-rect_scale = Vector2( 2, 2 )
+[node name="MyScoresBtn" type="TextureButton" parent="."]
+unique_name_in_owner = true
+margin_left = 274.0
+margin_top = 50.0
+margin_right = 474.0
+margin_bottom = 134.0
+rect_scale = Vector2( 1.8, 1.8 )
+rect_pivot_offset = Vector2( 100, 42 )
 texture_normal = ExtResource( 7 )
+
+[node name="AllScoresBtn" type="TextureButton" parent="."]
+unique_name_in_owner = true
+margin_left = 664.0
+margin_top = 50.0
+margin_right = 864.0
+margin_bottom = 130.0
+rect_scale = Vector2( 1.6, 1.6 )
+rect_pivot_offset = Vector2( 100, 40 )
+texture_normal = ExtResource( 6 )
 
 [connection signal="pressed" from="BackButton" to="." method="_on_BackButton_pressed"]
 [connection signal="pressed" from="MyScoresBtn" to="." method="_on_MyScoresBtn_pressed"]

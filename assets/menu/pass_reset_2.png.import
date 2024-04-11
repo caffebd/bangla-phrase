@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/score.png-9726dfd9830b11d9e6ad4105f0024d05.stex"
+path="res://.import/pass_reset_2.png-ff073184352ae802cd3ef6b18ee0dcc4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu/score.png"
-dest_files=[ "res://.import/score.png-9726dfd9830b11d9e6ad4105f0024d05.stex" ]
+source_file="res://assets/menu/pass_reset_2.png"
+dest_files=[ "res://.import/pass_reset_2.png-ff073184352ae802cd3ef6b18ee0dcc4.stex" ]
 
 [params]
 
