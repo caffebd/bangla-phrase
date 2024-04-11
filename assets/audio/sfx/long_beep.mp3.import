@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/long_beep.mp3-4f54f0b6c798d5e7fe297c3f7ae0e9b8.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/sfx/long_beep.mp3"
+dest_files=[ "res://.import/long_beep.mp3-4f54f0b6c798d5e7fe297c3f7ae0e9b8.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

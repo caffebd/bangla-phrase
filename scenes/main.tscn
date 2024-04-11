@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=2]
+[gd_scene load_steps=49 format=2]
 
 [ext_resource path="res://assets/ui/ui_1080/Stop Button.png" type="Texture" id=1]
 [ext_resource path="res://script/main.gd" type="Script" id=2]
@@ -20,8 +20,11 @@
 [ext_resource path="res://assets/ui/ui_1080/next_btn_sml.png" type="Texture" id=18]
 [ext_resource path="res://assets/audio/sfx/type_2.mp3" type="AudioStream" id=19]
 [ext_resource path="res://assets/audio/sfx/reveal_2.mp3" type="AudioStream" id=20]
+[ext_resource path="res://assets/audio/sfx/countdown_beep.mp3" type="AudioStream" id=21]
 [ext_resource path="res://assets/menu/quit_bangla_btn.png" type="Texture" id=22]
+[ext_resource path="res://assets/audio/sfx/single_beep.mp3" type="AudioStream" id=23]
 [ext_resource path="res://assets/ui/buttons_bangla/bangla_quit.png" type="Texture" id=24]
+[ext_resource path="res://assets/audio/sfx/long_beep.mp3" type="AudioStream" id=25]
 
 [sub_resource type="DynamicFont" id=7]
 font_data = ExtResource( 11 )
@@ -603,6 +606,10 @@ text = "1234"
 unique_name_in_owner = true
 stream = ExtResource( 16 )
 
+[node name="CountdownBeeps" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource( 21 )
+
 [node name="SkipBtn" type="TextureButton" parent="."]
 unique_name_in_owner = true
 visible = false
@@ -622,6 +629,14 @@ volume_db = -15.0
 unique_name_in_owner = true
 stream = ExtResource( 19 )
 
+[node name="SingleBeep" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource( 23 )
+
+[node name="LongBeep" type="AudioStreamPlayer" parent="."]
+unique_name_in_owner = true
+stream = ExtResource( 25 )
+
 [connection signal="pressed" from="MenuButton" to="." method="_on_MenuButton_pressed"]
 [connection signal="timeout" from="GameTimer" to="." method="_on_GameTimer_timeout"]
 [connection signal="button_down" from="ButtonContainer/StopButton" to="GridContainer" method="_on_TextureButton_button_down"]
@@ -632,3 +647,4 @@ stream = ExtResource( 19 )
 [connection signal="pressed" from="PopupPanel/Control/QuitBtn" to="." method="_on_QuitBtn_pressed"]
 [connection signal="finished" from="CorrectWord" to="." method="_on_CorrectWord_finished"]
 [connection signal="pressed" from="SkipBtn" to="SpellingGridContainer" method="_on_SkipBtn_pressed"]
+[connection signal="finished" from="LongBeep" to="." method="_on_LongBeep_finished"]

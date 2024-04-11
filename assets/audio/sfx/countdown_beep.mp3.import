@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/countdown_beep.mp3-9f9dacea20f00d68280a14d304e2ddc9.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/sfx/countdown_beep.mp3"
+dest_files=[ "res://.import/countdown_beep.mp3-9f9dacea20f00d68280a14d304e2ddc9.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

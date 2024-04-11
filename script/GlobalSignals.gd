@@ -14,3 +14,5 @@ signal remove_all_squares()
 signal show_help()
 
 signal show_submit(state)
+
+signal update_points(deducation)

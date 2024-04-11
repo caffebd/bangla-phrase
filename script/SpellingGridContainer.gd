@@ -103,9 +103,12 @@ func _check_answer():
 
 
 func _on_SkipBtn_pressed():
-	main_parent.game_points = 0
+#	main_parent.game_points = 0
+	SharedVariables.words_skipped += 1
+	GlobalSignals.emit_signal("update_points", 10)
 	SharedVariables.last_game_points = main_parent.game_points
 	SharedVariables.total_game_points = SharedVariables.total_game_points + main_parent.game_points
+	
 	GlobalSignals.emit_signal("remove_all_squares")
 	$"%GameTimer".stop()
 	$"../CorrectWord".play()

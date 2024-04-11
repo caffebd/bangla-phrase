@@ -28,7 +28,7 @@ var flashing = true
 var current_word: String = ""
 
 var game_time: int = 0
-var game_points: int = 100
+var game_points: int = 250
 
 var spelling_y: float = 1200
 var keyboard_y: float = 1370
@@ -54,6 +54,8 @@ func _ready():
 	$"%SkipBtn".visible = false
 	$"%SkipBtn".disabled = true
 	$"%StopAnim".play("pulse")
+	GlobalSignals.connect("update_points", self, "update_points")
+	_set_timer_label()
 	pick_word()
 
 func pick_word():
@@ -74,27 +76,65 @@ func start_timer():
 	game_timer.start()
 
 
-func _on_GameTimer_timeout():
-	game_time = game_time + 1
-	SharedVariables.total_seconds = SharedVariables.total_seconds + 1
-	var seconds = game_time%60
-	var minutes = (game_time/60)%60
+func _set_timer_label():
+	var seconds = SharedVariables.game_time%60
+	var minutes = (SharedVariables.game_time/60)%60
 	var show_seconds = str(seconds)
 	if (seconds<10):
 		show_seconds = "0"+str(seconds)
 	timer_label.text = str(minutes) +":"+show_seconds
+
+func _on_GameTimer_timeout():
+	SharedVariables.game_time -= 1
+	if SharedVariables.game_time <= 10:
+		if SharedVariables.game_time == 0:
+			$"%LongBeep".play()
+		else:
+			$"%SingleBeep".play()
+		var red = Color(1.0,0.0,0.0,1.0)
+		$"%Timer".set("custom_colors/font_color",red)
+		
+#	SharedVariables.total_seconds = SharedVariables.total_seconds + 1
+	var seconds = SharedVariables.game_time%60
+	var minutes = (SharedVariables.game_time/60)%60
+	var show_seconds = str(seconds)
+	if (seconds<10):
+		show_seconds = "0"+str(seconds)
+	timer_label.text = str(minutes) +":"+show_seconds
+	if SharedVariables.game_time < 0:
+		timer_label.text = str(minutes) +":00"
+		get_tree().change_scene("res://scenes/AllWordsDone.tscn")
+		
 #	print (str(game_time%10)) 
-	if game_time%10 == 0:
-		var point_reduction = int(game_time/10)
-		game_points = game_points - (point_reduction)
-		if game_points <= 0:
-			game_points = 0
-		update_points()
+#	if game_time%10 == 0:
+#		var point_reduction = int(game_time/10)
+#		game_points = game_points - (point_reduction)
+#		if game_points <= 0:
+#			game_points = 0
+#		update_points()
+
+#func _old_game_time():
+#	game_time = game_time + 1
+#	SharedVariables.total_seconds = SharedVariables.total_seconds + 1
+#	var seconds = game_time%60
+#	var minutes = (game_time/60)%60
+#	var show_seconds = str(seconds)
+#	if (seconds<10):
+#		show_seconds = "0"+str(seconds)
+#	timer_label.text = str(minutes) +":"+show_seconds
+##	print (str(game_time%10)) 
+#	if game_time%10 == 0:
+#		var point_reduction = int(game_time/10)
+#		game_points = game_points - (point_reduction)
+#		if game_points <= 0:
+#			game_points = 0
+#		update_points()
 	
-func update_points():
+func update_points(deduction):
+	game_points -= deduction
 	points_label.text = str(game_points)
-	if game_points <= 0:
-		grid.remove_all_squares()
+#	if game_points <= 0:
+#		grid.remove_all_squares()
 
 
 func _on_MenuButton_pressed():
@@ -137,3 +177,11 @@ func _show_help():
 
 func _on_MusicBtn_toggled(button_pressed):
 	print ("toggle")
+
+
+
+	
+
+
+func _on_LongBeep_finished():
+	get_tree().change_scene("res://scenes/AllWordsDone.tscn")

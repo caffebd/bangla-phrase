@@ -17,17 +17,20 @@ var star_y = 1240
 func _ready():
 #	points_label.text = str(SharedVariables.last_game_points)
 	points_label.text = str(SharedVariables.last_game_points)
-	SharedVariables.words_complete = SharedVariables.words_complete + 1
+	
 	$ShowImage.texture = SharedVariables.word_images[SharedVariables.target_word ]
 	if UserData.logged_in:
 		if UserData.user_topscore < SharedVariables.total_game_points:
 			UserData.send_score()
-	if SharedVariables.last_game_points > 89:
+	if SharedVariables.last_game_points > 229:
 		position_stars(2)
-	elif SharedVariables.last_game_points > 59:
+		SharedVariables.words_complete = SharedVariables.words_complete + 1
+	elif SharedVariables.last_game_points > 99:
 		position_stars(1)
-	elif SharedVariables.last_game_points > 19:
+		SharedVariables.words_complete = SharedVariables.words_complete + 1
+	elif SharedVariables.last_game_points > 0:
 		position_stars(0)
+		SharedVariables.words_complete = SharedVariables.words_complete + 1
 
 
 

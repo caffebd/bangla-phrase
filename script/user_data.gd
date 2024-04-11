@@ -116,11 +116,12 @@ func load_local():
 			for the_data in data["my_scores"]["local_user_data"]:
 				local_user_data.append({
 					"score": the_data["score"],
-					"time": the_data["time"],
+					"pass": the_data["pass"],
 					"complete": the_data["complete"],
 					})				
 		local_user_data.sort_custom(MyCustomSorter, "sort_descending")
-		print (local_user_data.size())
+		print (local_user_data[0]["score"])
+		user_topscore = local_user_data[0]["score"]
 			
 
 	
@@ -133,7 +134,7 @@ func local_save_data():
 func update_local_data():
 	local_user_data.append({
 		"score": SharedVariables.total_game_points,
-		"time": SharedVariables.total_seconds,
+		"pass": SharedVariables.words_skipped,
 		"complete": SharedVariables.words_complete		
 	})
 	print (local_user_data)

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/single_beep.mp3-b8fbc25e199126ece8aca965bdca7cd4.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/sfx/single_beep.mp3"
+dest_files=[ "res://.import/single_beep.mp3-b8fbc25e199126ece8aca965bdca7cd4.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

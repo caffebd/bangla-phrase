@@ -4,6 +4,8 @@ var rng : RandomNumberGenerator = RandomNumberGenerator.new()
 
 var current_level = 0
 
+var game_time: int = 13
+
 var target_word: String = ""
 var target_word_length: int = 0
 
@@ -22,6 +24,8 @@ var words_complete: int = 0
 var total_seconds: int = 0
 
 var last_game_points: int = 0
+
+var words_skipped: int = 0
 
 var temp_number: int = 0
 
@@ -1259,6 +1263,8 @@ func reset_levels():
 #	all_keys_size = all_keys.size()
 	total_game_points = 0
 	words_complete = 0
+	words_skipped = 0
+	game_time = 13
 #	print (playing_levels)
 
 

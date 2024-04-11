@@ -34,6 +34,10 @@ $d1,$d2,$d3,$d4
 
 var avail_positions: Array = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 
+var points_deduction: Array = [1,2,4,6,7,10,12,16,20,22,24,26,28,30,32]
+
+var points_index: int = 0
+
 func _ready():
 	rng.randomize() 
 	GlobalSignals.connect("next_guess", self, "_next_guess")
@@ -85,11 +89,13 @@ func reveal_square(pos: int):
 	keyboard_grid.show_keyboard(true)
 	buttons_container.show_buttons(true)
 	if !first_square:
-		main_parent.game_points = main_parent.game_points - 2
-		main_parent.update_points()
+		var deduction = points_deduction[points_index]
+		points_index += 1
+		GlobalSignals.emit_signal("update_points", deduction)
 	else:
 		first_square = false
 	$"%Reveal".play()
+
 	
 
 func flash_cover(square: TextureRect):
