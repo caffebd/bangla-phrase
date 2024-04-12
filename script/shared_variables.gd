@@ -2,9 +2,11 @@ extends Node
 
 var rng : RandomNumberGenerator = RandomNumberGenerator.new()
 
-var current_level = 0
+var current_level: int = 0
 
-var game_time: int = 30
+var set_game_time: int = 120
+
+var game_time: int = 120
 
 var target_word: String = ""
 var target_word_length: int = 0
@@ -678,7 +680,7 @@ var test_levels = {
 
 	"birral":{
 		"spelling":["bi", "rra", "l"],
-		"keyboard":["t","p", "l", "tta","bi","la", "rt", "rra","r","la"]
+		"keyboard":["t","p", "l", "tta","bi","la", "rt", "rra","r","bii"]
 	},
 
 	"cshma":{
@@ -1265,7 +1267,7 @@ func reset_levels():
 	total_game_points = 0
 	words_complete = 0
 	words_skipped = 0
-	game_time = 30
+	game_time = set_game_time
 #	print (playing_levels)
 
 

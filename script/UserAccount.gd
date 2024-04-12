@@ -7,6 +7,7 @@ onready var user_email_field = $UserEmail
 
 func _ready():
 	print (UserData.user_name)
+	$"%WaitBounce".visible = false
 	username_field.text = UserData.user_name
 	user_email_field.text = UserData.user_email
 
@@ -22,6 +23,7 @@ func _input(event):
 		if event is InputEventKey and event.scancode == KEY_SPACE:
 			get_tree().set_input_as_handled()
 		else:
+			$"%WaitBounce".visible = true
 			save_timer.stop()
 			save_timer.start()
 
@@ -35,6 +37,7 @@ func _on_ResetPass_pressed():
 
 func _on_SaveTimer_timeout():
 	UserData.update_user_name(username_field.text)
+	$"%WaitBounce".visible = false
 
 
 func _on_SignOutBtn_pressed():

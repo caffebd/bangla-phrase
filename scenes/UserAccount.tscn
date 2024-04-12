@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=48 format=2]
 
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://assets/menu/panda_avatar.png" type="Texture" id=2]
@@ -9,6 +9,37 @@
 [ext_resource path="res://assets/menu/sign_out_2.png" type="Texture" id=7]
 [ext_resource path="res://assets/menu/foyez_text/username.png" type="Texture" id=8]
 [ext_resource path="res://assets/menu/check_email_bn.png" type="Texture" id=9]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-11.png" type="Texture" id=10]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-0.png" type="Texture" id=11]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-18.png" type="Texture" id=12]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-20.png" type="Texture" id=13]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-3.png" type="Texture" id=14]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-21.png" type="Texture" id=15]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-22.png" type="Texture" id=16]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-23.png" type="Texture" id=17]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-24.png" type="Texture" id=18]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-27.png" type="Texture" id=19]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-28.png" type="Texture" id=20]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-30.png" type="Texture" id=21]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-9.png" type="Texture" id=22]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-25.png" type="Texture" id=23]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-8.png" type="Texture" id=24]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-19.png" type="Texture" id=25]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-29.png" type="Texture" id=26]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-6.png" type="Texture" id=27]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-13.png" type="Texture" id=28]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-16.png" type="Texture" id=29]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-26.png" type="Texture" id=30]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-10.png" type="Texture" id=31]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-1.png" type="Texture" id=32]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-12.png" type="Texture" id=33]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-14.png" type="Texture" id=34]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-2.png" type="Texture" id=35]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-4.png" type="Texture" id=36]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-5.png" type="Texture" id=37]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-7.png" type="Texture" id=38]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-15.png" type="Texture" id=39]
+[ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-17.png" type="Texture" id=40]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -44,6 +75,14 @@ corner_radius_top_left = 2
 corner_radius_top_right = 2
 corner_radius_bottom_right = 2
 corner_radius_bottom_left = 2
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ ExtResource( 11 ), ExtResource( 32 ), ExtResource( 35 ), ExtResource( 14 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 27 ), ExtResource( 38 ), ExtResource( 24 ), ExtResource( 22 ), ExtResource( 31 ), ExtResource( 10 ), ExtResource( 33 ), ExtResource( 28 ), ExtResource( 34 ), ExtResource( 39 ), ExtResource( 29 ), ExtResource( 40 ), ExtResource( 12 ), ExtResource( 25 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 23 ), ExtResource( 30 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 21 ) ],
+"loop": true,
+"name": "bounce",
+"speed": 30.0
+} ]
 
 [node name="UserAccount" type="Control"]
 anchor_right = 1.0
@@ -104,10 +143,10 @@ margin_bottom = 290.0
 texture = ExtResource( 2 )
 
 [node name="UsernameLabel" type="TextureRect" parent="."]
-margin_left = 313.0
-margin_top = 250.0
-margin_right = 716.0
-margin_bottom = 343.0
+margin_left = 150.0
+margin_top = 247.0
+margin_right = 553.0
+margin_bottom = 340.0
 texture = ExtResource( 8 )
 
 [node name="UserEmail" type="Label" parent="."]
@@ -137,22 +176,21 @@ texture = ExtResource( 9 )
 [node name="Username" type="LineEdit" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 297.0
-margin_top = 368.0
-margin_right = -101.0
-margin_bottom = -1442.0
+margin_left = 160.0
+margin_top = 373.0
+margin_right = -238.0
+margin_bottom = -1437.0
 custom_colors/cursor_color = Color( 0.807843, 0, 0, 1 )
 custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 4 )
 custom_styles/focus = SubResource( 5 )
 custom_styles/normal = SubResource( 6 )
-text = "fefefefef"
-max_length = 12
+max_length = 16
 caret_blink = true
 
 [node name="SaveTimer" type="Timer" parent="."]
-wait_time = 5.0
+wait_time = 3.0
 one_shot = true
 
 [node name="SignOutBtn" type="TextureButton" parent="."]
@@ -162,6 +200,15 @@ margin_right = 954.0
 margin_bottom = 1158.0
 rect_scale = Vector2( 1.3, 1.3 )
 texture_normal = ExtResource( 7 )
+
+[node name="WaitBounce" type="AnimatedSprite" parent="."]
+unique_name_in_owner = true
+visible = false
+position = Vector2( 759, 429 )
+frames = SubResource( 7 )
+animation = "bounce"
+frame = 26
+playing = true
 
 [connection signal="pressed" from="ResetPass" to="." method="_on_ResetPass_pressed"]
 [connection signal="pressed" from="BackBtn" to="." method="_on_BackBtn_pressed"]
