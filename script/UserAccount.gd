@@ -6,10 +6,11 @@ onready var save_timer = $SaveTimer
 onready var user_email_field = $UserEmail
 
 func _ready():
-	print (UserData.user_name)
+	$HTTPRequest.connect("request_completed", self, "_on_request_completed")
 	$"%WaitBounce".visible = false
 	username_field.text = UserData.user_name
 	user_email_field.text = UserData.user_email
+	check_connection()
 
 
 
@@ -48,3 +49,20 @@ func _on_SignOutBtn_pressed():
 	UserData.user_name = ""
 	UserData.user_id = ""
 	get_tree().change_scene("res://scenes/menu.tscn")
+
+
+func check_connection():
+	$HTTPRequest.request("https://html-classic.itch.zone")
+
+func _on_request_completed(result, response_code, headers, body):
+#	var json = JSON.parse(body.get_string_from_utf8())
+	if result == 0:
+		$"%ErrorMessage".visible = false
+		$"%SignOutBtn".disabled = false
+		$"%ResetPass".disabled = false
+		$"%Username".editable = true
+	else:
+		$"%ErrorMessage".visible = true
+		$"%SignOutBtn".disabled = true
+		$"%ResetPass".disabled = true
+		$"%Username".editable = false	

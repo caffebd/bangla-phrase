@@ -22,7 +22,7 @@ func _ready():
 	if UserData.logged_in:
 		if UserData.user_topscore < SharedVariables.total_game_points:
 			UserData.send_score()
-	if SharedVariables.last_game_points > 229:
+	if SharedVariables.last_game_points > 243:
 		position_stars(2)
 		SharedVariables.words_complete = SharedVariables.words_complete + 1
 	elif SharedVariables.last_game_points > 99:

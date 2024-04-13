@@ -498,10 +498,10 @@ var keyboard_letters = {
 # noo is missing (different to no?) 
 
 var test_levels_a = {
-	"ttiuboyel":{
-		"spelling":["tti", "u", "b", "o", "ye", "l"],
-		"keyboard":["ye","k", "b", "tti","o","li", "rt", "u","l","r"]
-	}
+	"pawruti":{
+		"spelling":["pa", "u", "ru", "tti"],
+		"keyboard":[ "me", "u", "s","rri", "ru", "ta", "tti", "m", "pa", "re"]
+	},
 
 }
 
@@ -1066,7 +1066,7 @@ var test_levels = {
 	},
 
 	"pawruti":{
-		"spelling":["pa", "u", "ru", "tii"],
+		"spelling":["pa", "u", "ru", "tti"],
 		"keyboard":[ "me", "u", "s","rri", "ru", "ta", "tti", "m", "pa", "re"]
 	},
 
@@ -1254,8 +1254,8 @@ func reset_levels():
 	playing_levels.clear()
 	var indexes_avail:Array = []
 	var the_keys = all_levels[level_selected].keys()
-#	print(the_keys.size())
-	for i in the_keys.size()-1:
+	print(the_keys.size())
+	for i in the_keys.size():
 		var index = rng.randi_range(0, the_keys.size()-1)
 		var picked_word = the_keys[index]
 		selected_words.append(picked_word)
@@ -1268,7 +1268,7 @@ func reset_levels():
 	words_complete = 0
 	words_skipped = 0
 	game_time = set_game_time
-#	print (playing_levels)
+	print (playing_levels)
 
 
 

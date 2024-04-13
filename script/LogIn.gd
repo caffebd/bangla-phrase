@@ -12,6 +12,7 @@ var tab_controls = []
 var tab_index = 0
 
 func _ready():
+	$HTTPRequest.connect("request_completed", self, "_on_request_completed")
 	Firebase.Auth.connect("login_succeeded", self, "_on_FirebaseAuth_login_succeeded")
 	Firebase.Auth.connect("signup_succeeded", self, "_on_FirebaseAuth_login_succeeded")
 	Firebase.Auth.connect("login_failed", self, "on_login_failed")
@@ -21,6 +22,7 @@ func _ready():
 	fail.visible = false
 	tab_controls = [email_field, pass_field, submit_btn]
 	email_field.grab_focus()
+	
 
 func _input(event):
 	if event is InputEventKey and event.pressed:
@@ -78,15 +80,13 @@ func on_signup_failed(error_code, message):
 
 
 
-#func _on_SubmitBtn_pressed():
-#	Firebase.Auth.logout()
-
-#func _logged_out():
+func _unhandled_input(event):
+	if event is InputEventMouseButton:
+		print ("unhandled")
+		$"%ErrorMessage".visible = false
 
 func _on_SubmitBtn_pressed():	
-	email = email_field.text.strip_edges()
-	password = pass_field.text.strip_edges()
-	Firebase.Auth.login_with_email_and_password(email, password)
+	check_connection()
 
 
 func _on_ShowPass_toggled(button_pressed):
@@ -99,3 +99,18 @@ func _on_RegisterBtn_pressed():
 
 func _on_BackBtn_pressed():
 	get_tree().change_scene("res://scenes/menu.tscn")
+
+
+func check_connection():
+	$HTTPRequest.request("https://html-classic.itch.zone")
+
+func _on_request_completed(result, response_code, headers, body):
+#	var json = JSON.parse(body.get_string_from_utf8())
+	if result == 0:
+		$"%ErrorMessage".visible = false
+		email = email_field.text.strip_edges()
+		password = pass_field.text.strip_edges()
+		Firebase.Auth.login_with_email_and_password(email, password)
+	else:
+		print ("you are offline")
+		$"%ErrorMessage".visible = true

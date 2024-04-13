@@ -16,3 +16,5 @@ signal show_help()
 signal show_submit(state)
 
 signal update_points(deducation)
+
+signal check_connection()

@@ -31,12 +31,19 @@ func _on_BackButton_pressed():
 
 
 func _on_MyScoresBtn_toggled(button_pressed):
-	my_scores_page.visible = true
-	all_scores_page.visible = false
-	$"%AllScoresBtn".set_pressed_no_signal(false)
+	if button_pressed:
+		my_scores_page.visible = true
+		all_scores_page.visible = false
+		$"%AllScoresBtn".set_pressed_no_signal(false)
+	else:
+		$"%MyScoresBtn".set_pressed_no_signal(true)
 
 
 func _on_AllScoresBtn_toggled(button_pressed):
-	my_scores_page.visible = false
-	all_scores_page.visible = true
-	$"%MyScoresBtn".set_pressed_no_signal(false)
+	if button_pressed:
+		GlobalSignals.emit_signal("check_connection")
+		my_scores_page.visible = false
+		all_scores_page.visible = true
+		$"%MyScoresBtn".set_pressed_no_signal(false)
+	else:
+		$"%AllScoresBtn".set_pressed_no_signal(true)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=2]
+[gd_scene load_steps=52 format=2]
 
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://assets/menu/panda_avatar.png" type="Texture" id=2]
@@ -42,6 +42,8 @@
 [ext_resource path="res://assets/ui/waiting/8136862e-589c-4b64-acfb-aa27b637a91b-17.png" type="Texture" id=40]
 [ext_resource path="res://assets/new_assets/user settings.png" type="Texture" id=41]
 [ext_resource path="res://assets/new_assets/line1.png" type="Texture" id=42]
+[ext_resource path="res://assets/new_assets/max score frame.png" type="Texture" id=43]
+[ext_resource path="res://assets/new_assets/no-internet.png" type="Texture" id=44]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -129,6 +131,7 @@ margin_right = -166.0
 margin_bottom = -1517.0
 
 [node name="ResetPass" type="TextureButton" parent="."]
+unique_name_in_owner = true
 margin_left = 78.0
 margin_top = 693.0
 margin_right = 684.0
@@ -187,6 +190,7 @@ margin_bottom = -1138.0
 texture = ExtResource( 9 )
 
 [node name="Username" type="LineEdit" parent="."]
+unique_name_in_owner = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 214.0
@@ -207,6 +211,7 @@ wait_time = 3.0
 one_shot = true
 
 [node name="SignOutBtn" type="TextureButton" parent="."]
+unique_name_in_owner = true
 margin_left = 690.0
 margin_top = 697.0
 margin_right = 1141.0
@@ -217,10 +222,10 @@ texture_normal = ExtResource( 7 )
 [node name="WaitBounce" type="AnimatedSprite" parent="."]
 unique_name_in_owner = true
 visible = false
-position = Vector2( 759, 429 )
+position = Vector2( 837, 597 )
 frames = SubResource( 7 )
 animation = "bounce"
-frame = 27
+frame = 9
 playing = true
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -229,6 +234,44 @@ margin_top = 231.0
 margin_right = 1042.0
 margin_bottom = 271.0
 texture = ExtResource( 42 )
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+timeout = 10.0
+
+[node name="ErrorMessage" type="Control" parent="."]
+unique_name_in_owner = true
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 11.0
+margin_top = 380.0
+margin_right = -1029.0
+margin_bottom = -1500.0
+
+[node name="ColorRect2" type="ColorRect" parent="ErrorMessage"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 131.0
+margin_top = 628.0
+margin_right = 923.0
+margin_bottom = 1198.0
+
+[node name="ErrorFrame" type="TextureRect" parent="ErrorMessage"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 55.0
+margin_top = 551.0
+margin_right = 995.0
+margin_bottom = 1271.0
+texture = ExtResource( 43 )
+
+[node name="NoInternet" type="TextureRect" parent="ErrorMessage"]
+margin_left = 240.0
+margin_top = 851.0
+margin_right = 548.0
+margin_bottom = 929.0
+rect_scale = Vector2( 2, 2 )
+texture = ExtResource( 44 )
 
 [connection signal="pressed" from="ResetPass" to="." method="_on_ResetPass_pressed"]
 [connection signal="pressed" from="BackBtn" to="." method="_on_BackBtn_pressed"]

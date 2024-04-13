@@ -6,6 +6,10 @@ var can_interact: bool = false
 
 func _ready():
 	GameMusic.stop_music()
+	if SharedVariables.set_game_time != 120:
+		$CheckButton.set_pressed_no_signal(true)
+	else:
+		$CheckButton.set_pressed_no_signal(false)
 	Firebase.Auth.connect("signup_succeeded", self, "_on_FirebaseAuth_login_succeeded")
 	if UserData.logged_in:
 		$"%AccountBtn".visible = true
@@ -62,3 +66,10 @@ func _on_AccountBtn_pressed():
 
 func _on_InstructionsBtn_pressed():
 	get_tree().change_scene("res://scenes/Instructions.tscn")
+
+
+func _on_CheckButton_toggled(button_pressed):
+	if button_pressed:
+		SharedVariables.set_game_time = 7200
+	else:
+		SharedVariables.set_game_time = 120

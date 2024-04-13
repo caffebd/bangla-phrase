@@ -16,6 +16,7 @@ var tab_controls = []
 var tab_index = 0
 
 func _ready():
+	$HTTPRequest.connect("request_completed", self, "_on_request_completed")
 	Firebase.Auth.connect("login_succeeded", self, "_on_FirebaseAuth_login_succeeded")
 	Firebase.Auth.connect("signup_succeeded", self, "_on_FirebaseAuth_login_succeeded")
 	Firebase.Auth.connect("login_failed", self, "on_login_failed")
@@ -71,35 +72,28 @@ func on_signup_failed(error_code, message):
 	print("message: " + str(message))
 	if error_code == 400:
 		fail.text = message
-		fail.visible = true	
+		if message == "EMAIL_EXISTS":
+			$"%ErrorMessage".visible = true
+			$"%NoInternet".visible = false
+			$"%EmailUsed".visible = true
+			$"%SomethingWrong".visible = false
 	else:
 		fail.text = "Something went wrong"
-		fail.visible = true	
+		$"%ErrorMessage".visible = true
+		$"%NoInternet".visible = false
+		$"%EmailUsed".visible = false
+		$"%SomethingWrong".visible = true
 
 
+
+func _unhandled_input(event):
+	if event is InputEventMouseButton:
+		print ("unhandled")
+		$"%ErrorMessage".visible = false
 
 func _on_SubmitBtn_pressed():
-	var pass_checks = true
-	email_valid_label.visible = false
-	user_field_check.visible = false
-	pass_field_check.visible = false
-	if !_email_validity():
-		email_valid_label.visible = true
-		pass_checks = false
-	if !_pass_field_check():
-		pass_field_check.visible = true
-		pass_checks = false
-	if !_username_field_check():
-		user_field_check.visible = true
-		pass_checks = false
-		
-	if pass_checks:
-		email = email_field.text.strip_edges()
-		password = pass_field.text.strip_edges()
-		Firebase.Auth.signup_with_email_and_password(email, password)
-
-func _on_ShowPass_toggled(button_pressed):
-	pass_field.secret = !button_pressed
+	check_connection()
+	
 
 
 func _email_validity() -> bool:
@@ -129,3 +123,41 @@ func _username_field_check()->bool:
 
 func _on_BackBtn_pressed():
 	get_tree().change_scene("res://scenes/LogIn.tscn")
+
+
+func _on_ShowPass2_toggled(button_pressed):
+	pass_field.secret = !button_pressed
+	
+func check_connection():
+	$HTTPRequest.request("https://html-classic.itch.zone")
+
+func _on_request_completed(result, response_code, headers, body):
+	if result == 0:
+		$"%ErrorMessage".visible = false
+		$"%NoInternet".visible = true
+		$"%EmailUsed".visible = false
+		$"%SomethingWrong".visible = false
+		_check_submit()
+	else:
+		print ("you are offline")
+		$"%ErrorMessage".visible = true
+
+func _check_submit():
+	var pass_checks = true
+	email_valid_label.visible = false
+	user_field_check.visible = false
+	pass_field_check.visible = false
+	if !_email_validity():
+		email_valid_label.visible = true
+		pass_checks = false
+	if !_pass_field_check():
+		pass_field_check.visible = true
+		pass_checks = false
+	if !_username_field_check():
+		user_field_check.visible = true
+		pass_checks = false
+		
+	if pass_checks:
+		email = email_field.text.strip_edges()
+		password = pass_field.text.strip_edges()
+		Firebase.Auth.signup_with_email_and_password(email, password)

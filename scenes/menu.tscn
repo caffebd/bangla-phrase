@@ -130,9 +130,18 @@ margin_bottom = 1912.0
 rect_scale = Vector2( 0.7, 0.7 )
 texture_normal = ExtResource( 8 )
 
+[node name="CheckButton" type="CheckButton" parent="."]
+margin_left = 309.0
+margin_top = 279.0
+margin_right = 461.0
+margin_bottom = 319.0
+rect_scale = Vector2( 3, 3 )
+text = "TEST MODE"
+
 [connection signal="pressed" from="PlayBtn" to="." method="_on_PlayBtn_pressed"]
 [connection signal="pressed" from="LoginBtn" to="." method="_on_LoginBtn_pressed"]
 [connection signal="pressed" from="ScoresBtn" to="." method="_on_ScoresBtn_pressed"]
 [connection signal="toggled" from="MusicToggle" to="MusicToggle" method="_on_MusicToggle_toggled"]
 [connection signal="pressed" from="AccountBtn" to="." method="_on_AccountBtn_pressed"]
 [connection signal="pressed" from="InstructionsBtn" to="." method="_on_InstructionsBtn_pressed"]
+[connection signal="toggled" from="CheckButton" to="." method="_on_CheckButton_toggled"]

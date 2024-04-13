@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=95 format=2]
 
 [ext_resource path="res://script/AllScores.gd" type="Script" id=1]
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=2]
@@ -8,6 +8,88 @@
 [ext_resource path="res://assets/new_assets/line1.png" type="Texture" id=6]
 [ext_resource path="res://assets/new_assets/line2.png" type="Texture" id=7]
 [ext_resource path="res://assets/new_assets/score.png" type="Texture" id=8]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-79.png" type="Texture" id=9]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-76.png" type="Texture" id=10]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-64.png" type="Texture" id=11]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-72.png" type="Texture" id=12]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-74.png" type="Texture" id=13]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-65.png" type="Texture" id=14]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-75.png" type="Texture" id=15]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-68.png" type="Texture" id=16]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-67.png" type="Texture" id=17]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-71.png" type="Texture" id=18]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-70.png" type="Texture" id=19]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-73.png" type="Texture" id=20]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-63.png" type="Texture" id=21]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-66.png" type="Texture" id=22]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-69.png" type="Texture" id=23]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-62.png" type="Texture" id=24]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-77.png" type="Texture" id=25]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-78.png" type="Texture" id=26]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-17.png" type="Texture" id=27]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-18.png" type="Texture" id=28]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-27.png" type="Texture" id=29]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-28.png" type="Texture" id=30]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-26.png" type="Texture" id=31]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-5.png" type="Texture" id=32]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-30.png" type="Texture" id=33]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-24.png" type="Texture" id=34]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-29.png" type="Texture" id=35]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-31.png" type="Texture" id=36]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-32.png" type="Texture" id=37]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-35.png" type="Texture" id=38]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-33.png" type="Texture" id=39]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-37.png" type="Texture" id=40]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-15.png" type="Texture" id=41]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-4.png" type="Texture" id=42]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-8.png" type="Texture" id=43]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-34.png" type="Texture" id=44]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-39.png" type="Texture" id=45]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-40.png" type="Texture" id=46]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-19.png" type="Texture" id=47]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-41.png" type="Texture" id=48]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-42.png" type="Texture" id=49]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-43.png" type="Texture" id=50]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-44.png" type="Texture" id=51]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-36.png" type="Texture" id=52]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-45.png" type="Texture" id=53]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-13.png" type="Texture" id=54]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-22.png" type="Texture" id=55]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-46.png" type="Texture" id=56]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-16.png" type="Texture" id=57]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-38.png" type="Texture" id=58]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-10.png" type="Texture" id=59]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-2.png" type="Texture" id=60]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-9.png" type="Texture" id=61]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-21.png" type="Texture" id=62]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-47.png" type="Texture" id=63]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-48.png" type="Texture" id=64]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-1.png" type="Texture" id=65]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-3.png" type="Texture" id=66]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-6.png" type="Texture" id=67]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-7.png" type="Texture" id=68]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-12.png" type="Texture" id=69]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-11.png" type="Texture" id=70]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-20.png" type="Texture" id=71]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-0.png" type="Texture" id=72]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-14.png" type="Texture" id=73]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-23.png" type="Texture" id=74]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-25.png" type="Texture" id=75]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-60.png" type="Texture" id=76]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-49.png" type="Texture" id=77]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-54.png" type="Texture" id=78]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-51.png" type="Texture" id=79]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-53.png" type="Texture" id=80]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-61.png" type="Texture" id=81]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-52.png" type="Texture" id=82]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-56.png" type="Texture" id=83]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-58.png" type="Texture" id=84]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-50.png" type="Texture" id=85]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-55.png" type="Texture" id=86]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-57.png" type="Texture" id=87]
+[ext_resource path="res://assets/menu/load_spinner/14b44593-cae3-4f6c-9003-8b0834a380cb-59.png" type="Texture" id=88]
+[ext_resource path="res://assets/new_assets/max score frame.png" type="Texture" id=89]
+[ext_resource path="res://assets/new_assets/no-internet.png" type="Texture" id=90]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -19,6 +101,14 @@ default_font = SubResource( 1 )
 [sub_resource type="DynamicFont" id=3]
 size = 55
 font_data = ExtResource( 2 )
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 72 ), ExtResource( 65 ), ExtResource( 60 ), ExtResource( 66 ), ExtResource( 42 ), ExtResource( 32 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 43 ), ExtResource( 61 ), ExtResource( 59 ), ExtResource( 70 ), ExtResource( 69 ), ExtResource( 54 ), ExtResource( 73 ), ExtResource( 41 ), ExtResource( 57 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 47 ), ExtResource( 71 ), ExtResource( 62 ), ExtResource( 55 ), ExtResource( 74 ), ExtResource( 34 ), ExtResource( 75 ), ExtResource( 31 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 35 ), ExtResource( 33 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 39 ), ExtResource( 44 ), ExtResource( 38 ), ExtResource( 52 ), ExtResource( 40 ), ExtResource( 58 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 53 ), ExtResource( 56 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 77 ), ExtResource( 85 ), ExtResource( 79 ), ExtResource( 82 ), ExtResource( 80 ), ExtResource( 78 ), ExtResource( 86 ), ExtResource( 83 ), ExtResource( 87 ), ExtResource( 84 ), ExtResource( 88 ), ExtResource( 76 ), ExtResource( 81 ), ExtResource( 24 ), ExtResource( 21 ), ExtResource( 11 ), ExtResource( 14 ), ExtResource( 22 ), ExtResource( 17 ), ExtResource( 16 ), ExtResource( 23 ), ExtResource( 19 ), ExtResource( 18 ), ExtResource( 12 ), ExtResource( 20 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 10 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "loading",
+"speed": 50.0
+} ]
 
 [node name="AllScores" type="Control"]
 anchor_right = 1.0
@@ -108,5 +198,59 @@ margin_right = -50.0
 margin_bottom = -1549.0
 rect_pivot_offset = Vector2( 490, 20 )
 texture = ExtResource( 7 )
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+timeout = 10.0
+
+[node name="LoadingAnim" type="ColorRect" parent="."]
+unique_name_in_owner = true
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -90.0
+margin_top = -90.0
+margin_right = 90.0
+margin_bottom = 90.0
+rect_pivot_offset = Vector2( 90, 90 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="LoadingAnim"]
+position = Vector2( 90, 90 )
+frames = SubResource( 4 )
+animation = "loading"
+frame = 6
+playing = true
+
+[node name="ErrorMessage" type="Control" parent="."]
+unique_name_in_owner = true
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="ColorRect2" type="ColorRect" parent="ErrorMessage"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 131.0
+margin_top = 628.0
+margin_right = 923.0
+margin_bottom = 1198.0
+
+[node name="ErrorFrame" type="TextureRect" parent="ErrorMessage"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 55.0
+margin_top = 551.0
+margin_right = 995.0
+margin_bottom = 1271.0
+texture = ExtResource( 89 )
+
+[node name="NoInternet" type="TextureRect" parent="ErrorMessage"]
+margin_left = 240.0
+margin_top = 851.0
+margin_right = 548.0
+margin_bottom = 929.0
+rect_scale = Vector2( 2, 2 )
+texture = ExtResource( 90 )
 
 [connection signal="pressed" from="BackBtn" to="." method="_on_BackBtn_pressed"]
