@@ -2,17 +2,17 @@
 
 [ext_resource path="res://script/menu.gd" type="Script" id=1]
 [ext_resource path="res://assets/new_assets/music off.png" type="Texture" id=2]
-[ext_resource path="res://assets/new_assets/score btn.png" type="Texture" id=3]
+[ext_resource path="res://assets/new_assets/play_2.png" type="Texture" id=3]
 [ext_resource path="res://assets/menu/anon_avatar.png" type="Texture" id=4]
 [ext_resource path="res://assets/menu/profile.png" type="Texture" id=5]
 [ext_resource path="res://assets/menu/s_background.png" type="Texture" id=6]
 [ext_resource path="res://assets/menu/logo_3.png" type="Texture" id=7]
-[ext_resource path="res://assets/new_assets/play.png" type="Texture" id=8]
+[ext_resource path="res://assets/new_assets/instructions.png" type="Texture" id=8]
 [ext_resource path="res://assets/new_assets/login.png" type="Texture" id=9]
 [ext_resource path="res://script/MusicToggle.gd" type="Script" id=10]
 [ext_resource path="res://assets/new_assets/music on.png" type="Texture" id=11]
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=12]
-[ext_resource path="res://assets/menu/instructions_btn.png" type="Texture" id=13]
+[ext_resource path="res://assets/new_assets/score-btn.png" type="Texture" id=13]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
@@ -40,7 +40,7 @@ margin_left = 298.0
 margin_top = 1085.0
 margin_right = 798.0
 margin_bottom = 1295.0
-texture_normal = ExtResource( 8 )
+texture_normal = ExtResource( 3 )
 
 [node name="LoginBtn" type="TextureButton" parent="."]
 unique_name_in_owner = true
@@ -64,7 +64,7 @@ margin_left = 304.0
 margin_top = 1406.0
 margin_right = 804.0
 margin_bottom = 1606.0
-texture_normal = ExtResource( 3 )
+texture_normal = ExtResource( 13 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
 visible = false
@@ -123,12 +123,12 @@ placeholder_text = "no."
 caret_blink = true
 
 [node name="InstructionsBtn" type="TextureButton" parent="."]
-margin_left = 285.0
-margin_top = 1710.0
-margin_right = 786.0
-margin_bottom = 1910.0
+margin_left = 202.0
+margin_top = 1712.0
+margin_right = 840.0
+margin_bottom = 1912.0
 rect_scale = Vector2( 0.7, 0.7 )
-texture_normal = ExtResource( 13 )
+texture_normal = ExtResource( 8 )
 
 [connection signal="pressed" from="PlayBtn" to="." method="_on_PlayBtn_pressed"]
 [connection signal="pressed" from="LoginBtn" to="." method="_on_LoginBtn_pressed"]
