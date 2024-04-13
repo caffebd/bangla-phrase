@@ -1,16 +1,18 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://script/AllWordsDone.gd" type="Script" id=1]
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=2]
-[ext_resource path="res://assets/menu/menu.png" type="Texture" id=3]
+[ext_resource path="res://assets/new_assets/max score.png" type="Texture" id=3]
 [ext_resource path="res://assets/menu/sumon_bg4.png" type="Texture" id=4]
-[ext_resource path="res://assets/menu/new_high_score_bn.png" type="Texture" id=5]
+[ext_resource path="res://assets/new_assets/menu.png" type="Texture" id=5]
 [ext_resource path="res://assets/audio/sfx/complete_short.mp3" type="AudioStream" id=6]
-[ext_resource path="res://assets/success/Banner.png" type="Texture" id=7]
-[ext_resource path="res://assets/menu/correct_words_bangla_line.png" type="Texture" id=8]
-[ext_resource path="res://assets/menu/score_bn.png" type="Texture" id=9]
-[ext_resource path="res://assets/menu/skipped_words_bangla_line.png" type="Texture" id=10]
+[ext_resource path="res://assets/new_assets/score banner.png" type="Texture" id=7]
+[ext_resource path="res://assets/new_assets/incorrect words.png" type="Texture" id=8]
+[ext_resource path="res://assets/new_assets/max score frame.png" type="Texture" id=9]
+[ext_resource path="res://assets/new_assets/correct words.png" type="Texture" id=10]
 [ext_resource path="res://assets/audio/sfx/complete_long.mp3" type="AudioStream" id=11]
+[ext_resource path="res://assets/new_assets/line2.png" type="Texture" id=12]
+[ext_resource path="res://assets/new_assets/score.png" type="Texture" id=13]
 
 [sub_resource type="DynamicFont" id=1]
 size = 40
@@ -48,93 +50,105 @@ margin_bottom = 1034.0
 text = "All words done"
 
 [node name="MenuButton" type="TextureButton" parent="."]
-margin_left = 292.0
-margin_top = 1394.0
-margin_right = 1042.0
-margin_bottom = 1644.0
-rect_scale = Vector2( 0.7, 0.9 )
-texture_normal = ExtResource( 3 )
-
-[node name="Frame" type="ColorRect" parent="."]
-margin_left = 83.0
-margin_top = 75.0
-margin_right = 1004.0
-margin_bottom = 665.0
-color = Color( 0.823529, 0, 0, 1 )
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -195.5
+margin_top = -408.0
+margin_right = 195.5
+margin_bottom = -237.0
+rect_pivot_offset = Vector2( 195, 85 )
+texture_normal = ExtResource( 5 )
 
 [node name="StatsBackground" type="ColorRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 104.0
-margin_top = 98.0
-margin_right = -95.0
-margin_bottom = -1275.0
+margin_left = 127.0
+margin_top = 197.0
+margin_right = -125.0
+margin_bottom = -1121.0
 color = Color( 1, 1, 1, 0.882353 )
 
 [node name="CorrectLabel" type="TextureRect" parent="StatsBackground"]
-margin_left = 67.0
-margin_top = 32.0
-margin_right = 562.0
-margin_bottom = 192.0
-texture = ExtResource( 8 )
+margin_left = 84.0
+margin_top = 48.0
+margin_right = 300.0
+margin_bottom = 132.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 10 )
 
 [node name="CorrectCount" type="Label" parent="StatsBackground"]
 unique_name_in_owner = true
-margin_left = 596.0
-margin_top = 58.0
-margin_right = 843.0
-margin_bottom = 141.0
+margin_left = 567.0
+margin_top = 62.0
+margin_right = 814.0
+margin_bottom = 145.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "12"
 
 [node name="ScoreLabel" type="TextureRect" parent="StatsBackground"]
-margin_left = 320.0
-margin_top = 203.0
-margin_right = 527.0
-margin_bottom = 353.0
-texture = ExtResource( 9 )
+margin_left = 87.0
+margin_top = 238.0
+margin_right = 193.0
+margin_bottom = 311.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 13 )
 
 [node name="ScoreCount" type="Label" parent="StatsBackground"]
 unique_name_in_owner = true
-margin_left = 600.0
-margin_top = 237.0
-margin_right = 851.0
-margin_bottom = 320.0
+margin_left = 552.0
+margin_top = 254.0
+margin_right = 803.0
+margin_bottom = 337.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "222"
 
 [node name="PassLabel" type="TextureRect" parent="StatsBackground"]
-margin_left = 29.0
-margin_top = 383.0
-margin_right = 693.0
-margin_bottom = 583.0
-texture = ExtResource( 10 )
+margin_left = 82.0
+margin_top = 414.0
+margin_right = 368.0
+margin_bottom = 494.0
+rect_scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 8 )
 
 [node name="PassCount" type="Label" parent="StatsBackground"]
 unique_name_in_owner = true
-margin_left = 613.0
-margin_top = 411.0
-margin_right = 913.0
-margin_bottom = 494.0
+margin_left = 593.0
+margin_top = 423.0
+margin_right = 893.0
+margin_bottom = 506.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "1"
 
-[node name="ColorRect" type="ColorRect" parent="StatsBackground"]
-margin_left = 68.0
-margin_top = 177.0
-margin_right = 811.0
-margin_bottom = 183.0
-color = Color( 0, 0, 0, 1 )
+[node name="Line1" type="TextureRect" parent="StatsBackground"]
+margin_left = 133.0
+margin_top = 181.0
+margin_right = 1113.0
+margin_bottom = 221.0
+rect_scale = Vector2( 0.6, 1 )
+texture = ExtResource( 12 )
 
-[node name="ColorRect2" type="ColorRect" parent="StatsBackground"]
-margin_left = 71.0
-margin_top = 356.0
-margin_right = 814.0
-margin_bottom = 362.0
-color = Color( 0, 0, 0, 1 )
+[node name="Line2" type="TextureRect" parent="StatsBackground"]
+margin_left = 132.0
+margin_top = 382.0
+margin_right = 1112.0
+margin_bottom = 422.0
+rect_scale = Vector2( 0.6, 1 )
+texture = ExtResource( 12 )
+
+[node name="Frame" type="TextureRect" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -490.0
+margin_top = 116.0
+margin_right = 490.0
+margin_bottom = 876.0
+rect_pivot_offset = Vector2( 490, 380 )
+texture = ExtResource( 9 )
 
 [node name="ColorRect2" type="ColorRect" parent="."]
 visible = false
@@ -149,21 +163,30 @@ color = Color( 0.698039, 0.784314, 0.137255, 1 )
 [node name="NewHighBanner" type="TextureRect" parent="."]
 unique_name_in_owner = true
 visible = false
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 48.0
-margin_top = 742.0
-margin_right = -23.0
-margin_bottom = -902.0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -480.0
+margin_top = 1.0
+margin_right = 480.0
+margin_bottom = 211.0
+rect_pivot_offset = Vector2( 480, 105 )
 texture = ExtResource( 7 )
 expand = true
 
 [node name="NewHighScore" type="TextureRect" parent="NewHighBanner"]
-margin_left = 153.0
-margin_top = 48.0
-margin_right = 903.0
-margin_bottom = 198.0
-texture = ExtResource( 5 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -136.0
+margin_top = -54.0
+margin_right = 136.0
+margin_bottom = 26.0
+rect_scale = Vector2( 1.7, 1.7 )
+rect_pivot_offset = Vector2( 136, 40 )
+texture = ExtResource( 3 )
 
 [node name="WinShort" type="AudioStreamPlayer" parent="."]
 unique_name_in_owner = true

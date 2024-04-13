@@ -1,14 +1,14 @@
 [gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=1]
-[ext_resource path="res://assets/menu/login.png" type="Texture" id=2]
+[ext_resource path="res://assets/new_assets/login.png" type="Texture" id=2]
 [ext_resource path="res://script/LogIn.gd" type="Script" id=3]
 [ext_resource path="res://assets/menu/pw_hide2.png" type="Texture" id=4]
-[ext_resource path="res://assets/menu/back button.png" type="Texture" id=5]
+[ext_resource path="res://assets/new_assets/sign up.png" type="Texture" id=5]
 [ext_resource path="res://assets/menu/pw_show.png" type="Texture" id=6]
 [ext_resource path="res://assets/menu/foyez_text/password.png" type="Texture" id=7]
 [ext_resource path="res://assets/ui/buttons_bangla/background2.png" type="Texture" id=8]
-[ext_resource path="res://assets/menu/sign-up.png" type="Texture" id=9]
+[ext_resource path="res://assets/new_assets/back.png" type="Texture" id=9]
 [ext_resource path="res://assets/menu/foyez_text/email.png" type="Texture" id=10]
 [ext_resource path="res://assets/menu/no_account.png" type="Texture" id=12]
 [ext_resource path="res://assets/menu/login_error.png" type="Texture" id=13]
@@ -98,7 +98,7 @@ margin_top = 60.0
 margin_right = -820.0
 margin_bottom = -1660.0
 rect_scale = Vector2( 0.8, 0.8 )
-texture_normal = ExtResource( 5 )
+texture_normal = ExtResource( 9 )
 
 [node name="EmailLabel" type="Label" parent="."]
 visible = false
@@ -192,7 +192,7 @@ margin_top = 1717.0
 margin_right = 1088.0
 margin_bottom = 1897.0
 rect_scale = Vector2( 0.7, 0.7 )
-texture_normal = ExtResource( 9 )
+texture_normal = ExtResource( 5 )
 
 [node name="NoAccount" type="TextureRect" parent="."]
 anchor_right = 1.0

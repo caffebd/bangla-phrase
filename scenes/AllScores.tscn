@@ -1,11 +1,13 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://script/AllScores.gd" type="Script" id=1]
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://assets/ui/back_btn.png" type="Texture" id=3]
 [ext_resource path="res://assets/menu/online_score_bk.png" type="Texture" id=4]
-[ext_resource path="res://assets/menu/score_bn.png" type="Texture" id=5]
-[ext_resource path="res://assets/menu/foyez_text/username.png" type="Texture" id=6]
+[ext_resource path="res://assets/new_assets/username.png" type="Texture" id=5]
+[ext_resource path="res://assets/new_assets/line1.png" type="Texture" id=6]
+[ext_resource path="res://assets/new_assets/line2.png" type="Texture" id=7]
+[ext_resource path="res://assets/new_assets/score.png" type="Texture" id=8]
 
 [sub_resource type="DynamicFont" id=1]
 size = 32
@@ -32,19 +34,19 @@ color = Color( 1, 1, 1, 0.686275 )
 
 [node name="Username" type="TextureRect" parent="."]
 margin_left = 96.0
-margin_top = 260.0
-margin_right = 499.0
-margin_bottom = 353.0
-rect_scale = Vector2( 0.8, 0.8 )
-texture = ExtResource( 6 )
+margin_top = 220.0
+margin_right = 342.0
+margin_bottom = 299.0
+rect_scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 5 )
 
 [node name="Score" type="TextureRect" parent="."]
 margin_left = 742.0
-margin_top = 260.0
-margin_right = 949.0
-margin_bottom = 410.0
-rect_scale = Vector2( 0.8, 0.8 )
-texture = ExtResource( 5 )
+margin_top = 229.0
+margin_right = 848.0
+margin_bottom = 302.0
+rect_scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 8 )
 
 [node name="BackBtn" type="TextureButton" parent="."]
 visible = false
@@ -53,6 +55,7 @@ margin_bottom = 40.0
 texture_normal = ExtResource( 3 )
 
 [node name="TextureRect" type="TextureRect" parent="."]
+visible = false
 anchor_left = 0.5
 anchor_right = 0.5
 margin_left = -247.0
@@ -85,5 +88,25 @@ scroll_horizontal_enabled = false
 [node name="ScoreHolder" type="VBoxContainer" parent="ScrollContainer"]
 unique_name_in_owner = true
 custom_constants/separation = 80
+
+[node name="TopLine" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 50.0
+margin_top = 177.0
+margin_right = -40.0
+margin_bottom = -1703.0
+rect_pivot_offset = Vector2( 495, 20 )
+texture = ExtResource( 6 )
+
+[node name="BottomLine" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 50.0
+margin_top = 331.0
+margin_right = -50.0
+margin_bottom = -1549.0
+rect_pivot_offset = Vector2( 490, 20 )
+texture = ExtResource( 7 )
 
 [connection signal="pressed" from="BackBtn" to="." method="_on_BackBtn_pressed"]

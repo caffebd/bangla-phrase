@@ -8,7 +8,7 @@ func _ready():
 	query.order_by("score", FirestoreQuery.DIRECTION.DESCENDING)
 
 	var result : Array = yield(Firebase.Firestore.query(query), "result_query")
-#	for i in 50:
+#	for i in 50:	
 	for item in result:	
 		var score = item["doc_fields"]["score"]
 #		var name = yield(UserData.get_username_for_score(item["doc_name"]), "completed")

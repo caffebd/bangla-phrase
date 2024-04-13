@@ -12,13 +12,13 @@ var three_positions = [140, 370, 630]
 
 var current_star = 0
 
-var star_y = 1240
+var star_y = 1340
 
 func _ready():
 #	points_label.text = str(SharedVariables.last_game_points)
 	points_label.text = str(SharedVariables.last_game_points)
 	
-	$ShowImage.texture = SharedVariables.word_images[SharedVariables.target_word ]
+	$"%ShowImage".texture = SharedVariables.word_images[SharedVariables.target_word ]
 	if UserData.logged_in:
 		if UserData.user_topscore < SharedVariables.total_game_points:
 			UserData.send_score()
@@ -69,8 +69,8 @@ func show_star(count: int):
 	$StarSound.play()
 	stars[count].visible = true
 	stars[count].play()
-	star_tween.interpolate_property(stars[count], "scale", Vector2(9,9), Vector2(4,4), 0.7, Tween.TRANS_LINEAR, Tween.EASE_IN_OUT)
-	star_tween.start()
+#	star_tween.interpolate_property(stars[count], "scale", Vector2(9,9), Vector2(4,4), 0.7, Tween.TRANS_LINEAR, Tween.EASE_IN_OUT)
+#	star_tween.start()
 	
 
 

@@ -1,16 +1,16 @@
 [gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://script/menu.gd" type="Script" id=1]
-[ext_resource path="res://assets/menu/new_play_btn_2.png" type="Texture" id=2]
-[ext_resource path="res://assets/menu/login.png" type="Texture" id=3]
+[ext_resource path="res://assets/new_assets/music off.png" type="Texture" id=2]
+[ext_resource path="res://assets/new_assets/score btn.png" type="Texture" id=3]
 [ext_resource path="res://assets/menu/anon_avatar.png" type="Texture" id=4]
 [ext_resource path="res://assets/menu/profile.png" type="Texture" id=5]
 [ext_resource path="res://assets/menu/s_background.png" type="Texture" id=6]
 [ext_resource path="res://assets/menu/logo_3.png" type="Texture" id=7]
-[ext_resource path="res://assets/menu/music on.png" type="Texture" id=8]
-[ext_resource path="res://assets/menu/music off.png" type="Texture" id=9]
+[ext_resource path="res://assets/new_assets/play.png" type="Texture" id=8]
+[ext_resource path="res://assets/new_assets/login.png" type="Texture" id=9]
 [ext_resource path="res://script/MusicToggle.gd" type="Script" id=10]
-[ext_resource path="res://assets/menu/score.png" type="Texture" id=11]
+[ext_resource path="res://assets/new_assets/music on.png" type="Texture" id=11]
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=12]
 [ext_resource path="res://assets/menu/instructions_btn.png" type="Texture" id=13]
 
@@ -40,7 +40,7 @@ margin_left = 298.0
 margin_top = 1085.0
 margin_right = 798.0
 margin_bottom = 1295.0
-texture_normal = ExtResource( 2 )
+texture_normal = ExtResource( 8 )
 
 [node name="LoginBtn" type="TextureButton" parent="."]
 unique_name_in_owner = true
@@ -49,7 +49,7 @@ margin_top = 108.0
 margin_right = 1114.0
 margin_bottom = 288.0
 rect_scale = Vector2( 0.7, 0.7 )
-texture_normal = ExtResource( 3 )
+texture_normal = ExtResource( 9 )
 
 [node name="Avatar" type="TextureButton" parent="."]
 visible = false
@@ -64,7 +64,7 @@ margin_left = 304.0
 margin_top = 1406.0
 margin_right = 804.0
 margin_bottom = 1606.0
-texture_normal = ExtResource( 11 )
+texture_normal = ExtResource( 3 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
 visible = false
@@ -94,8 +94,8 @@ margin_right = 932.0
 margin_bottom = 1909.0
 rect_scale = Vector2( 0.7, 0.7 )
 toggle_mode = true
-texture_normal = ExtResource( 9 )
-texture_pressed = ExtResource( 8 )
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 11 )
 script = ExtResource( 10 )
 
 [node name="AccountBtn" type="TextureButton" parent="."]
