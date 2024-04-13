@@ -1,5 +1,7 @@
 extends Control
 
+
+
 onready var avatar = $Avatar
 
 var can_interact: bool = false
