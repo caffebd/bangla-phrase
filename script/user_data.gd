@@ -140,6 +140,28 @@ func update_local_data():
 	print (local_user_data)
 	save_local()
 
+
+
+func delete_account():
+	var id = UserData.user_id
+	var firestore_collection : FirestoreCollection = Firebase.Firestore.collection("users")
+	var del_task: FirestoreTask = firestore_collection.delete(id)
+	print ("pre del user")
+	yield(del_task, "task_finished")
+	var firestore_collection_score : FirestoreCollection = Firebase.Firestore.collection("all_scores")
+	var del_task_score: FirestoreTask = firestore_collection_score.delete(id)
+	print ("pre del score")
+	yield(del_task_score, "task_finished")
+	Firebase.Auth.delete_user_account()
+	
+	logged_in_anon = true
+	logged_in = false
+	user_email = ""
+	user_name = ""
+	user_id = ""
+	print ("end of delete")
+
+	
 #func update_local_scores():
 #	local_scores.append(SharedVariables.total_game_points)
 #	local_scores.sort()

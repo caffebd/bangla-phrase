@@ -42,7 +42,7 @@ func _on_SaveTimer_timeout():
 
 
 func _on_SignOutBtn_pressed():
-	Firebase.Auth.logout()
+	Firebase.Auth.logout()	
 	UserData.logged_in_anon = true
 	UserData.logged_in = false
 	UserData.user_email = ""
@@ -66,3 +66,17 @@ func _on_request_completed(result, response_code, headers, body):
 		$"%SignOutBtn".disabled = true
 		$"%ResetPass".disabled = true
 		$"%Username".editable = false	
+
+
+func _on_DELETEACCOUNT_pressed():
+	$"%DeletePopUp".popup()
+
+
+
+func _on_CancelBtn_pressed():
+	$"%DeletePopUp".hide()
+
+
+func _on_ConfirmBtn_pressed():
+	yield (UserData.delete_account(), "completed")
+	get_tree().change_scene("res://scenes/menu.tscn")

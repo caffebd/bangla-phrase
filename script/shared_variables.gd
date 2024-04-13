@@ -1267,7 +1267,8 @@ func reset_levels():
 	total_game_points = 0
 	words_complete = 0
 	words_skipped = 0
-	game_time = set_game_time
+	game_time = 20
+#	set_game_time
 	print (playing_levels)
 
 
