@@ -802,7 +802,7 @@ var test_levels = {
 
 	"almari":{
 		"spelling":["a", "l", "ma", "ri"],
-		"keyboard":[ "ci", "ri", "k","ma","k","a","pi", "l", "bi", "na"]
+		"keyboard":[ "ci", "ri", "k","ma","bo","a","pi", "l", "bi", "na"]
 	},
 
 	"dhol":{
@@ -991,7 +991,7 @@ var test_levels = {
 
 	"ddalim":{
 		"spelling":["dda", "li", "m"],
-		"keyboard":[ "li","cha","g","n", "dda", "n","s","ba", "b", "m"]
+		"keyboard":[ "li","cha","g","n", "dda", "ma","s","ba", "b", "m"]
 	},
 
 	"golap":{
@@ -1011,7 +1011,7 @@ var test_levels = {
 
 	"cadr":{
 		"spelling":["ca", "d", "r"],
-		"keyboard":["g", "r", "ca","a","cha","n", "d", "m","n","s"]
+		"keyboard":["g", "r", "ca","a","cha","da", "d", "m","n","s"]
 	},
 
 #	"besin":{
@@ -1267,7 +1267,7 @@ func reset_levels():
 	total_game_points = 0
 	words_complete = 0
 	words_skipped = 0
-	game_time = 20
+	game_time = set_game_time
 #	set_game_time
 	print (playing_levels)
 

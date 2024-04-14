@@ -46,7 +46,7 @@
 [ext_resource path="res://assets/new_assets/no-internet.png" type="Texture" id=44]
 [ext_resource path="res://assets/new_assets/no.png" type="Texture" id=45]
 [ext_resource path="res://assets/new_assets/yes.png" type="Texture" id=46]
-[ext_resource path="res://assets/new_assets/delete-account-text.png" type="Texture" id=47]
+[ext_resource path="res://assets/new_assets/delete-account-text-2.png" type="Texture" id=47]
 [ext_resource path="res://assets/new_assets/sign_out_amber.png" type="Texture" id=48]
 
 [sub_resource type="DynamicFont" id=1]
@@ -228,9 +228,9 @@ texture_normal = ExtResource( 48 )
 
 [node name="DELETEACCOUNT" type="TextureButton" parent="."]
 unique_name_in_owner = true
-margin_left = 640.0
+margin_left = 86.0001
 margin_top = 869.0
-margin_right = 1189.0
+margin_right = 635.0
 margin_bottom = 1040.0
 rect_scale = Vector2( 0.7, 0.7 )
 texture_normal = ExtResource( 7 )
@@ -241,7 +241,7 @@ visible = false
 position = Vector2( 837, 597 )
 frames = SubResource( 7 )
 animation = "bounce"
-frame = 23
+frame = 21
 playing = true
 
 [node name="TextureRect" type="TextureRect" parent="."]

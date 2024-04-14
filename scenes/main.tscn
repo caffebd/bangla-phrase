@@ -476,6 +476,7 @@ columns = 5
 script = ExtResource( 8 )
 
 [node name="ButtonsContainer" type="PanelContainer" parent="."]
+visible = false
 anchor_top = 1.0
 anchor_bottom = 1.0
 margin_left = 101.0
@@ -508,9 +509,9 @@ texture_normal = ExtResource( 18 )
 [node name="SubmitButton" type="TextureButton" parent="ButtonsContainer/GridContainer"]
 unique_name_in_owner = true
 visible = false
-margin_left = 450.0
-margin_right = 880.0
-margin_bottom = 130.0
+margin_top = 134.0
+margin_right = 430.0
+margin_bottom = 264.0
 rect_pivot_offset = Vector2( 215, 65 )
 texture_normal = ExtResource( 3 )
 
@@ -614,10 +615,10 @@ unique_name_in_owner = true
 visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 325.0
-margin_top = 1055.0
-margin_right = -325.0
-margin_bottom = -705.0
+margin_left = 326.0
+margin_top = 1074.0
+margin_right = -324.0
+margin_bottom = -716.0
 disabled = true
 texture_normal = ExtResource( 17 )
 

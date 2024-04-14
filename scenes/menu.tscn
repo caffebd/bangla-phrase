@@ -6,7 +6,7 @@
 [ext_resource path="res://assets/menu/anon_avatar.png" type="Texture" id=4]
 [ext_resource path="res://assets/menu/profile.png" type="Texture" id=5]
 [ext_resource path="res://assets/menu/s_background.png" type="Texture" id=6]
-[ext_resource path="res://assets/new_assets/logo-icon.png" type="Texture" id=7]
+[ext_resource path="res://assets/new_assets/menu-logo.png" type="Texture" id=7]
 [ext_resource path="res://assets/new_assets/instructions.png" type="Texture" id=8]
 [ext_resource path="res://assets/new_assets/login.png" type="Texture" id=9]
 [ext_resource path="res://script/MusicToggle.gd" type="Script" id=10]
@@ -79,10 +79,11 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -256.0
-margin_top = -480.0
-margin_right = 256.0
-margin_bottom = 32.0
+margin_left = -389.0
+margin_top = -684.0
+margin_right = 691.0
+margin_bottom = 396.0
+rect_scale = Vector2( 0.5, 0.5 )
 rect_pivot_offset = Vector2( 256, 256 )
 texture = ExtResource( 7 )
 

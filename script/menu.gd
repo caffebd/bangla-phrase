@@ -6,6 +6,8 @@ var can_interact: bool = false
 
 func _ready():
 	GameMusic.stop_music()
+#	MobileAds.connect("banner_loaded", self, "_on_MobileAds_banner_loaded")
+#	MobileAds.connect("initialization_complete", self, "_on_MobileAds_initialization_complete")
 	if SharedVariables.set_game_time != 120:
 		$CheckButton.set_pressed_no_signal(true)
 	else:
@@ -28,6 +30,15 @@ func _ready():
 #		Firebase.Auth.login_anonymous()
 	UserData.load_local()
 
+
+func _on_MobileAds_initialization_complete(status : int, adapter_name : String) -> void:
+	if status == MobileAds.AdMobSettings.INITIALIZATION_STATUS.READY:
+#		MobileAds.load_interstitial()
+#		MobileAds.load_rewarded()
+#		MobileAds.load_rewarded_interstitial()
+		MobileAds.load_banner()
+	else:
+		$Error.visible = true
 
 func _on_FirebaseAuth_login_succeeded(auth_info : Dictionary):
 	print ("anon login")
@@ -73,3 +84,9 @@ func _on_CheckButton_toggled(button_pressed):
 		SharedVariables.set_game_time = 7200
 	else:
 		SharedVariables.set_game_time = 120
+#	MobileAds.show_banner()
+
+
+func _on_MobileAds_banner_loaded() -> void:
+	print ("BANNER LOADED")
+
