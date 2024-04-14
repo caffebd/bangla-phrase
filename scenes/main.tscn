@@ -2,11 +2,11 @@
 
 [ext_resource path="res://assets/new_assets/stop.png" type="Texture" id=1]
 [ext_resource path="res://script/main.gd" type="Script" id=2]
-[ext_resource path="res://assets/new_assets/back_space.png" type="Texture" id=3]
+[ext_resource path="res://assets/new_assets/submit-word_check.png" type="Texture" id=3]
 [ext_resource path="res://script/GridContainer.gd" type="Script" id=4]
 [ext_resource path="res://assets/ui/ui_1080/Puzzle Frame.png" type="Texture" id=5]
 [ext_resource path="res://script/SpellingGridContainer.gd" type="Script" id=6]
-[ext_resource path="res://assets/new_assets/check_130.png" type="Texture" id=7]
+[ext_resource path="res://assets/new_assets/delete_letter.png" type="Texture" id=7]
 [ext_resource path="res://script/KeyboardGrid.gd" type="Script" id=8]
 [ext_resource path="res://script/ButtonsContainer.gd" type="Script" id=9]
 [ext_resource path="res://assets/ui/ui_1080/Orange Box.png" type="Texture" id=10]
@@ -476,7 +476,6 @@ columns = 5
 script = ExtResource( 8 )
 
 [node name="ButtonsContainer" type="PanelContainer" parent="."]
-visible = false
 anchor_top = 1.0
 anchor_bottom = 1.0
 margin_left = 101.0
@@ -497,7 +496,7 @@ columns = 2
 [node name="DeleteButton" type="TextureButton" parent="ButtonsContainer/GridContainer"]
 margin_right = 430.0
 margin_bottom = 130.0
-texture_normal = ExtResource( 3 )
+texture_normal = ExtResource( 7 )
 
 [node name="NextButton" type="TextureButton" parent="ButtonsContainer/GridContainer"]
 unique_name_in_owner = true
@@ -513,7 +512,7 @@ margin_left = 450.0
 margin_right = 880.0
 margin_bottom = 130.0
 rect_pivot_offset = Vector2( 215, 65 )
-texture_normal = ExtResource( 7 )
+texture_normal = ExtResource( 3 )
 
 [node name="SubmitAnim" type="AnimationPlayer" parent="ButtonsContainer/GridContainer/SubmitButton"]
 unique_name_in_owner = true

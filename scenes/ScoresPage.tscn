@@ -59,6 +59,7 @@ toggle_mode = true
 pressed = true
 texture_normal = ExtResource( 6 )
 texture_pressed = ExtResource( 7 )
+texture_focused = ExtResource( 7 )
 
 [node name="AllScoresBtn" type="TextureButton" parent="."]
 unique_name_in_owner = true
@@ -70,6 +71,7 @@ rect_pivot_offset = Vector2( 100, 40 )
 toggle_mode = true
 texture_normal = ExtResource( 9 )
 texture_pressed = ExtResource( 8 )
+texture_focused = ExtResource( 8 )
 
 [connection signal="pressed" from="BackButton" to="." method="_on_BackButton_pressed"]
 [connection signal="toggled" from="MyScoresBtn" to="." method="_on_MyScoresBtn_toggled"]

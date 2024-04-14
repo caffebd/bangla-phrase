@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/music on.png-87ed0dca4f6dcac750628b0698a4c860.stex"
+path="res://.import/delete-account-button.png-b9978383f7d09288a271d3f84b569a10.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu/music on.png"
-dest_files=[ "res://.import/music on.png-87ed0dca4f6dcac750628b0698a4c860.stex" ]
+source_file="res://assets/new_assets/delete-account-button.png"
+dest_files=[ "res://.import/delete-account-button.png-b9978383f7d09288a271d3f84b569a10.stex" ]
 
 [params]
 

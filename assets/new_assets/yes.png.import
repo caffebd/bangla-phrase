@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/music off.png-e94ca7896b7cc2506d5a12acaa83767d.stex"
+path="res://.import/yes.png-94aed1aabace6c093e92d61b404d29d5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu/music off.png"
-dest_files=[ "res://.import/music off.png-e94ca7896b7cc2506d5a12acaa83767d.stex" ]
+source_file="res://assets/new_assets/yes.png"
+dest_files=[ "res://.import/yes.png-94aed1aabace6c093e92d61b404d29d5.stex" ]
 
 [params]
 

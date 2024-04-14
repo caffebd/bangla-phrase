@@ -20,12 +20,13 @@ func _get_scores():
 	$"%LoadingAnim".visible = false
 	for item in result:	
 		var score = item["doc_fields"]["score"]
-#		var name = yield(UserData.get_username_for_score(item["doc_name"]), "completed")
-		var name = item["doc_fields"]["name"]
-		print (name + "..." + str(score))
-		var score_item = score_item_scene.instance()
-		score_item.set_score(name, score)
-		$"%ScoreHolder".add_child(score_item)
+		if score > 0:
+	#		var name = yield(UserData.get_username_for_score(item["doc_name"]), "completed")
+			var name = item["doc_fields"]["name"]
+			print (name + "..." + str(score))
+			var score_item = score_item_scene.instance()
+			score_item.set_score(name, score)
+			$"%ScoreHolder".add_child(score_item)
 												
 		
 

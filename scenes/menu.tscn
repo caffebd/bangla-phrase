@@ -1,16 +1,16 @@
 [gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://script/menu.gd" type="Script" id=1]
-[ext_resource path="res://assets/new_assets/music off.png" type="Texture" id=2]
+[ext_resource path="res://assets/new_assets/music_off.png" type="Texture" id=2]
 [ext_resource path="res://assets/new_assets/play_2.png" type="Texture" id=3]
 [ext_resource path="res://assets/menu/anon_avatar.png" type="Texture" id=4]
 [ext_resource path="res://assets/menu/profile.png" type="Texture" id=5]
 [ext_resource path="res://assets/menu/s_background.png" type="Texture" id=6]
-[ext_resource path="res://assets/menu/logo_3.png" type="Texture" id=7]
+[ext_resource path="res://assets/new_assets/logo-icon.png" type="Texture" id=7]
 [ext_resource path="res://assets/new_assets/instructions.png" type="Texture" id=8]
 [ext_resource path="res://assets/new_assets/login.png" type="Texture" id=9]
 [ext_resource path="res://script/MusicToggle.gd" type="Script" id=10]
-[ext_resource path="res://assets/new_assets/music on.png" type="Texture" id=11]
+[ext_resource path="res://assets/new_assets/music_on.png" type="Texture" id=11]
 [ext_resource path="res://assets/fonts/minecraftia/Minecraftia-Regular.ttf" type="DynamicFontData" id=12]
 [ext_resource path="res://assets/new_assets/score-btn.png" type="Texture" id=13]
 
@@ -36,9 +36,9 @@ anchor_bottom = 1.0
 color = Color( 0.129412, 0.145098, 0.117647, 0.313726 )
 
 [node name="PlayBtn" type="TextureButton" parent="."]
-margin_left = 298.0
+margin_left = 295.0
 margin_top = 1085.0
-margin_right = 798.0
+margin_right = 795.0
 margin_bottom = 1295.0
 texture_normal = ExtResource( 3 )
 
@@ -60,10 +60,10 @@ margin_bottom = 115.0
 texture_normal = ExtResource( 4 )
 
 [node name="ScoresBtn" type="TextureButton" parent="."]
-margin_left = 304.0
-margin_top = 1406.0
-margin_right = 804.0
-margin_bottom = 1606.0
+margin_left = 301.0
+margin_top = 1393.0
+margin_right = 801.0
+margin_bottom = 1593.0
 texture_normal = ExtResource( 13 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
@@ -79,12 +79,11 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -119.0
-margin_top = -360.0
-margin_right = 119.0
-margin_bottom = -120.999
-rect_scale = Vector2( 2, 2 )
-rect_pivot_offset = Vector2( 119, 119 )
+margin_left = -256.0
+margin_top = -480.0
+margin_right = 256.0
+margin_bottom = 32.0
+rect_pivot_offset = Vector2( 256, 256 )
 texture = ExtResource( 7 )
 
 [node name="MusicToggle" type="TextureButton" parent="."]
@@ -124,9 +123,9 @@ caret_blink = true
 
 [node name="InstructionsBtn" type="TextureButton" parent="."]
 margin_left = 202.0
-margin_top = 1712.0
+margin_top = 1709.0
 margin_right = 840.0
-margin_bottom = 1912.0
+margin_bottom = 1909.0
 rect_scale = Vector2( 0.7, 0.7 )
 texture_normal = ExtResource( 8 )
 
