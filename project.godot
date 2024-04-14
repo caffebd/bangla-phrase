@@ -208,7 +208,8 @@ config={
 "size": "BANNER",
 "unit_ids": {
 "Android": {
-"standard": "ca-app-pub-9470326388089590/9266191282"
+"standard": "ca-app-pub-9470326388089590/9266191282",
+"test": "ca-app-pub-3940256099942544/6300978111"
 },
 "iOS": {
 "standard": "ca-app-pub-3940256099942544/2934735716"

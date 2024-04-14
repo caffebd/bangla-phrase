@@ -241,7 +241,7 @@ visible = false
 position = Vector2( 837, 597 )
 frames = SubResource( 7 )
 animation = "bounce"
-frame = 21
+frame = 29
 playing = true
 
 [node name="TextureRect" type="TextureRect" parent="."]

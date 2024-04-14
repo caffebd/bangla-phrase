@@ -6,8 +6,8 @@ var can_interact: bool = false
 
 func _ready():
 	GameMusic.stop_music()
-#	MobileAds.connect("banner_loaded", self, "_on_MobileAds_banner_loaded")
-#	MobileAds.connect("initialization_complete", self, "_on_MobileAds_initialization_complete")
+	MobileAds.connect("banner_loaded", self, "_on_MobileAds_banner_loaded")
+	MobileAds.connect("initialization_complete", self, "_on_MobileAds_initialization_complete")
 	if SharedVariables.set_game_time != 120:
 		$CheckButton.set_pressed_no_signal(true)
 	else:
@@ -82,6 +82,7 @@ func _on_InstructionsBtn_pressed():
 func _on_CheckButton_toggled(button_pressed):
 	if button_pressed:
 		SharedVariables.set_game_time = 7200
+		print ("test mode")
 	else:
 		SharedVariables.set_game_time = 120
 #	MobileAds.show_banner()
@@ -89,4 +90,5 @@ func _on_CheckButton_toggled(button_pressed):
 
 func _on_MobileAds_banner_loaded() -> void:
 	print ("BANNER LOADED")
+	MobileAds.show_banner()
 
